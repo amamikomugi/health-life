@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-10-27T16:07:03.640Z",
+  "updated_at": "2026-10-27T16:15:47.545Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -266,5 +266,10 @@
     "last_fetched_at": "2026-10-27T15:59:10Z",
     "last_source_sync_at": "2026-10-27T15:22:09.719Z"
   },
-  "repository": "https://github.com/amamikomugi/health-life"
+  "repository": "https://github.com/amamikomugi/health-life",
+  "update_schedule": {
+    "status": "ACTIVE",
+    "local_time": "01:00",
+    "timezone": "Asia/Tokyo"
+  }
 }

@@ -3,6 +3,7 @@ export function characterFeedback(day, targets, options = {}) {
   const neutral = (message, detail) => ({ mood: 'neutral', message, detail });
   if (!day?.hasFood) return neutral('今日は、どんな一日かな？', '記録を待っています。');
   if (!day.summary) return neutral('記録してくれて、ありがとう。', '日合計がまだ分からないので、良し悪しは判定しません。');
+  if (day.summary.status === 'calculated_from_recorded_meals' && day.summary.day_coverage === 'partial_recorded') return neutral('記録してくれて、ありがとう。', '一部の食事の記録なので、今日はふりかえりをお休みしています。');
   if (typeof day.kcal !== 'number' || typeof targets?.daily_kcal !== 'number' || targets.daily_kcal <= 0) return neutral('少しずつ、記録をつなげよう。', 'カロリーか比較目標が不明です。');
   const tolerance = options.calorie_tolerance_ratio ?? .1;
   const ratio = day.kcal / targets.daily_kcal;

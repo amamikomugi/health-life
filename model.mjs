@@ -24,6 +24,25 @@ export function weightRows(records, baselineId) {
   const baseline = weights.find(r => r.record_id === baselineId) || weights[0];
   return weights.map(r => { const previous = weights.find(w => w.week_start === dateAdd(r.week_start, -7)); return { ...r, previous_delta: previous ? r.weight_kg - previous.weight_kg : null, baseline_delta: baseline ? r.weight_kg - baseline.weight_kg : null }; });
 }
+export function recordedDailyTotals(records, today, now = new Date().toISOString(), startDate = '') {
+  const next = records.map(r => ({ ...r }));
+  const dates = [...new Set(records.filter(r => (r.kind === 'meal' || r.status === 'calculated_from_recorded_meals') && r.date < today && r.date >= startDate).map(r => r.date))];
+  for (const date of dates) {
+    const index = next.findIndex(r => r.date === date && r.kind === 'daily_summary');
+    const old = next[index];
+    if (old && old.status !== 'calculated_from_recorded_meals') continue;
+    const meals = next.filter(r => r.date === date && r.kind === 'meal' && !r.deleted_at);
+    if (!meals.length) { if (old && !old.deleted_at) next[index] = { ...old, deleted_at: now, updated_at: now }; continue; }
+    const nutrients = Object.fromEntries(NUTRIENTS.map(key => [key, sumKnown(meals.map(r => r[key]))]));
+    const ids = meals.map(r => r.record_id).sort();
+    const coverage = ['breakfast','lunch','dinner'].every(type => meals.some(r => r.meal === type)) ? 'breakfast_lunch_dinner_recorded' : 'partial_recorded';
+    if (old && !old.deleted_at && old.day_coverage === coverage && NUTRIENTS.every(key => old[key] === nutrients[key]) && JSON.stringify(old.included_meal_ids) === JSON.stringify(ids)) continue;
+    const record = { ...old, record_id: old?.record_id || `daily-${date.replaceAll('-', '')}`, date, kind: 'daily_summary', ...nutrients, status: 'calculated_from_recorded_meals', source_type: 'calculated_from_records', source_record_ids: ids, included_meal_ids: ids, day_coverage: coverage, base_nutrition: Object.fromEntries(NUTRIENTS.map(key => [key, 0])), notes: '記録済みの食事だけを合計しています。未報告の食事の有無は未確認です。', recorded_at: old?.recorded_at || now, updated_at: now };
+    delete record.deleted_at;
+    if (index >= 0) next[index] = record; else next.push(record);
+  }
+  return next;
+}
 function fail(message, status = 400) { const error = new Error(message); error.status = status; throw error; }
 function validDate(date) { if (typeof date !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(date) || !Number.isFinite(new Date(date + 'T12:00:00Z').getTime()) || new Date(date + 'T12:00:00Z').toISOString().slice(0, 10) !== date) fail('日付を確認してください。'); return date; }
 function optionalNumber(value, label, max = 20000) { if (value === '' || value === null || value === undefined) return null; const number = Number(value); if (!Number.isFinite(number) || number < 0 || number > max) fail(label + 'の数値を確認してください。'); return number; }
