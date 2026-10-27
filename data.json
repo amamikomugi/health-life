@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-10-27T15:58:53.055Z",
+  "updated_at": "2026-10-27T16:07:03.640Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -134,7 +134,7 @@
       "steps": 10,
       "status": "synced",
       "source_metric": "steps_total",
-      "fetched_at": "2026-10-27T15:31:34Z"
+      "fetched_at": "2026-10-27T15:59:10Z"
     },
     {
       "record_id": "apple-health-20261027-steps",
@@ -143,7 +143,7 @@
       "steps": 2561,
       "status": "synced",
       "source_metric": "steps_total",
-      "fetched_at": "2026-10-27T15:31:34Z"
+      "fetched_at": "2026-10-27T15:59:10Z"
     },
     {
       "record_id": "apple-health-20261026-active-energy",
@@ -152,7 +152,7 @@
       "active_kcal": 0.208,
       "status": "synced",
       "source_metric": "active_energy_total",
-      "fetched_at": "2026-10-27T15:31:34Z"
+      "fetched_at": "2026-10-27T15:59:10Z"
     },
     {
       "record_id": "apple-health-20261026-basal-energy",
@@ -161,7 +161,7 @@
       "basal_kcal": 1786.003469846514,
       "status": "synced",
       "source_metric": "basal_energy_total",
-      "fetched_at": "2026-10-27T15:31:34Z"
+      "fetched_at": "2026-10-27T15:59:10Z"
     },
     {
       "record_id": "apple-health-20261027-active-energy",
@@ -170,7 +170,7 @@
       "active_kcal": 93.77900000000001,
       "status": "synced",
       "source_metric": "active_energy_total",
-      "fetched_at": "2026-10-27T15:31:34Z"
+      "fetched_at": "2026-10-27T15:59:10Z"
     },
     {
       "record_id": "apple-health-20261027-basal-energy",
@@ -179,7 +179,7 @@
       "basal_kcal": 1796.0159503860737,
       "status": "synced",
       "source_metric": "basal_energy_total",
-      "fetched_at": "2026-10-27T15:31:34Z"
+      "fetched_at": "2026-10-27T15:59:10Z"
     },
     {
       "record_id": "apple-health-20261028-steps",
@@ -252,11 +252,18 @@
         "baseline_record_id": "weight-week-20261026",
         "missing_week_policy": "leave_unknown",
         "display_decimal_places": 1
+      },
+      "character_feedback": {
+        "enabled": true,
+        "calorie_tolerance_ratio": 0.1,
+        "protein_minimum_target_ratio": 0.9,
+        "evaluation": "comparison_to_target_candidates",
+        "incomplete_day_policy": "neutral"
       }
     }
   },
   "health_sync": {
-    "last_fetched_at": "2026-10-27T15:31:34Z",
+    "last_fetched_at": "2026-10-27T15:59:10Z",
     "last_source_sync_at": "2026-10-27T15:22:09.719Z"
   },
   "repository": "https://github.com/amamikomugi/health-life"
