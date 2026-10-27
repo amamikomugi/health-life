@@ -1,0 +1,263 @@
+{
+  "title": "あまみこむぎの健康生活",
+  "updated_at": "2026-10-27T15:58:53.055Z",
+  "timezone": "Asia/Tokyo",
+  "records": [
+    {
+      "record_id": "migration-20260822-breakfast",
+      "date": "2026-08-22",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "スタバ キャラメルマキアート Tall アイス、シュガードーナツ",
+      "kcal": 542,
+      "protein_g": 12.9,
+      "fat_g": 26.2,
+      "carbohydrate_g": 64.5,
+      "status": "imported_estimate",
+      "notes": "過去の回答による概算。日合計ではない。"
+    },
+    {
+      "record_id": "migration-20260822-lunch",
+      "date": "2026-08-22",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "明神丸 これやき定食8切",
+      "kcal": 650,
+      "protein_g": null,
+      "fat_g": null,
+      "carbohydrate_g": null,
+      "status": "imported_estimate",
+      "notes": "過去の回答による概算600〜700kcalの仮置き。"
+    },
+    {
+      "record_id": "migration-20260827-total",
+      "date": "2026-08-27",
+      "kind": "daily_summary",
+      "kcal": 2180,
+      "protein_g": null,
+      "fat_g": null,
+      "carbohydrate_g": null,
+      "steps": null,
+      "active_kcal": null,
+      "status": "imported_estimate",
+      "notes": "過去の集計。豆腐300g・最強どん兵衛きつねうどんを仮定。活動量は未取得。"
+    },
+    {
+      "record_id": "migration-20260828-total",
+      "date": "2026-08-28",
+      "kind": "daily_summary",
+      "kcal": 2074,
+      "protein_g": null,
+      "fat_g": null,
+      "carbohydrate_g": null,
+      "steps": 3044,
+      "active_kcal": 110.6,
+      "status": "imported_estimate",
+      "notes": "過去の確定扱い集計を履歴として転記。摂取量と活動消費を別項目に保存。"
+    },
+    {
+      "record_id": "migration-20261008-snack",
+      "date": "2026-10-08",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "煮卵2つ",
+      "kcal": 160,
+      "protein_g": 13,
+      "fat_g": null,
+      "carbohydrate_g": null,
+      "status": "imported_estimate",
+      "notes": "日付は投稿日時の日本時間。過去の回答では150〜170kcal、F10〜11g・C2〜4gの概算。"
+    },
+    {
+      "record_id": "migration-20261026-total",
+      "date": "2026-10-26",
+      "kind": "daily_summary",
+      "kcal": 1359,
+      "protein_g": 112.4,
+      "fat_g": 50.8,
+      "carbohydrate_g": 116.4,
+      "status": "imported_estimate",
+      "notes": "JAKSソイプロテイン追加後の最終報告値。目玉焼きの油は未計上。朝〜おやつの個別報告は取得できていない。"
+    },
+    {
+      "record_id": "migration-20261027-total",
+      "date": "2026-10-27",
+      "kind": "daily_summary",
+      "kcal": 1244,
+      "protein_g": 116.3,
+      "fat_g": 46.3,
+      "carbohydrate_g": 95.3,
+      "status": "imported_estimate",
+      "notes": "鶏むね皮なし250g、豆腐130gと仮定。生姜120gを報告どおり計上。"
+    },
+    {
+      "record_id": "apple-health-20261022-steps",
+      "date": "2026-10-22",
+      "kind": "daily_activity",
+      "steps": 9468.113847526998,
+      "status": "synced",
+      "source_metric": "steps_total",
+      "fetched_at": "2026-10-27T15:05:19Z",
+      "notes": "同期元が小数の歩数を返したため、元の数値を保持しています。表示時には丸められます。"
+    },
+    {
+      "record_id": "apple-health-20261023-steps",
+      "date": "2026-10-23",
+      "kind": "daily_activity",
+      "steps": 5686,
+      "status": "synced",
+      "source_metric": "steps_total",
+      "fetched_at": "2026-10-27T15:05:19Z"
+    },
+    {
+      "record_id": "apple-health-20261024-steps",
+      "date": "2026-10-24",
+      "kind": "daily_activity",
+      "steps": 10126,
+      "status": "synced",
+      "source_metric": "steps_total",
+      "fetched_at": "2026-10-27T15:05:19Z"
+    },
+    {
+      "record_id": "apple-health-20261025-steps",
+      "date": "2026-10-25",
+      "kind": "daily_activity",
+      "steps": 4674,
+      "status": "synced",
+      "source_metric": "steps_total",
+      "fetched_at": "2026-10-27T15:05:19Z"
+    },
+    {
+      "record_id": "apple-health-20261026-steps",
+      "date": "2026-10-26",
+      "kind": "daily_activity",
+      "steps": 10,
+      "status": "synced",
+      "source_metric": "steps_total",
+      "fetched_at": "2026-10-27T15:31:34Z"
+    },
+    {
+      "record_id": "apple-health-20261027-steps",
+      "date": "2026-10-27",
+      "kind": "daily_activity",
+      "steps": 2561,
+      "status": "synced",
+      "source_metric": "steps_total",
+      "fetched_at": "2026-10-27T15:31:34Z"
+    },
+    {
+      "record_id": "apple-health-20261026-active-energy",
+      "date": "2026-10-26",
+      "kind": "daily_activity",
+      "active_kcal": 0.208,
+      "status": "synced",
+      "source_metric": "active_energy_total",
+      "fetched_at": "2026-10-27T15:31:34Z"
+    },
+    {
+      "record_id": "apple-health-20261026-basal-energy",
+      "date": "2026-10-26",
+      "kind": "daily_activity",
+      "basal_kcal": 1786.003469846514,
+      "status": "synced",
+      "source_metric": "basal_energy_total",
+      "fetched_at": "2026-10-27T15:31:34Z"
+    },
+    {
+      "record_id": "apple-health-20261027-active-energy",
+      "date": "2026-10-27",
+      "kind": "daily_activity",
+      "active_kcal": 93.77900000000001,
+      "status": "synced",
+      "source_metric": "active_energy_total",
+      "fetched_at": "2026-10-27T15:31:34Z"
+    },
+    {
+      "record_id": "apple-health-20261027-basal-energy",
+      "date": "2026-10-27",
+      "kind": "daily_activity",
+      "basal_kcal": 1796.0159503860737,
+      "status": "synced",
+      "source_metric": "basal_energy_total",
+      "fetched_at": "2026-10-27T15:31:34Z"
+    },
+    {
+      "record_id": "apple-health-20261028-steps",
+      "date": "2026-10-28",
+      "kind": "daily_activity",
+      "steps": null,
+      "status": "not_returned",
+      "source_metric": "steps_total",
+      "fetched_at": "2026-10-27T15:31:34Z",
+      "notes": "照会しましたが対象日の値が返りませんでした。0として扱いません。"
+    },
+    {
+      "record_id": "apple-health-20261028-active-energy",
+      "date": "2026-10-28",
+      "kind": "daily_activity",
+      "active_kcal": null,
+      "status": "not_returned",
+      "source_metric": "active_energy_total",
+      "fetched_at": "2026-10-27T15:31:34Z",
+      "notes": "照会しましたが対象日の値が返りませんでした。0として扱いません。"
+    },
+    {
+      "record_id": "apple-health-20261028-basal-energy",
+      "date": "2026-10-28",
+      "kind": "daily_activity",
+      "basal_kcal": null,
+      "status": "not_returned",
+      "source_metric": "basal_energy_total",
+      "fetched_at": "2026-10-27T15:31:34Z",
+      "notes": "照会しましたが対象日の値が返りませんでした。0として扱いません。"
+    },
+    {
+      "record_id": "weight-week-20261026",
+      "date": "2026-10-26",
+      "kind": "weekly_weight",
+      "status": "user_reported",
+      "week_start": "2026-10-26",
+      "week_end": "2026-11-01",
+      "weight_kg": 85.5,
+      "notes": "dateは週の開始日（月曜日）です。実際の測定日時は未確認です。",
+      "recorded_at": "2026-10-28T00:37:26+09:00"
+    }
+  ],
+  "settings": {
+    "current_targets": {
+      "daily_kcal": 1700,
+      "protein_g": 140,
+      "fat_g": 55,
+      "carbohydrate_g": 160,
+      "weekly_kcal": 11900,
+      "status": "imported_from_assistant_not_reconfirmed",
+      "source_date": "2026-10-26"
+    },
+    "reporting": {
+      "daily_summary": {
+        "show_target_delta": true,
+        "target_delta_formula": "intake_minus_target",
+        "show_steps": true,
+        "energy_columns": [
+          "active_kcal",
+          "total_expenditure_kcal"
+        ],
+        "total_expenditure_formula": "active_kcal + basal_kcal",
+        "deduct_activity_from_intake_target": false
+      },
+      "weekly_weight": {
+        "week_starts_on": "monday",
+        "show_previous_week_delta": true,
+        "show_baseline_delta": true,
+        "baseline_record_id": "weight-week-20261026",
+        "missing_week_policy": "leave_unknown",
+        "display_decimal_places": 1
+      }
+    }
+  },
+  "health_sync": {
+    "last_fetched_at": "2026-10-27T15:31:34Z",
+    "last_source_sync_at": "2026-10-27T15:22:09.719Z"
+  },
+  "repository": "https://github.com/amamikomugi/health-life"
+}
