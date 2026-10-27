@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-10-27T16:43:12.823Z",
+  "updated_at": "2026-10-27T16:46:08.882Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -88,8 +88,8 @@
       "fat_g": 47.3,
       "carbohydrate_g": 97.3,
       "status": "imported_estimate",
-      "notes": "鶏むね皮なし250g、豆腐130gと仮定。生姜120gを報告どおり計上。10/27夜のJAKSソイプロテイン チョコレート味1杯分（標準25g）の粉末分を追加。割り材は未確認・未計上。",
-      "updated_at": "2026-10-27T16:42:17.894Z"
+      "notes": "鶏むね皮なし250g、豆腐130gと仮定。生姜120gを報告どおり計上。10/27夜のJAKSソイプロテイン チョコレート味1杯分（標準25g・水割り）を追加。",
+      "updated_at": "2026-10-27T16:46:00.806Z"
     },
     {
       "record_id": "apple-health-20261022-steps",
@@ -228,14 +228,14 @@
       "date": "2026-10-27",
       "kind": "meal",
       "meal": "dinner",
-      "description": "JAKSソイプロテイン チョコレート味 1杯分（標準1食25gとして、粉末分のみ）",
+      "description": "JAKSソイプロテイン チョコレート味 1杯分（標準25g・水割り）",
       "kcal": 95,
       "protein_g": 20,
       "fat_g": 1,
       "carbohydrate_g": 2,
       "status": "user_reported_with_standard_serving",
-      "notes": "報告は1杯分。メーカーの標準1食25gとして粉末の栄養値を計上。割り材は未報告のため含めていません。",
-      "updated_at": "2026-10-27T16:42:17.894Z",
+      "notes": "1杯分をメーカー標準1食25gとして計上。水割りはユーザー確認済み。水の量は未報告。",
+      "updated_at": "2026-10-27T16:46:00.806Z",
       "recorded_at": "2026-10-27T16:42:17.894Z"
     }
   ],
