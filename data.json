@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-10-27T16:36:34.732Z",
+  "updated_at": "2026-10-27T16:42:40.473Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -83,12 +83,13 @@
       "record_id": "migration-20261027-total",
       "date": "2026-10-27",
       "kind": "daily_summary",
-      "kcal": 1244,
-      "protein_g": 116.3,
-      "fat_g": 46.3,
-      "carbohydrate_g": 95.3,
+      "kcal": 1339,
+      "protein_g": 136.3,
+      "fat_g": 47.3,
+      "carbohydrate_g": 97.3,
       "status": "imported_estimate",
-      "notes": "鶏むね皮なし250g、豆腐130gと仮定。生姜120gを報告どおり計上。"
+      "notes": "鶏むね皮なし250g、豆腐130gと仮定。生姜120gを報告どおり計上。 10/27夜のJAKSソイプロテイン チョコレート味1杯分（標準25g・粉末分のみ）を追加。出典付きの元集計をbase_nutritionに保持し、追加食事はincluded_meal_idsで一度だけ計上。割り材は未確認・未計上。",
+      "updated_at": "2026-10-27T16:42:17.894Z"
     },
     {
       "record_id": "apple-health-20261022-steps",
@@ -221,6 +222,21 @@
       "weight_kg": 85.5,
       "notes": "dateは週の開始日（月曜日）です。実際の測定日時は未確認です。",
       "recorded_at": "2026-10-28T00:37:26+09:00"
+    },
+    {
+      "record_id": "meal-20261027-dinner-jaks-soy-chocolate",
+      "date": "2026-10-27",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "JAKSソイプロテイン チョコレート味 1杯分（標準1食25gとして、粉末分のみ）",
+      "kcal": 95,
+      "protein_g": 20,
+      "fat_g": 1,
+      "carbohydrate_g": 2,
+      "status": "user_reported_with_standard_serving",
+      "notes": "報告は1杯分。メーカーの標準1食25gとして粉末の栄養値を計上。割り材は未報告のため含めていません。",
+      "updated_at": "2026-10-27T16:42:17.894Z",
+      "recorded_at": "2026-10-27T16:42:17.894Z"
     }
   ],
   "settings": {
