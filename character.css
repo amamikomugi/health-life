@@ -170,3 +170,57 @@
   .mascot-message h2 { font-size: 1.375rem; }
   .mascot-tools { padding: 14px 5px 16px; gap: 10px; }
 }
+
+/* A fox sister celebrates one concrete contribution beside its circled value. */
+.praise-target { position: relative; display: inline-grid; place-items: center; isolation: isolate; min-width: 62px; min-height: 44px; padding: 6px 10px; margin: -5px -10px; border-radius: 50%; vertical-align: baseline; font: inherit; font-variant-numeric: inherit; color: #88461f; }
+.praise-target > span { position: relative; z-index: 1; }
+.praise-target:hover { background: #f8dfae66; }
+.praise-target:focus-visible { outline-offset: 7px; }
+.praise-circle { position: absolute; inset: -3px -5px; width: calc(100% + 10px); height: calc(100% + 6px); overflow: visible; z-index: 0; pointer-events: none; }
+.praise-circle path { fill: none; stroke: #c67729; stroke-width: 2.5; stroke-linecap: round; vector-effect: non-scaling-stroke; opacity: .85; }
+.praise-target.is-cheering .praise-circle path { stroke: #bc5f22; stroke-dasharray: 1; stroke-dashoffset: 1; animation: praise-ring .65s ease forwards; }
+.praise-companion { position: fixed; z-index: 70; display: block; width: min(540px,calc(100% - 24px)); min-height: 256px; pointer-events: none; filter: drop-shadow(0 5px 5px #613b211c); }
+.praise-companion[hidden], .praise-pointer[hidden] { display: none; }
+.praise-fox { width: 256px; height: 256px; position: absolute; z-index: 1; }
+.praise-bounce { position: relative; width: 100%; height: 100%; animation: praise-point 1.15s ease-in-out infinite; transform-origin: 50% 90%; }
+.praise-bounce img { display: block; width: 100%; height: 100%; object-fit: contain; image-rendering: pixelated; }
+.praise-fox.is-mirrored img { transform: scaleX(-1); }
+.praise-companion[data-mood="sad"] .praise-bounce { animation-name: shioshio; animation-duration: 3s; }
+.praise-companion[data-mood="sad"] .praise-star { display: none; }
+.praise-companion[data-mood="sad"] .praise-fox::after { content: '☁'; position: absolute; top: 6px; left: 45%; color: #8795a7; font: 32px/1 system-ui; }
+.praise-target[data-feedback-mood="sad"] { color: #586b81; }
+.praise-target[data-feedback-mood="sad"] .praise-circle path { stroke: #899daf; }
+.habit-cheers { display: flex; flex-wrap: wrap; gap: 14px 26px; margin: 16px 8px; }
+.habit-cheers:empty { display: none; }
+.habit-cheers .praise-target { font-size: .875rem; }
+.feedback-rules { margin-top: 14px; font-size: .875rem; }
+.feedback-rules summary { cursor: pointer; }
+.feedback-rules p { margin-top: 10px; font-size: .875rem; }
+.feedback-example-label { display: grid; gap: 8px; margin-top: 20px; font-size: 1rem; }
+.feedback-example-label select { width: 100%; min-width: 0; max-width: 100%; }
+.praise-note { position: absolute; z-index: 3; width: 260px; border: 2px solid #d6a769; border-radius: 22px; padding: 17px 18px; background: #fff9e8; color: #74411e; pointer-events: none; box-shadow: 0 4px 0 #d5af7730; }
+.praise-note::before { content: ''; position: absolute; width: 18px; height: 18px; background: #fff9e8; border: 0 solid #d6a769; transform: rotate(45deg); }
+.praise-note[data-tail="left"]::before { left: -10px; top: calc(50% - 9px); border-left-width: 2px; border-bottom-width: 2px; }
+.praise-note[data-tail="right"]::before { right: -10px; top: calc(50% - 9px); border-top-width: 2px; border-right-width: 2px; }
+.praise-note[data-tail^="top-"]::before { top: -10px; border-top-width: 2px; border-left-width: 2px; }
+.praise-note[data-tail="top-left"]::before { left: 32px; }
+.praise-note[data-tail="top-right"]::before { right: 48px; }
+.praise-note > span { display: block; padding-right: 18px; color: #955421; font-size: .875rem; font-weight: 600; margin-bottom: 6px; }
+.praise-note p { font: 400 1rem/1.75 'Noto Sans JP',sans-serif; color: #67482d; overflow-wrap: anywhere; }
+.praise-close { position: absolute; top: -13px; right: -11px; display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; color: #855329; font: 24px/1 system-ui; background: #fff9e8; border: 1px solid #d6a769; pointer-events: auto; }
+.praise-close:hover { background: #f4dfb8; }
+.praise-star { position: absolute; color: #bb7823; pointer-events: none; font: 25px/1 system-ui; animation: praise-twinkle 1.5s ease-in-out infinite; }
+.praise-star.star-one { top: 10px; right: 5px; }
+.praise-star.star-two { left: 6px; bottom: 12px; animation-delay: -.7s; font-size: 18px; }
+.praise-pointer { position: fixed; inset: 0; width: 100%; height: 100%; z-index: 69; pointer-events: none; overflow: visible; }
+.praise-pointer path { fill: none; stroke: #cb8b3e; stroke-width: 2; stroke-dasharray: 3 5; stroke-linecap: round; }
+.praise-pointer circle { fill: #c67729; }
+.praise-motion-paused .praise-bounce, .praise-motion-paused .praise-star, .praise-motion-paused .praise-circle path { animation-play-state: paused!important; }
+.praise-motion-paused .praise-circle path { stroke-dashoffset: 0!important; }
+@keyframes praise-ring { to { stroke-dashoffset: 0; } }
+@keyframes praise-point { 0%,100% { transform: translateY(0) rotate(-1deg); } 45% { transform: translateY(-6px) rotate(2deg); } 70% { transform: translateY(-2px) rotate(-1deg); } }
+@keyframes praise-twinkle { 0%,100% { opacity: .2; transform: scale(.7); } 50% { opacity: 1; transform: scale(1.1); } }
+@media (prefers-reduced-motion:reduce) {
+  .praise-circle path, .praise-bounce, .praise-star { animation: none!important; stroke-dashoffset: 0!important; }
+  .praise-star { display: none; }
+}

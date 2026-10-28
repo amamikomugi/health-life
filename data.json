@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-10-28T10:48:18.078Z",
+  "updated_at": "2026-10-28T16:04:15.903Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -108,7 +108,7 @@
       "steps": 5686,
       "status": "synced",
       "source_metric": "steps_total",
-      "fetched_at": "2026-10-27T15:05:19Z"
+      "fetched_at": "2026-10-28T16:03:42Z"
     },
     {
       "record_id": "apple-health-20261024-steps",
@@ -117,7 +117,7 @@
       "steps": 10126,
       "status": "synced",
       "source_metric": "steps_total",
-      "fetched_at": "2026-10-27T15:05:19Z"
+      "fetched_at": "2026-10-28T16:03:42Z"
     },
     {
       "record_id": "apple-health-20261025-steps",
@@ -126,7 +126,7 @@
       "steps": 4674,
       "status": "synced",
       "source_metric": "steps_total",
-      "fetched_at": "2026-10-27T15:05:19Z"
+      "fetched_at": "2026-10-28T16:03:42Z"
     },
     {
       "record_id": "apple-health-20261026-steps",
@@ -135,7 +135,7 @@
       "steps": 10,
       "status": "synced",
       "source_metric": "steps_total",
-      "fetched_at": "2026-10-27T15:59:10Z"
+      "fetched_at": "2026-10-28T16:03:42Z"
     },
     {
       "record_id": "apple-health-20261027-steps",
@@ -144,7 +144,7 @@
       "steps": 2561,
       "status": "synced",
       "source_metric": "steps_total",
-      "fetched_at": "2026-10-27T15:59:10Z"
+      "fetched_at": "2026-10-28T16:03:42Z"
     },
     {
       "record_id": "apple-health-20261026-active-energy",
@@ -153,7 +153,7 @@
       "active_kcal": 0.208,
       "status": "synced",
       "source_metric": "active_energy_total",
-      "fetched_at": "2026-10-27T15:59:10Z"
+      "fetched_at": "2026-10-28T16:03:42Z"
     },
     {
       "record_id": "apple-health-20261026-basal-energy",
@@ -162,7 +162,7 @@
       "basal_kcal": 1786.003469846514,
       "status": "synced",
       "source_metric": "basal_energy_total",
-      "fetched_at": "2026-10-27T15:59:10Z"
+      "fetched_at": "2026-10-28T16:03:42Z"
     },
     {
       "record_id": "apple-health-20261027-active-energy",
@@ -171,46 +171,43 @@
       "active_kcal": 93.77900000000001,
       "status": "synced",
       "source_metric": "active_energy_total",
-      "fetched_at": "2026-10-27T15:59:10Z"
+      "fetched_at": "2026-10-28T16:03:42Z"
     },
     {
       "record_id": "apple-health-20261027-basal-energy",
       "date": "2026-10-27",
       "kind": "daily_activity",
-      "basal_kcal": 1796.0159503860737,
+      "basal_kcal": 1799.027569930887,
       "status": "synced",
       "source_metric": "basal_energy_total",
-      "fetched_at": "2026-10-27T15:59:10Z"
+      "fetched_at": "2026-10-28T16:03:42Z"
     },
     {
       "record_id": "apple-health-20261028-steps",
       "date": "2026-10-28",
       "kind": "daily_activity",
-      "steps": null,
-      "status": "not_returned",
+      "steps": 4035,
+      "status": "synced",
       "source_metric": "steps_total",
-      "fetched_at": "2026-10-27T15:31:34Z",
-      "notes": "照会しましたが対象日の値が返りませんでした。0として扱いません。"
+      "fetched_at": "2026-10-28T16:03:42Z"
     },
     {
       "record_id": "apple-health-20261028-active-energy",
       "date": "2026-10-28",
       "kind": "daily_activity",
-      "active_kcal": null,
-      "status": "not_returned",
+      "active_kcal": 139.102,
+      "status": "synced",
       "source_metric": "active_energy_total",
-      "fetched_at": "2026-10-27T15:31:34Z",
-      "notes": "照会しましたが対象日の値が返りませんでした。0として扱いません。"
+      "fetched_at": "2026-10-28T16:03:42Z"
     },
     {
       "record_id": "apple-health-20261028-basal-energy",
       "date": "2026-10-28",
       "kind": "daily_activity",
-      "basal_kcal": null,
-      "status": "not_returned",
+      "basal_kcal": 1712.1983804551883,
+      "status": "synced",
       "source_metric": "basal_energy_total",
-      "fetched_at": "2026-10-27T15:31:34Z",
-      "notes": "照会しましたが対象日の値が返りませんでした。0として扱いません。"
+      "fetched_at": "2026-10-28T16:03:42Z"
     },
     {
       "record_id": "weight-week-20261026",
@@ -311,7 +308,140 @@
       "status": "user_reported_with_food_and_portion_assumptions",
       "notes": "鶏むねは皮なし・生の可食部250g、れんこんは生の可食部150gと解釈。赤パプリカ1個は全体150g×可食率90%=135g、椎茸3個は1個15g×3×可食率80%=36gと仮計上。皮の有無・実測重量・調理法は未確認。追記の焼肉のたれは商品未指定のため一般的なしょうゆベースを使用し、小さじ1杯6g、オリーブオイルは小さじ1杯4.6gと今回のみ仮定。油・たれは仮定した量の全量を計上。",
       "updated_at": "2026-10-28T08:35:55Z",
-      "recorded_at": "2026-10-28T08:32:00Z"
+      "recorded_at": "2026-10-28T08:32:00Z",
+      "food_items": [
+        {
+          "food": "鶏むね肉",
+          "portion_g": 250,
+          "kcal": 262.5,
+          "protein_g": 58.25,
+          "fat_g": 4.75,
+          "carbohydrate_g": 0.25
+        },
+        {
+          "food": "赤パプリカ",
+          "portion_g": 135,
+          "kcal": 37.8,
+          "protein_g": 1.35,
+          "fat_g": 0.27,
+          "carbohydrate_g": 9.72
+        },
+        {
+          "food": "椎茸",
+          "portion_g": 36,
+          "kcal": 9,
+          "protein_g": 1.116,
+          "fat_g": 0.108,
+          "carbohydrate_g": 2.304
+        },
+        {
+          "food": "れんこん",
+          "portion_g": 150,
+          "kcal": 99,
+          "protein_g": 2.85,
+          "fat_g": 0.15,
+          "carbohydrate_g": 23.25
+        },
+        {
+          "food": "焼肉のたれ",
+          "portion_g": 6,
+          "kcal": 9.84,
+          "protein_g": 0.258,
+          "fat_g": 0.132,
+          "carbohydrate_g": 1.938
+        },
+        {
+          "food": "オリーブオイル",
+          "portion_g": 4.6,
+          "kcal": 41.124,
+          "protein_g": 0,
+          "fat_g": 4.6,
+          "carbohydrate_g": 0
+        }
+      ]
+    },
+    {
+      "record_id": "meal-5f5552c6-7786-4da1-b159-5d8d7c6cae95",
+      "date": "2026-10-28",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "プリマハム チキンバー スモークペッパー 1本（67gとして仮計上）",
+      "kcal": 88,
+      "protein_g": 12.7,
+      "fat_g": 2.7,
+      "carbohydrate_g": 3.3,
+      "status": "user_reported_with_assumed_quantity",
+      "notes": "ユーザーの訂正により10/28のおやつへ移動。写真の商品名・味・1本当たりP12.7gを確認。1本67gとして仮計上。メーカー公式のセット掲載で商品・容量を確認し、カロリー・PFCは楽天マートの同商品1本67g表示を採用。手元の裏面表示・実食本数は未確認。",
+      "updated_at": "2026-10-28T15:18:41.925Z",
+      "recorded_at": "2026-10-28T15:17:05.116Z"
+    },
+    {
+      "record_id": "apple-health-20261023-active-energy",
+      "date": "2026-10-23",
+      "kind": "daily_activity",
+      "active_kcal": 184.11700000000002,
+      "status": "synced",
+      "source_metric": "active_energy_total",
+      "fetched_at": "2026-10-28T16:03:42Z"
+    },
+    {
+      "record_id": "apple-health-20261023-basal-energy",
+      "date": "2026-10-23",
+      "kind": "daily_activity",
+      "basal_kcal": 1815.012963197414,
+      "status": "synced",
+      "source_metric": "basal_energy_total",
+      "fetched_at": "2026-10-28T16:03:42Z"
+    },
+    {
+      "record_id": "apple-health-20261024-active-energy",
+      "date": "2026-10-24",
+      "kind": "daily_activity",
+      "active_kcal": 307.8059999999999,
+      "status": "synced",
+      "source_metric": "active_energy_total",
+      "fetched_at": "2026-10-28T16:03:42Z"
+    },
+    {
+      "record_id": "apple-health-20261024-basal-energy",
+      "date": "2026-10-24",
+      "kind": "daily_activity",
+      "basal_kcal": 1836.5588611657013,
+      "status": "synced",
+      "source_metric": "basal_energy_total",
+      "fetched_at": "2026-10-28T16:03:42Z"
+    },
+    {
+      "record_id": "apple-health-20261025-active-energy",
+      "date": "2026-10-25",
+      "kind": "daily_activity",
+      "active_kcal": 134.974,
+      "status": "synced",
+      "source_metric": "active_energy_total",
+      "fetched_at": "2026-10-28T16:03:42Z"
+    },
+    {
+      "record_id": "apple-health-20261025-basal-energy",
+      "date": "2026-10-25",
+      "kind": "daily_activity",
+      "basal_kcal": 1808.8993555741986,
+      "status": "synced",
+      "source_metric": "basal_energy_total",
+      "fetched_at": "2026-10-28T16:03:42Z"
+    },
+    {
+      "record_id": "daily-20261028",
+      "date": "2026-10-28",
+      "kind": "daily_summary",
+      "kcal": 1089.264,
+      "protein_g": 130.524,
+      "fat_g": 29.01,
+      "carbohydrate_g": 90.462,
+      "status": "calculated_from_recorded_meals",
+      "notes": "記録済みの食事だけを合計しています。未報告の食事の有無は未確認です。",
+      "updated_at": "2026-10-28T16:04:15.852Z",
+      "recorded_at": "2026-10-28T16:04:15.852Z",
+      "day_coverage": "breakfast_lunch_dinner_recorded"
     }
   ],
   "settings": {
@@ -347,7 +477,6 @@
       "character_feedback": {
         "enabled": true,
         "calorie_tolerance_ratio": 0.1,
-        "protein_minimum_target_ratio": 0.9,
         "evaluation": "comparison_to_target_candidates",
         "incomplete_day_policy": "neutral"
       },
@@ -370,12 +499,43 @@
         "unknown_intake_policy": "該当項目の累計・残量を計算しない",
         "day_coverage": "記録済みの食事に基づく途中経過",
         "confirmed_on": "2026-10-28"
+      },
+      "positive_annotations": {
+        "enabled": true,
+        "automatic_duration_ms": 6500,
+        "interpretation": "保存済みの目標候補に対する記録上の貢献や一致を示す演出。新しい栄養目標や一日の成否の判定ではない。",
+        "meal_protein_energy_min_ratio": 0.2,
+        "calorie_tolerance_ratio": 0.1,
+        "steps_min": 5000,
+        "record_streak_days": [
+          3,
+          7
+        ],
+        "weekly_streak_interval_days": 7,
+        "protein_daily_target_reached": true,
+        "record_resumption": true,
+        "three_meals_recorded": true,
+        "weekly_weight_recorded": true,
+        "confirmed_on": "2026-10-29",
+        "protein_ratio_basis": "P(g) * 4 / kcal。EUの高たんぱく食品表示20%を参考にした独自演出で、1食や1日の健康度・推奨比率ではない。"
+      },
+      "comfort_annotations": {
+        "enabled": true,
+        "excess_tolerance_ratio": 0.1,
+        "metrics": [
+          "kcal",
+          "fat_g"
+        ],
+        "require_complete_day": true,
+        "unknown_policy": "判定しない",
+        "tone": "責めずに寄り添い、食事抜きや埋め合わせを促さない",
+        "confirmed_on": "2026-10-29"
       }
     }
   },
   "health_sync": {
-    "last_fetched_at": "2026-10-27T15:59:10Z",
-    "last_source_sync_at": "2026-10-27T15:22:09.719Z"
+    "last_fetched_at": "2026-10-28T16:03:42Z",
+    "last_source_sync_at": "2026-10-28T15:12:30.656Z"
   },
   "repository": "https://github.com/amamikomugi/health-life",
   "update_schedule": {
