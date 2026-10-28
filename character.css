@@ -1,4 +1,9 @@
-.mascot-panel { display: grid; grid-template-columns: 232px minmax(0,1fr) 168px; align-items: center; gap: 24px; border: 1px solid #dbe4cf; border-radius: 12px; padding: 26px 28px; margin: -8px 0 30px; background: linear-gradient(110deg,#f1f5e9,#fffef8); position: relative; }
+.mascot-panel { display: grid; grid-template-columns: minmax(0,464px) minmax(0,1fr); align-items: center; gap: 24px; border: 1px solid #dbe4cf; border-radius: 12px; padding: 26px 28px; margin: -8px 0 30px; background: linear-gradient(110deg,#f1f5e9,#fffef8); position: relative; }
+.mascot-cast { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); width: 100%; max-width: 464px; gap: 4px; justify-self: center; }
+.mascot-actor { margin: 0; min-width: 0; }
+.mascot-actor figcaption { margin-top: 13px; color: #5c744c; text-align: center; font-size: .875rem; line-height: 1.75; }
+.mascot-cast .mascot-scene { width: 100%; min-width: 0; height: auto; aspect-ratio: 232/262; }
+.mascot-cast .character-sprite { width: min(100%,212px); height: auto; aspect-ratio: 212/222.4; }
 .mascot-scene { position: relative; width: 232px; min-width: 232px; height: 262px; display: grid; place-items: end center; isolation: isolate; }
 .character-sprite { position: relative; z-index: 1; width: 212px; height: 222.4px; transform-origin: 50% 95%; image-rendering: pixelated; }
 .character-sprite img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; image-rendering: pixelated; opacity: 0; }
@@ -13,6 +18,14 @@
 .mood-sad .frame-base { opacity: 0; animation: none; }
 .mood-sad .frame-half { opacity: 1; animation: none; }
 .mood-sad .frame-closed { animation: sad-blink 6s steps(1) infinite; }
+.fox-sprite .fox-joy { opacity: 1; }
+.fox-sprite .fox-sad { opacity: 0; }
+.mood-sad .fox-sprite .fox-joy { opacity: 0; }
+.mood-sad .fox-sprite .fox-sad { opacity: 1; }
+.fox-sprite .character-tear { left: 61%; top: 44%; width: 7px; height: 12px; }
+.fox-scene.mood-happy .character-sprite, .fox-scene.mood-happy .character-shadow { animation-delay: -.18s; }
+.fox-scene.mood-sad .character-sprite { animation-delay: -.6s; }
+.fox-scene.mood-neutral .character-sprite { animation-delay: -.8s; }
 .character-sparkle { position: absolute; color: #a07b32; font-size: 40px; opacity: 0; pointer-events: none; }
 .sparkle-left { left: 0; top: 52px; }
 .sparkle-right { right: 2px; top: 24px; }
@@ -44,9 +57,9 @@
 .mood-sad .mascot-message h2 { color: #596a4e; }
 .mascot-message p { font-size: 1rem; color: #586f48; line-height: 1.85; margin-top: 10px; }
 .mascot-disclaimer { display: block; font-size: .875rem; color: #617456; line-height: 1.75; margin-top: 10px; }
-.mascot-tools { display: flex; align-items: stretch; gap: 16px; flex-direction: column; align-self: stretch; justify-content: space-between; }
+.mascot-tools { grid-column: 1/-1; display: flex; align-items: center; gap: 16px; flex-direction: row; flex-wrap: wrap; justify-content: space-between; padding-top: 16px; border-top: 1px solid #dbe4cf; }
 .mascot-tools select { border: 1px solid #9faf93; border-radius: 7px; background: #fffdf7; color: #4e683f; font-size: 1rem; min-height: 48px; padding: 8px 12px; max-width: 100%; }
-.mascot-tool-buttons { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
+.mascot-tool-buttons { display: flex; flex-direction: row; flex-wrap: wrap; gap: 18px; align-items: center; }
 .mascot-tool-buttons button { color: #4d6c3d; font-size: 1rem; min-height: 44px; padding: 7px 3px; text-decoration: underline; text-underline-offset: 4px; text-align: left; }
 .motion-paused .character-sprite, .motion-paused .character-sprite img, .motion-paused .character-sparkle, .motion-paused .character-tear, .motion-paused .character-shadow, .motion-paused .sad-weather, .motion-paused .sad-raindrop, .motion-paused .sad-gloom { animation-play-state: paused!important; }
 .motion-paused.mood-happy .frame-mouth { opacity: 1; }
@@ -81,13 +94,24 @@
 @keyframes shadow-poyo { 0%,100% { transform: scaleX(1); opacity: .7; } 50% { transform: scaleX(.65); opacity: .3; } }
 
 @media (max-width:1100px) and (min-width:761px) {
-  .mascot-panel { grid-template-columns: 232px minmax(0,1fr); gap: 20px; }
+  .mascot-panel { grid-template-columns: minmax(0,1fr); gap: 20px; }
+  .mascot-message { text-align: center; }
   .mascot-tools { grid-column: 1/-1; flex-direction: row; align-items: center; flex-wrap: wrap; padding-top: 16px; border-top: 1px solid #dbe4cf; }
   .mascot-tool-buttons { flex-direction: row; gap: 18px; }
 }
 @media (max-width:760px) {
   .mascot-panel { grid-template-columns: minmax(0,1fr); gap: 18px; padding: 22px 20px; margin: 0 0 28px; text-align: center; }
   .mascot-scene { width: 200px; min-width: 200px; height: 240px; justify-self: center; margin-inline: auto; }
+  .mascot-cast { max-width: 420px; gap: 8px; }
+  .mascot-cast .mascot-scene { aspect-ratio: 200/240; }
+  .mascot-cast .character-sprite { width: min(100%,186px); }
+  .mascot-cast .character-shadow { left: 25%; width: 50%; }
+  .mascot-cast .character-tear { left: 66%; top: 32%; }
+  .mascot-cast .fox-sprite .character-tear { left: 61%; top: 44%; }
+  .mascot-cast .sad-weather { scale: .7; transform-origin: top left; }
+  .mascot-cast .sad-gloom { right: 0; top: 38%; scale: .8; }
+  .mascot-cast .sparkle-left { left: 0; font-size: 30px; }
+  .mascot-cast .sparkle-right { right: 0; font-size: 30px; }
   .character-sprite { width: 186px; height: 195.2px; }
   .character-shadow { left: 48px; width: 104px; }
   .character-tear { left: 124px; top: 62px; }
