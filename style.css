@@ -297,3 +297,5 @@ dialog::backdrop { background: #283b3050; backdrop-filter: blur(3px); }
   #app { animation: appear .35s ease; }
   @keyframes appear { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
 }
+/* Keep the longer character voice comfortable to read on narrow screens. */
+.heading h1, .mascot-message h2, .dialog-head h2 { text-wrap: balance; }
