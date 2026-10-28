@@ -1,5 +1,5 @@
 import {dailyRows,dateAdd,dateRange,japanDate,weekStart,weightRows,sumKnown,NUTRIENTS} from './model.mjs?v=246f08bc611e';
-import {characterFeedback,positiveFoodFeedback,comfortFoodFeedback,habitFeedback,weightFeedback} from './feedback.mjs?v=c9ffc9e7fb76';
+import {characterFeedback,positiveFoodFeedback,comfortFoodFeedback,habitFeedback,weightFeedback} from './feedback.mjs?v=257917b2c180';
 const $=s=>document.querySelector(s), esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const number=(v,d=0)=>typeof v==='number'&&Number.isFinite(v)?v.toLocaleString('ja-JP',{minimumFractionDigits:d,maximumFractionDigits:d}):'—';
 const signed=(v,d=1)=>v===null||v===undefined?'—':(v>0?'+':v<0?'−':'±')+number(Math.abs(v),d);
