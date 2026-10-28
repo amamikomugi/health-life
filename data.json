@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-10-27T16:46:08.882Z",
+  "updated_at": "2026-10-28T05:01:53.942Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -237,6 +237,51 @@
       "notes": "1杯分をメーカー標準1食25gとして計上。水割りはユーザー確認済み。水の量は未報告。",
       "updated_at": "2026-10-27T16:46:00.806Z",
       "recorded_at": "2026-10-27T16:42:17.894Z"
+    },
+    {
+      "record_id": "meal-20261028-breakfast-protein",
+      "date": "2026-10-28",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "アンビーク ソイプロテイン バナナ味 1杯（水割り・標準22gとして仮計上）",
+      "kcal": 82,
+      "protein_g": 16.4,
+      "fat_g": 0.9,
+      "carbohydrate_g": 2.3,
+      "status": "user_reported_with_standard_serving",
+      "notes": "商品名・バナナ味・1杯・水割りはユーザー確認済み。同商品の公開ラベル写真（1食22g）を確認し、粉末22gとして仮計上。実際の粉末重量・手元の製品版は未確認。水の量は未報告。公式ページ本文の不整合な数値は採用していません。",
+      "updated_at": "2026-10-28T02:27:39.528Z",
+      "recorded_at": "2026-10-28T01:00:55.347Z"
+    },
+    {
+      "record_id": "meal-66ed3cda-c551-405d-9af0-158ca44e9e4a",
+      "date": "2026-10-28",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "BASE BREAD ミルク 1袋（2個入りとして仮計上）",
+      "kcal": 250,
+      "protein_g": 13.5,
+      "fat_g": 8.5,
+      "carbohydrate_g": 33.1,
+      "status": "user_reported_with_assumed_quantity",
+      "notes": "日付は報告日の日本時間（2026年10月28日）。公式商品ページの1袋あたり栄養表示を採用。数量は未報告のため1袋（2個入り）として仮計上。Cは糖質ではなく炭水化物33.1g。",
+      "updated_at": "2026-10-28T02:45:03.059Z",
+      "recorded_at": "2026-10-28T02:45:03.059Z"
+    },
+    {
+      "record_id": "meal-83662452-889a-4277-8f1e-f18980516af4",
+      "date": "2026-10-28",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "くめ納豆 秘伝金印ミニ3 1パック（納豆40g・たれ／からし込みとして仮計上）",
+      "kcal": 77,
+      "protein_g": 6.5,
+      "fat_g": 3.7,
+      "carbohydrate_g": 5.9,
+      "status": "user_reported_with_assumed_product_and_quantity",
+      "notes": "10/28昼食へ追加。商品種類・数量・添付調味料の使用は未指定のため、秘伝金印ミニ3の1パック（納豆40g、たれ・からし込み46.4g）として仮計上。販売店に掲載された1セットあたりの栄養表示を採用。メーカー公式の100gあたり表示と、納豆のみの値を区別して確認。",
+      "updated_at": "2026-10-28T02:50:50.043Z",
+      "recorded_at": "2026-10-28T02:50:50.043Z"
     }
   ],
   "settings": {
@@ -275,6 +320,26 @@
         "protein_minimum_target_ratio": 0.9,
         "evaluation": "comparison_to_target_candidates",
         "incomplete_day_policy": "neutral"
+      },
+      "meal_entry_response": {
+        "format": "table",
+        "nutrients": [
+          "kcal",
+          "protein_g",
+          "fat_g",
+          "carbohydrate_g"
+        ],
+        "show_food_items": true,
+        "show_meal_total": true,
+        "show_daily_remaining": true,
+        "target_source": "current_targets",
+        "daily_remaining_formula": "target_minus_recorded_intake",
+        "negative_remaining_meaning": "超過",
+        "add_activity_energy_to_remaining": false,
+        "unknown_display": "未確定",
+        "unknown_intake_policy": "該当項目の累計・残量を計算しない",
+        "day_coverage": "記録済みの食事に基づく途中経過",
+        "confirmed_on": "2026-10-28"
       }
     }
   },
@@ -286,6 +351,11 @@
   "update_schedule": {
     "status": "ACTIVE",
     "local_time": "01:00",
+    "local_times": [
+      "01:00",
+      "14:00"
+    ],
+    "healthcare_local_time": "01:00",
     "timezone": "Asia/Tokyo"
   }
 }
