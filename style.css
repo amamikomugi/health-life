@@ -56,6 +56,9 @@ main { padding: 36px 36px 0; max-width: 1630px; margin: auto; }
 .eyebrow { display: block; font-size: .875rem; letter-spacing: .1em; color: var(--muted); font-weight: 600; margin-bottom: 12px; }
 h1 { font: 500 2rem/1.6 'Noto Serif JP', serif; letter-spacing: .02em; }
 .heading p { color: var(--muted); font-size: 1rem; margin-top: 12px; max-width: 45em; }
+.update-notice { margin: -14px 0 28px; padding: 16px 20px; border: 1px solid var(--line); border-left: 4px solid var(--green); border-radius: 10px; background: var(--paper); }
+.update-notice strong { display: block; font-weight: 600; }
+.update-notice p { margin-top: 4px; color: var(--muted); font-size: var(--font-caption); overflow-wrap: anywhere; }
 .primary-button, .secondary-button { display: inline-flex; align-items: center; justify-content: center; gap: 9px; border-radius: 8px; font-size: 1rem; font-weight: 500; min-height: 48px; white-space: nowrap; padding: 12px 20px; text-decoration: none; }
 .primary-button { color: #fff; background: var(--green); box-shadow: 0 3px 6px #94633114; }
 .primary-button:hover { background: #7e5328; }

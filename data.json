@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-10-29T05:00:07.988Z",
+  "updated_at": "2026-10-29T11:27:43.527Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -505,6 +505,62 @@
       "notes": "10/29昼。前回同様、秘伝金印ミニ3の1パック（納豆40g・たれ／からし込み）として仮計上。手元の商品種類・数量・調味料の使用は未確認。前回確認済みの同商品掲載値を再利用。",
       "updated_at": "2026-10-29T02:40:06.678Z",
       "recorded_at": "2026-10-29T02:40:06.678Z"
+    },
+    {
+      "record_id": "meal-1ad4d7c0-1e7c-4495-ac6f-9df33fd480f3",
+      "date": "2026-10-29",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "EMIAL SWEET CAFÉ 珈琲ゼリー 1個（190g）",
+      "kcal": 123,
+      "protein_g": 0.8,
+      "fat_g": 2.5,
+      "carbohydrate_g": 24.2,
+      "status": "user_reported",
+      "notes": "2026/10/29のおやつ。写真2枚は同一商品として1個を計上。実物の栄養表示をメーカー公式表示と照合。",
+      "updated_at": "2026-10-29T05:14:03.528Z",
+      "recorded_at": "2026-10-29T05:14:03.528Z"
+    },
+    {
+      "record_id": "meal-528a2d64-77b6-4a37-bff3-f6045ffbab51",
+      "date": "2026-10-29",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "西友 こだわりだしのおでん1人前1袋＋鶏もも肉皮なし250g＋おかめ豆腐もめん130g（鶏肉は調理前重量として概算）",
+      "kcal": 546.5,
+      "protein_g": 68.3,
+      "fat_g": 25.8,
+      "carbohydrate_g": 17.5,
+      "status": "user_reported_with_preparation_assumption",
+      "notes": "おでん1人前1袋と豆腐130gはユーザー確認済み。鶏肉は皮なし・調理前250gとして概算・仮計上。おでんはつゆ込みの1袋450g表示値。豆腐はメーカー現行表示を優先。追加の油や調味料は未報告。",
+      "updated_at": "2026-10-29T11:07:40.371Z",
+      "recorded_at": "2026-10-29T11:07:40.371Z",
+      "food_items": [
+        {
+          "food": "みなさまのお墨付き こだわりだしのおでん 1人前",
+          "portion_g": 450,
+          "kcal": 153,
+          "protein_g": 11.7,
+          "fat_g": 6.3,
+          "carbohydrate_g": 14.5
+        },
+        {
+          "food": "鶏もも肉 皮なし",
+          "portion_g": 250,
+          "kcal": 282.5,
+          "protein_g": 47.5,
+          "fat_g": 12.5,
+          "carbohydrate_g": 0
+        },
+        {
+          "food": "おかめ豆腐 もめんミニ3",
+          "portion_g": 130,
+          "kcal": 111,
+          "protein_g": 9.1,
+          "fat_g": 7,
+          "carbohydrate_g": 3
+        }
+      ]
     }
   ],
   "settings": {
@@ -609,6 +665,7 @@
       "14:00"
     ],
     "healthcare_local_time": "01:00",
-    "timezone": "Asia/Tokyo"
+    "timezone": "Asia/Tokyo",
+    "push_on_meal_change": true
   }
 }
