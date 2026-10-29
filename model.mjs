@@ -104,3 +104,18 @@ export function mergeRecords(current, incoming) {
   }
   return [...map.values()];
 }
+
+// A weekly remainder is based on recorded food only, without treating missing days as zero.
+export function weeklyCalorieBudget(records, targets, asOf = japanDate()) {
+  const start=weekStart(asOf),end=dateAdd(start,6);
+  const rows=dailyRows(records,start,end),elapsed=rows.filter(row=>row.date<=asOf);
+  const food=elapsed.filter(row=>row.hasFood);
+  const target=numeric(targets?.weekly_kcal);
+  const intake=sumKnown(food.map(row=>row.kcal));
+  return {week_start:start,week_end:end,target_kcal:target!==null&&target>0?target:null,intake_kcal:intake,
+    remaining_kcal:target!==null&&target>0&&intake!==null?Math.round((target-intake)*1000)/1000:null,
+    recorded_days:food.length,missing_elapsed_days:elapsed.filter(row=>!row.hasFood).length,
+    partial_days:food.filter(row=>row.date===asOf||!row.summary||row.summary.day_coverage==='partial_recorded').length,
+    future_days:rows.filter(row=>row.date>asOf).length,
+    has_unknown_kcal:food.some(row=>row.kcal===null)};
+}

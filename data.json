@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-10-29T11:27:43.527Z",
+  "updated_at": "2026-10-29T14:51:52.353Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -561,6 +561,21 @@
           "carbohydrate_g": 3
         }
       ]
+    },
+    {
+      "record_id": "meal-69ffe3a1-fb5d-4c45-803d-08f70e3c9d5b",
+      "date": "2026-10-29",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "ガーナの個包装チョコ2枚（ミルクエクセレント・標準4.6g×2として仮計上）",
+      "kcal": 52,
+      "protein_g": 0.7,
+      "fat_g": 3,
+      "carbohydrate_g": 5.2,
+      "status": "user_reported_with_assumed_product_variant",
+      "notes": "個包装チョコ2枚はユーザー報告。ミルクエクセレント1枚標準4.6gのメーカー表示から2枚分を概算・仮計上。味・商品規格は未確認。種類が判明した場合は同じrecord_idを訂正。",
+      "updated_at": "2026-10-29T14:51:52.083Z",
+      "recorded_at": "2026-10-29T14:51:52.083Z"
     }
   ],
   "settings": {
@@ -648,6 +663,17 @@
         "require_complete_day": true,
         "unknown_policy": "判定しない",
         "tone": "責めずに寄り添い、食事抜きや埋め合わせを促さない",
+        "confirmed_on": "2026-10-29"
+      },
+      "weekly_calorie_budget": {
+        "enabled": true,
+        "week_starts_on": "monday",
+        "target_source": "current_targets.weekly_kcal",
+        "remaining_formula": "weekly_target_minus_recorded_intake",
+        "missing_days_policy": "show_missing_without_zero_fill",
+        "unknown_kcal_policy": "remaining_unconfirmed",
+        "deduct_activity": false,
+        "display_scope": "current_week",
         "confirmed_on": "2026-10-29"
       }
     }

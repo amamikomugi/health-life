@@ -63,3 +63,14 @@ export function characterFeedback(day, targets, options = {}) {
   if (notes.daily.protein_g || Object.keys(notes.meals).length) return { mood: 'happy', message: 'たんぱく質を意識できたのじゃな♪', detail: notes.daily.protein_g?.message || Object.values(notes.meals)[0].protein_g.message };
   return neutral('記録してくれて、嬉しいのじゃ。', '分からぬところや途中の記録で、良し悪しを決めたりせぬぞ。おぬしのペースで続けようの。');
 }
+
+// Today's in-progress evaluation never applies completed-day calorie/comfort rules.
+export function reviewFeedback(day, targets, options = {}, phase = 'today') {
+  const current = phase === 'today';
+  const evaluated = current && day ? { ...day, summary: null } : day;
+  if (!evaluated?.hasFood && !(valid(evaluated?.steps) && evaluated.steps >= (options.steps_min ?? 5000))) {
+    return { mood: 'neutral', message: current ? '今日のお話、待っておるぞ。' : 'この日の食事は、まだ未記録じゃ。', detail: current ? '食事を教えてくれたら、ここまでのよいところを一緒に見つけるぞ。' : '記録がないことを、食べなかった・歩かなかったとは扱わぬぞ。' };
+  }
+  const feedback = characterFeedback(evaluated, targets, options);
+  return { ...feedback, message: feedback.message.replaceAll('今日は、', current ? 'ここまでは、' : 'この日は、').replaceAll('一日じゃった', '日じゃった'), detail: feedback.detail?.replaceAll('この日は', current ? 'ここまでに' : 'この日は') };
+}
