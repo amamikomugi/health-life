@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-10-28T16:07:30.897Z",
+  "updated_at": "2026-10-29T05:00:07.988Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -442,6 +442,69 @@
       "updated_at": "2026-10-28T16:04:15.852Z",
       "recorded_at": "2026-10-28T16:04:15.852Z",
       "day_coverage": "breakfast_lunch_dinner_recorded"
+    },
+    {
+      "record_id": "meal-46c92665-f7e7-443e-9a69-b7db3b870646",
+      "date": "2026-10-29",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "アンビーク ソイプロテイン バナナ味1杯（粉末22gとして仮計上）＋さわやかなあじわい 低脂肪200ml",
+      "kcal": 162,
+      "protein_g": 20.1,
+      "fat_g": 2.1,
+      "carbohydrate_g": 15.9,
+      "status": "user_reported_with_standard_serving",
+      "notes": "10/29朝。低脂肪の使用量200mlはユーザー確認済み。プロテインは確認質問への回答に基づき前回と同じアンビーク・バナナ味1杯として扱う。粉末は前回の公開ラベル標準22gで仮計上し、手元の粉末実測重量は未確認。低脂肪は商品名が一致する西友ネットスーパーの200ml栄養表示を採用。",
+      "updated_at": "2026-10-29T01:00:24.628Z",
+      "recorded_at": "2026-10-29T01:00:24.628Z",
+      "food_items": [
+        {
+          "food": "アンビーク ソイプロテイン バナナ味",
+          "portion_g": 22,
+          "kcal": 82,
+          "protein_g": 16.4,
+          "fat_g": 0.9,
+          "carbohydrate_g": 2.3
+        },
+        {
+          "food": "さわやかなあじわい 低脂肪200ml",
+          "portion_g": null,
+          "kcal": 80,
+          "protein_g": 3.7,
+          "fat_g": 1.2,
+          "carbohydrate_g": 13.6
+        }
+      ]
+    },
+    {
+      "record_id": "meal-46b76937-7800-4893-9179-3e07ce34bdbc",
+      "date": "2026-10-29",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "トライアルのカツ丼（通常のロースかつ重1パックとして仮計上）",
+      "kcal": 657,
+      "protein_g": 18.7,
+      "fat_g": 22.9,
+      "carbohydrate_g": 95.6,
+      "status": "user_reported_with_provisional_nutrition",
+      "notes": "10/29昼。商品名・量は未指定のため通常の卵とじロースかつ重1パックとして仮計上。公式の商品紹介は確認したがPFC表示がないため、公開レビューの1包装657kcal/P18.7g/F22.9g/C95.6gを暫定参照。手元のラベル・規格とは未照合。店舗や時期で掲載値が異なるため、ラベル確認時は同じrecord_idを訂正。異なる商品の表示値を平均していない。",
+      "updated_at": "2026-10-29T02:40:06.678Z",
+      "recorded_at": "2026-10-29T02:40:06.678Z"
+    },
+    {
+      "record_id": "meal-e0c47e61-553c-452c-b9f3-6cc41d9a3f5c",
+      "date": "2026-10-29",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "くめ納豆 秘伝金印ミニ3 1パック（納豆40g・たれ／からし込みとして仮計上）",
+      "kcal": 77,
+      "protein_g": 6.5,
+      "fat_g": 3.7,
+      "carbohydrate_g": 5.9,
+      "status": "user_reported_with_assumed_product_and_quantity",
+      "notes": "10/29昼。前回同様、秘伝金印ミニ3の1パック（納豆40g・たれ／からし込み）として仮計上。手元の商品種類・数量・調味料の使用は未確認。前回確認済みの同商品掲載値を再利用。",
+      "updated_at": "2026-10-29T02:40:06.678Z",
+      "recorded_at": "2026-10-29T02:40:06.678Z"
     }
   ],
   "settings": {
