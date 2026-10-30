@@ -7,9 +7,9 @@
   <meta name="description" content="食事も体重も、歩いたぶんも。わらわと一緒に、少しずつ記録するのじゃ。あまみこむぎの健康生活。">
   <title>あまみこむぎの健康生活</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./style.css?v=dee5cf645d3a">
+  <link rel="stylesheet" href="./style.css?v=f05c3d977cae">
   <link rel="stylesheet" href="./character.css?v=f054a7c7817c">
-  <script type="module" src="./app.mjs?v=45746c4ad1d6"></script>
+  <script type="module" src="./app.mjs?v=af442bf8cb86"></script>
 </head>
 <body>
   <a class="skip-link" href="#content">本文へ移動</a>
@@ -36,6 +36,12 @@
         <div id="loading" class="loading">記録を読み込んでおるぞ…</div>
         <div id="app"></div>
         <noscript>記録やグラフを見るには、JavaScriptを有効にしてほしいのじゃ。</noscript>
+        <section class="visitor-counter" aria-labelledby="visitor-title">
+          <div class="visitor-welcome"><span class="visitor-mark" aria-hidden="true">❧</span><div><h2 id="visitor-title">お部屋に来てくれた回数</h2><p>遊びに来てくれて、うれしいのじゃ。</p></div></div>
+          <dl class="visitor-counts" aria-live="polite" aria-atomic="true"><div><dt>本日</dt><dd><span id="visitors-today">—</span><small>回</small></dd></div><div><dt>これまで</dt><dd><span id="visitors-total">—</span><small>回</small></dd></div></dl>
+          <p class="visitor-status" id="visitor-status" role="status">訪問回数を読み込んでおるぞ…</p>
+          <details class="visitor-details"><summary>数え方と通信について</summary><p>設置後の延べ訪問回数じゃ。同じ人の再訪や再読み込みも数え、ページ内の画面切り替えでは増えぬぞ。本日は日本時間で区切るのじゃ。過去の訪問人数は含まれておらぬ。</p><p><a href="https://hitscounter.dev/" target="_blank" rel="noopener noreferrer">Hits Counter</a>にこのサイトの固定URLを送り、回数を保存しておる。食事・体重のデータは送らぬが、通信先にはIPアドレスなどの接続情報が伝わるぞ。通信できないときは「—」で表示するのじゃ。</p></details>
+        </section>
         <footer><span>⌂ あまみこむぎの健康生活</span><small>明日も、この部屋で待っておるぞ。<span>日付は日本時間じゃよ</span></small></footer>
       </main>
     </div>

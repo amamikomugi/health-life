@@ -444,3 +444,25 @@ dialog::backdrop { background: #48332166; }
 .weekly-budget-note { grid-column:1/-1; padding-top:14px; border-top:1px solid var(--line); color:var(--muted); font-size:.875rem; }
 .weekly-budget-note p+p { margin-top:6px; }
 @media(max-width:760px) { .weekly-budget { grid-template-columns:minmax(0,1fr); padding:20px; gap:16px; } .weekly-budget-value { font-size:2.25rem; } }
+
+/* A small guest ledger at the room's entrance, shared by all tabs. */
+.visitor-counter { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:14px 28px; margin:40px 0 0; padding:24px 28px; background:#fff8ec; border:1px solid #d8b78a; border-top:4px solid #c17e43; border-radius:12px; }
+.visitor-welcome { display:flex; align-items:center; gap:16px; min-width:0; }
+.visitor-mark { display:grid; place-items:center; flex-shrink:0; width:48px; height:48px; border-radius:50%; background:#f3dfc2; color:#9a592a; font-size:30px; }
+.visitor-welcome h2 { font-size:1.125rem; color:#754322; }
+.visitor-welcome p { font-size:1rem; color:var(--muted); margin-top:4px; }
+.visitor-counts { display:flex; align-items:center; gap:28px; margin:0; }
+.visitor-counts > div { min-width:78px; }
+.visitor-counts dt { font-size:.875rem; color:var(--muted); }
+.visitor-counts dd { margin:2px 0 0; font:600 1.875rem/1.4 system-ui,sans-serif; color:#9b5026; font-variant-numeric:tabular-nums; }
+.visitor-counts dd small { margin-left:8px; font-size:.875rem; font-weight:400; }
+.visitor-status { grid-column:1/-1; font-size:.875rem; color:var(--muted); }
+.visitor-details { grid-column:1/-1; font-size:.875rem; color:var(--muted); border-top:1px dashed #dfc7a7; padding-top:8px; }
+.visitor-details summary { cursor:pointer; min-height:44px; display:list-item; align-content:center; color:#83502c; }
+.visitor-details p { line-height:1.9; margin-top:8px; overflow-wrap:anywhere; }
+.visitor-details a { text-underline-offset:3px; }
+@media(max-width:760px){
+  .visitor-counter { grid-template-columns:minmax(0,1fr); padding:20px; gap:16px; }
+  .visitor-counts { padding-left:64px; gap:32px; }
+  .visitor-counts dd { font-size:1.625rem; }
+}

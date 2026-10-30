@@ -223,3 +223,27 @@ window.addEventListener('resize',repositionPositive,{passive:true});
 window.matchMedia('(prefers-reduced-motion: reduce)').addEventListener('change',()=>{document.body.classList.toggle('praise-motion-paused',prefersQuiet());clearTimeout(positiveTimer);cancelAnimationFrame(positiveAnimationFrame);positiveAnimationFrame=null;updatePositivePointers();if(positiveTarget&&!prefersQuiet())positiveAnimationFrame=requestAnimationFrame(animatePositivePointers);});
 document.addEventListener('visibilitychange',()=>{cancelAnimationFrame(positiveAnimationFrame);positiveAnimationFrame=null;if(!document.hidden&&positiveTarget&&!prefersQuiet())positiveAnimationFrame=requestAnimationFrame(animatePositivePointers);});
 void load();
+
+// One request per document, using only the fixed public site URL. No food data or referrer.
+async function loadVisitorCounter(){
+  const status=document.querySelector('#visitor-status');
+  if(!status)return;
+  if(location.hostname!=='amamikomugi.github.io'||!location.pathname.startsWith('/health-life/')){
+    status.textContent='公開ページで数え始めるぞ。ここでの確認は加算せぬのじゃ。';
+    return;
+  }
+  const endpoint=new URL('https://hitscounter.dev/api/hit');
+  endpoint.search=new URLSearchParams({url:'https://amamikomugi.github.io/health-life/',output:'json',tz:'Asia/Tokyo'}).toString();
+  try{
+    const response=await fetch(endpoint,{credentials:'omit',referrerPolicy:'no-referrer',cache:'no-store',signal:AbortSignal.timeout(8000)});
+    if(!response.ok)throw new Error('Counter unavailable');
+    const counts=await response.json();
+    if(!Number.isSafeInteger(counts.today_hits)||!Number.isSafeInteger(counts.total_hits)||counts.today_hits<0||counts.total_hits<counts.today_hits)throw new Error('Invalid counter data');
+    document.querySelector('#visitors-today').textContent=counts.today_hits.toLocaleString('ja-JP');
+    document.querySelector('#visitors-total').textContent=counts.total_hits.toLocaleString('ja-JP');
+    status.textContent='また会いに来てたもれ。延べ訪問回数・日本時間じゃよ。';
+  }catch{
+    status.textContent='今は回数を取得できぬようじゃ。またあとで見てたもれ。';
+  }
+}
+void loadVisitorCounter();
