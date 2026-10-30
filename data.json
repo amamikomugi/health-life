@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-10-30T15:57:55.193Z",
+  "updated_at": "2026-10-30T22:44:45.343Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -792,6 +792,47 @@
       "updated_at": "2026-10-30T15:57:55.139Z",
       "recorded_at": "2026-10-30T15:57:55.139Z",
       "day_coverage": "breakfast_lunch_dinner_recorded"
+    },
+    {
+      "record_id": "meal-fa520512-3f8a-47e7-8e08-aae7b74ff3ec",
+      "date": "2026-10-31",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "マックグリドル ソーセージエッグ1個・チキンマックナゲット5ピース・マスタードソース1個",
+      "kcal": 850,
+      "protein_g": 35.5,
+      "fat_g": 51,
+      "carbohydrate_g": 61.1,
+      "status": "user_reported_with_official_nutrition",
+      "notes": "すべてメーカー公式の標準1食分。マスタードソースは付属1個を全量使ったものとして計上。ナゲット本体はソース抜きの公式値で二重加算なし。飲料等の追加は未報告。",
+      "updated_at": "2026-10-30T22:44:42.049Z",
+      "recorded_at": "2026-10-30T22:44:42.049Z",
+      "food_items": [
+        {
+          "food": "マックグリドル ソーセージエッグ",
+          "portion_g": null,
+          "kcal": 545,
+          "protein_g": 19.8,
+          "fat_g": 32.9,
+          "carbohydrate_g": 41.3
+        },
+        {
+          "food": "チキンマックナゲット5ピース（ソース除く）",
+          "portion_g": null,
+          "kcal": 262,
+          "protein_g": 15.3,
+          "fat_g": 15.9,
+          "carbohydrate_g": 14.4
+        },
+        {
+          "food": "マスタードソース1個",
+          "portion_g": null,
+          "kcal": 43,
+          "protein_g": 0.4,
+          "fat_g": 2.2,
+          "carbohydrate_g": 5.4
+        }
+      ]
     }
   ],
   "settings": {
