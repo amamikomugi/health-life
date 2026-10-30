@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-10-29T16:13:42.151Z",
+  "updated_at": "2026-10-30T01:57:54.400Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -617,6 +617,39 @@
       "updated_at": "2026-10-29T16:13:42.104Z",
       "recorded_at": "2026-10-29T16:13:42.104Z",
       "day_coverage": "breakfast_lunch_dinner_recorded"
+    },
+    {
+      "record_id": "meal-74744028-16d3-46f3-b55d-2d905beb7bb5",
+      "date": "2026-10-30",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "アンビーク ソイプロテイン バナナ味1杯（粉末22gとして仮計上）＋さわやかなあじわい 低脂肪200ml",
+      "kcal": 162,
+      "protein_g": 20.1,
+      "fat_g": 2.1,
+      "carbohydrate_g": 15.9,
+      "status": "user_reported_with_reused_standard_serving",
+      "notes": "2026-10-30朝。昨日と同じアンビーク・ソイプロテインのバナナ味1杯と、さわやかなあじわい低脂肪200ml。粉末は標準22gとして仮計上。前回確認済みの同商品ラベル・販売店表示を再利用し、量の実測確認はしていない。",
+      "updated_at": "2026-10-30T01:57:50.611Z",
+      "recorded_at": "2026-10-30T01:57:50.611Z",
+      "food_items": [
+        {
+          "food": "アンビーク ソイプロテイン バナナ味",
+          "portion_g": 22,
+          "kcal": 82,
+          "protein_g": 16.4,
+          "fat_g": 0.9,
+          "carbohydrate_g": 2.3
+        },
+        {
+          "food": "さわやかなあじわい 低脂肪200ml",
+          "portion_g": null,
+          "kcal": 80,
+          "protein_g": 3.7,
+          "fat_g": 1.2,
+          "carbohydrate_g": 13.6
+        }
+      ]
     }
   ],
   "settings": {
@@ -692,7 +725,9 @@
         "three_meals_recorded": true,
         "weekly_weight_recorded": true,
         "confirmed_on": "2026-10-29",
-        "protein_ratio_basis": "P(g) * 4 / kcal。EUの高たんぱく食品表示20%を参考にした独自演出で、1食や1日の健康度・推奨比率ではない。"
+        "protein_ratio_basis": "P(g) * 4 / kcal。EUの高たんぱく食品表示20%を参考にした独自演出で、1食や1日の健康度・推奨比率ではない。",
+        "message_variants_per_condition": 5,
+        "message_selection": "初回表示時に5種類から選び、「別の褒め方を見る」で順番に切り替え"
       },
       "comfort_annotations": {
         "enabled": true,
