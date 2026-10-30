@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-10-30T01:57:54.400Z",
+  "updated_at": "2026-10-30T02:51:09.028Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -648,6 +648,47 @@
           "protein_g": 3.7,
           "fat_g": 1.2,
           "carbohydrate_g": 13.6
+        }
+      ]
+    },
+    {
+      "record_id": "meal-d673df7f-39c8-4ce6-b017-652f50d7be7c",
+      "date": "2026-10-30",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "鶏もも肉皮なし250g・エリンギ1袋・卵2個（調理前重量、袋90g・卵Mサイズとして概算・仮計上）",
+      "kcal": 450.726,
+      "protein_g": 62.069,
+      "fat_g": 23.038,
+      "carbohydrate_g": 5.476,
+      "status": "user_reported_with_food_and_portion_assumptions",
+      "notes": "鶏もも肉はユーザー確認済みの皮なし。調理前250gとして概算。エリンギは1袋90g（廃棄率6%・可食部84.6g）、卵はMサイズ2個（可食部100g）で仮計上。手元の量・サイズは未実測。追加の油・調味料は未報告で計算に含まない。",
+      "updated_at": "2026-10-30T02:50:59.059Z",
+      "recorded_at": "2026-10-30T02:50:59.059Z",
+      "food_items": [
+        {
+          "food": "鶏もも肉 皮なし",
+          "portion_g": 250,
+          "kcal": 282.5,
+          "protein_g": 47.5,
+          "fat_g": 12.5,
+          "carbohydrate_g": 0
+        },
+        {
+          "food": "エリンギ1袋",
+          "portion_g": 84.6,
+          "kcal": 26.226,
+          "protein_g": 2.3688,
+          "fat_g": 0.3384,
+          "carbohydrate_g": 5.076
+        },
+        {
+          "food": "卵2個",
+          "portion_g": 100,
+          "kcal": 142,
+          "protein_g": 12.2,
+          "fat_g": 10.2,
+          "carbohydrate_g": 0.4
         }
       ]
     }
