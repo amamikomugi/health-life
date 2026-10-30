@@ -452,7 +452,7 @@ dialog::backdrop { background: #48332166; }
 .visitor-welcome h2 { font-size:1rem; color:#754322; }
 .visitor-welcome p { font-size:.875rem; color:var(--muted); margin-top:5px; }
 .visitor-counts { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; margin:0; }
-.visitor-counts > div { min-width:0; }
+.visitor-counts > div { display:block; min-width:0; padding:0; border:0; }
 .visitor-counts dt { font-size:.875rem; color:var(--muted); }
 .visitor-counts dd { margin:2px 0 0; font:600 1.5rem/1.4 system-ui,sans-serif; color:#9b5026; font-variant-numeric:tabular-nums; overflow-wrap:anywhere; }
 .visitor-counts dd small { margin-left:5px; font-size:.875rem; font-weight:400; }
