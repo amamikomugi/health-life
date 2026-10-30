@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-10-30T09:13:32.153Z",
+  "updated_at": "2026-10-30T09:16:54.056Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -705,23 +705,23 @@
       "date": "2026-10-30",
       "kind": "meal",
       "meal": "dinner",
-      "description": "むさしの森珈琲 ロコモコTERIYAKIソース1皿（標準量・PFC未確認）",
+      "description": "むさしの森珈琲 ロコモコTERIYAKIソース1皿（945kcalは公式値・PFCは一般料理から推定）",
       "kcal": 945,
-      "protein_g": null,
-      "fat_g": null,
-      "carbohydrate_g": null,
-      "status": "user_reported_with_official_kcal_pfc_unknown",
-      "notes": "ソースはユーザー確認済み。公式2026年10月22日版の標準1食945kcalを1皿として計上。PFCは公式非掲載につき未確定。ドリンク・デザート等の追加は未報告。",
-      "updated_at": "2026-10-30T09:13:20.575Z",
+      "protein_g": 32.7,
+      "fat_g": 24.6,
+      "carbohydrate_g": 142.8,
+      "status": "user_reported_with_estimated_pfc",
+      "notes": "標準1皿の945kcalは店舗公式2026/10/22版。PFCはミツカン公式の一般的な照り焼きロコモコ丼（740kcal/P25.6/F19.3/C111.8）を945/740倍して推定・仮計上（P32.7/F24.6/C142.8g）。店舗固有の配合は未確認で誤差を含む。ドリンク・デザート等の追加は未報告。",
+      "updated_at": "2026-10-30T09:16:38.595Z",
       "recorded_at": "2026-10-30T09:13:20.575Z",
       "food_items": [
         {
-          "food": "むさしの森珈琲 ロコモコTERIYAKIソース",
+          "food": "むさしの森珈琲 ロコモコTERIYAKIソース（PFC推定）",
           "portion_g": null,
           "kcal": 945,
-          "protein_g": null,
-          "fat_g": null,
-          "carbohydrate_g": null
+          "protein_g": 32.7,
+          "fat_g": 24.6,
+          "carbohydrate_g": 142.8
         }
       ]
     }
