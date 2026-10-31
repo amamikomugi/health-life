@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-10-31T07:17:43.868Z",
+  "updated_at": "2026-10-31T14:00:57.377Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -881,6 +881,79 @@
           "protein_g": 3.564,
           "fat_g": 17.34,
           "carbohydrate_g": 36.744
+        }
+      ]
+    },
+    {
+      "record_id": "meal-43b0c9df-7b51-4e7b-9575-75fb00a26b4b",
+      "date": "2026-10-31",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "フレンチのコース6品＋付け合わせパン（各大皿の約1/4・写真から推定）",
+      "kcal": 1169.717,
+      "protein_g": 68.763,
+      "fat_g": 66.618,
+      "carbohydrate_g": 78.208,
+      "status": "user_reported_with_estimated_nutrition_and_portion",
+      "notes": "10/31の夕食として仮登録。写真6枚の各料理を約4人で均等に分け、1人分（各大皿の約1/4）を食べたとの報告。料理名・材料・重量・油・ソース量は写真からの推定で、一般レシピの仮の分量を使った概算。各参考レシピの1人分をさらに一律1/4にした計算ではない。飲料・酒・写真外の追加パン・デザートは未報告のため含めない。",
+      "updated_at": "2026-10-31T14:00:49.643Z",
+      "recorded_at": "2026-10-31T14:00:49.643Z",
+      "food_items": [
+        {
+          "food": "魚のカルパッチョ風（魚種未確認・推定）",
+          "portion_g": null,
+          "kcal": 172.667,
+          "protein_g": 13.333,
+          "fat_g": 11.133,
+          "carbohydrate_g": 3.733
+        },
+        {
+          "food": "フレッシュチーズと野菜・果物のサラダ風（推定）",
+          "portion_g": null,
+          "kcal": 140.25,
+          "protein_g": 7.35,
+          "fat_g": 10.575,
+          "carbohydrate_g": 4.425
+        },
+        {
+          "food": "ミートソース系チーズ焼き（推定）",
+          "portion_g": null,
+          "kcal": 214,
+          "protein_g": 12.6,
+          "fat_g": 11.7,
+          "carbohydrate_g": 19.5
+        },
+        {
+          "food": "バゲット（約1切れ20g・推定）",
+          "portion_g": 20,
+          "kcal": 57.8,
+          "protein_g": 1.88,
+          "fat_g": 0.26,
+          "carbohydrate_g": 11.5
+        },
+        {
+          "food": "トリュフ風の具とソースのオムレツ（推定）",
+          "portion_g": null,
+          "kcal": 131,
+          "protein_g": 6.85,
+          "fat_g": 11.05,
+          "carbohydrate_g": 1.45
+        },
+        {
+          "food": "カニのトマトクリームパスタ風（推定）",
+          "portion_g": null,
+          "kcal": 287.5,
+          "protein_g": 10.5,
+          "fat_g": 11.55,
+          "carbohydrate_g": 33.6
+        },
+        {
+          "food": "赤身肉のローストとソース（牛肉相当で推定）",
+          "portion_g": null,
+          "kcal": 166.5,
+          "protein_g": 16.25,
+          "fat_g": 10.35,
+          "carbohydrate_g": 4
         }
       ]
     }
