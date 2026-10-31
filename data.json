@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-10-31T04:58:01.138Z",
+  "updated_at": "2026-10-31T05:30:04.847Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -831,6 +831,31 @@
           "protein_g": 0.4,
           "fat_g": 2.2,
           "carbohydrate_g": 5.4
+        }
+      ]
+    },
+    {
+      "record_id": "meal-11bcaf4a-1e1f-45c0-a275-de42240985ba",
+      "date": "2026-10-31",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "パンの田島 バナナチョコカスタード1個（一般的な構成から推定・概算）",
+      "kcal": 499.5,
+      "protein_g": 13.155,
+      "fat_g": 12.115,
+      "carbohydrate_g": 90.99,
+      "status": "user_reported_with_estimated_nutrition",
+      "notes": "商品固有の栄養表示と実測量は未確認。バナナチョコカスタードのコッペパン1個を、パン100g・バナナ可食部80g・カスタード40g・ミルクチョコレート15g（計235g）の仮の構成で推定・概算。チョコの種類や量、追加の油脂等は実配合と異なる可能性あり。各成分は文科省値を換算。メーカーの公式値ではない。",
+      "updated_at": "2026-10-31T05:30:01.218Z",
+      "recorded_at": "2026-10-31T05:30:01.218Z",
+      "food_items": [
+        {
+          "food": "パンの田島 バナナチョコカスタード1個（推定・概算）",
+          "portion_g": null,
+          "kcal": 499.5,
+          "protein_g": 13.155,
+          "fat_g": 12.115,
+          "carbohydrate_g": 90.99
         }
       ]
     }
