@@ -6,7 +6,7 @@ export function weekStart(date) { const d = new Date(date + 'T12:00:00Z'); retur
 export function dateRange(start, end) { const result = []; for (let d = start; d <= end && result.length < 370; d = dateAdd(d, 1)) result.push(d); return result; }
 export function numeric(value) { return typeof value === 'number' && Number.isFinite(value) ? value : null; }
 export function sumKnown(values) { return values.length && values.every(x => numeric(x) !== null) ? Math.round(values.reduce((a, b) => a + b, 0) * 1000) / 1000 : null; }
-export function dailyRows(records, start, end) {
+export function dailyRows(records, start, end, asOf = japanDate()) {
   return dateRange(start, end).map(date => {
     const rows = records.filter(r => r.date === date && !r.deleted_at);
     const meals = rows.filter(r => r.kind === 'meal');
@@ -16,7 +16,10 @@ export function dailyRows(records, start, end) {
     const food = Object.fromEntries(NUTRIENTS.map(key => [key, summary ? numeric(summary[key]) : sumKnown(meals.map(m => m[key]))]));
     const activeValue = active ? numeric(active.active_kcal) : numeric(summary?.active_kcal);
     const basalValue = basal ? numeric(basal.basal_kcal) : null;
-    return { date, ...food, steps: steps ? numeric(steps.steps) : numeric(summary?.steps), active_kcal: activeValue, basal_kcal: basalValue, total_expenditure_kcal: activeValue !== null && basalValue !== null ? activeValue + basalValue : null, meals, summary, hasFood: !!summary || meals.length > 0, activityStatus: [steps, active, basal].some(r => r?.status === 'possibly_incomplete') ? 'possibly_incomplete' : steps?.status || 'not_fetched', fetchedAt: steps?.fetched_at || active?.fetched_at || null, estimated: summary?.status === 'imported_estimate' || meals.some(m => m.status === 'imported_estimate') };
+    // Keep source records unknown; only elapsed-day step calculations default to zero.
+    const recordedSteps = steps ? numeric(steps.steps) : numeric(summary?.steps);
+    const stepsAssumedZero = recordedSteps === null && date <= asOf;
+    return { date, ...food, steps: stepsAssumedZero ? 0 : recordedSteps, stepsAssumedZero, active_kcal: activeValue, basal_kcal: basalValue, total_expenditure_kcal: activeValue !== null && basalValue !== null ? activeValue + basalValue : null, meals, summary, hasFood: !!summary || meals.length > 0, activityStatus: [steps, active, basal].some(r => r?.status === 'possibly_incomplete') ? 'possibly_incomplete' : steps?.status || 'not_fetched', fetchedAt: steps?.fetched_at || active?.fetched_at || null, estimated: summary?.status === 'imported_estimate' || meals.some(m => m.status === 'imported_estimate') };
   });
 }
 export function weightRows(records, baselineId) {
