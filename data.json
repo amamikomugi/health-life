@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-10-31T05:30:04.847Z",
+  "updated_at": "2026-10-31T07:17:43.868Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -856,6 +856,31 @@
           "protein_g": 13.155,
           "fat_g": 12.115,
           "carbohydrate_g": 90.99
+        }
+      ]
+    },
+    {
+      "record_id": "meal-74b6f766-788b-479d-9ea8-b15298b8a29d",
+      "date": "2026-10-31",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "アメリカンチョコチップクッキー（大判1枚約60gとして推定・仮計上）",
+      "kcal": 311.76,
+      "protein_g": 3.564,
+      "fat_g": 17.34,
+      "carbohydrate_g": 36.744,
+      "status": "user_reported_with_estimated_nutrition_and_portion",
+      "notes": "大きめとの報告から、大判1枚約60gとして推定・概算で仮計上。店舗・メーカー・実際の枚数・実測重量は未確認。一般的なクッキー生地相当48g（文科省ソフトビスケット）＋チョコ12g（同ミルクチョコレート）の仮の配合で計算。実際の商品固有の栄養値ではない。",
+      "updated_at": "2026-10-31T07:17:39.877Z",
+      "recorded_at": "2026-10-31T07:17:39.877Z",
+      "food_items": [
+        {
+          "food": "アメリカンチョコチップクッキー（大判1枚約60g、推定）",
+          "portion_g": 60,
+          "kcal": 311.76,
+          "protein_g": 3.564,
+          "fat_g": 17.34,
+          "carbohydrate_g": 36.744
         }
       ]
     }
