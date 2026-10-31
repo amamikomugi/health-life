@@ -14,12 +14,16 @@ export function dailyRows(records, start, end, asOf = japanDate()) {
     const activity = metric => rows.filter(r => r.kind === 'daily_activity' && r.source_metric === metric).sort((a, b) => String(b.fetched_at || '').localeCompare(String(a.fetched_at || '')))[0];
     const steps = activity('steps_total'), active = activity('active_energy_total'), basal = activity('basal_energy_total');
     const food = Object.fromEntries(NUTRIENTS.map(key => [key, summary ? numeric(summary[key]) : sumKnown(meals.map(m => m[key]))]));
-    const activeValue = active ? numeric(active.active_kcal) : numeric(summary?.active_kcal);
+    const recordedActive = active ? numeric(active.active_kcal) : numeric(summary?.active_kcal);
     const basalValue = basal ? numeric(basal.basal_kcal) : null;
     // Keep source records unknown; only elapsed-day step calculations default to zero.
     const recordedSteps = steps ? numeric(steps.steps) : numeric(summary?.steps);
     const stepsAssumedZero = recordedSteps === null && date <= asOf;
-    return { date, ...food, steps: stepsAssumedZero ? 0 : recordedSteps, stepsAssumedZero, active_kcal: activeValue, basal_kcal: basalValue, total_expenditure_kcal: activeValue !== null && basalValue !== null ? activeValue + basalValue : null, meals, summary, hasFood: !!summary || meals.length > 0, activityStatus: [steps, active, basal].some(r => r?.status === 'possibly_incomplete') ? 'possibly_incomplete' : steps?.status || 'not_fetched', fetchedAt: steps?.fetched_at || active?.fetched_at || null, estimated: summary?.status === 'imported_estimate' || meals.some(m => m.status === 'imported_estimate') };
+    const stepsValue = stepsAssumedZero ? 0 : recordedSteps;
+    const activeAssumedZero = recordedActive === null && stepsValue === 0 && date <= asOf;
+    const activeValue = activeAssumedZero ? 0 : recordedActive;
+    const totalExpenditureEstimated = activeAssumedZero && basalValue !== null;
+    return { date, ...food, steps: stepsValue, stepsAssumedZero, activeAssumedZero, totalExpenditureEstimated, active_kcal: activeValue, basal_kcal: basalValue, total_expenditure_kcal: activeValue !== null && basalValue !== null ? activeValue + basalValue : null, meals, summary, hasFood: !!summary || meals.length > 0, activityStatus: [steps, active, basal].some(r => r?.status === 'possibly_incomplete') ? 'possibly_incomplete' : steps?.status || 'not_fetched', fetchedAt: steps?.fetched_at || active?.fetched_at || null, estimated: summary?.status === 'imported_estimate' || meals.some(m => m.status === 'imported_estimate') };
   });
 }
 export function weightRows(records, baselineId) {

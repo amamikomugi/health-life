@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-10-31T16:22:15.812Z",
+  "updated_at": "2026-10-31T16:25:25.707Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -1027,6 +1027,16 @@
           "raw_record_value": null,
           "preserve_acquisition_status": true,
           "show_assumed_zero_label": true,
+          "confirmed_on": "2026-11-01"
+        },
+        "missing_active_energy_policy": {
+          "condition": "steps_is_zero_and_active_energy_unknown",
+          "calculation_value": 0,
+          "apply_through": "today_in_Asia_Tokyo",
+          "preserve_recorded_active_energy": true,
+          "require_recorded_basal_for_total": true,
+          "preserve_raw_unknown": true,
+          "show_estimate_label": true,
           "confirmed_on": "2026-11-01"
         }
       },
