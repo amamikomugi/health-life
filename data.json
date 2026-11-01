@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-01T01:11:25.661Z",
+  "updated_at": "2026-11-01T04:03:59.330Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -1053,6 +1053,31 @@
           "protein_g": 13.5,
           "fat_g": 8.5,
           "carbohydrate_g": 33.1
+        }
+      ]
+    },
+    {
+      "record_id": "meal-8fe9492d-df0d-4bd3-b7f8-9289472dd391",
+      "date": "2026-11-01",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "ベローチェ タマゴサンド1食分（関東・仙台版で仮計上）",
+      "kcal": 313,
+      "protein_g": 8.5,
+      "fat_g": 17.9,
+      "carbohydrate_g": 29.3,
+      "status": "user_reported_with_assumed_region_and_quantity",
+      "notes": "11/1おやつ。「ベローチェの卵サラダサンド」を公式メニューのタマゴサンドと解釈。数量未指定のため1食分、店舗地域は未確認のため関東・仙台版の公式栄養表示を暫定採用。全国一律の標準値ではなく、地域別商品の幅を栄養表示の下限上限とみなした平均計算はしていない。関西・広島・名古屋338kcal、福岡299kcalの別規格も出典へ保存。飲み物等は未報告のため含めない。",
+      "updated_at": "2026-11-01T04:03:55.899Z",
+      "recorded_at": "2026-11-01T04:03:55.899Z",
+      "food_items": [
+        {
+          "food": "ベローチェ タマゴサンド1食分（関東・仙台版・仮計上）",
+          "portion_g": null,
+          "kcal": 313,
+          "protein_g": 8.5,
+          "fat_g": 17.9,
+          "carbohydrate_g": 29.3
         }
       ]
     }
