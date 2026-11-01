@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-01T05:02:57.026Z",
+  "updated_at": "2026-11-01T08:30:19.052Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -1078,6 +1078,39 @@
           "protein_g": 8.5,
           "fat_g": 17.9,
           "carbohydrate_g": 29.3
+        }
+      ]
+    },
+    {
+      "record_id": "meal-d765af65-03be-4af2-be78-66a13178d40b",
+      "date": "2026-11-01",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "セブン とみ田監修 炒め野菜盛りつけ麺＋ブロッコリーチキンエッグ（各1包装・156kcal版で仮計上）",
+      "kcal": 882,
+      "protein_g": 45.9,
+      "fat_g": 25,
+      "carbohydrate_g": 125,
+      "status": "user_reported_with_assumed_product_variant_and_quantity",
+      "notes": "11/1夕食。つけ麺は商品名から「中華蕎麦とみ田監修 炒め野菜盛りつけ麺」と解釈し、公式726kcalの表示を採用。ブロッコリーチキンエッグは公式の検索取得本文にある156kcal規格で仮計上（現物ラベル・地域・規格は未確認）。各1包装と仮定。別売ドレッシング等は未報告のため加算せず、つけ汁等の残量による減算もしていない。",
+      "updated_at": "2026-11-01T08:30:14.275Z",
+      "recorded_at": "2026-11-01T08:30:14.275Z",
+      "food_items": [
+        {
+          "food": "セブン とみ田監修 炒め野菜盛りつけ麺1包装",
+          "portion_g": null,
+          "kcal": 726,
+          "protein_g": 25.3,
+          "fat_g": 18.4,
+          "carbohydrate_g": 120.3
+        },
+        {
+          "food": "セブン ブロッコリーチキンエッグ1包装（156kcal版で仮計上）",
+          "portion_g": null,
+          "kcal": 156,
+          "protein_g": 20.6,
+          "fat_g": 6.6,
+          "carbohydrate_g": 4.7
         }
       ]
     }
