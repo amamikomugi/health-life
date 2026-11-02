@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-01T16:05:36.991Z",
+  "updated_at": "2026-11-02T02:41:50.017Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -1154,6 +1154,76 @@
       "updated_at": "2026-11-01T16:05:36.931Z",
       "recorded_at": "2026-11-01T16:05:36.931Z",
       "day_coverage": "breakfast_lunch_dinner_recorded"
+    },
+    {
+      "record_id": "weight-week-20261102",
+      "date": "2026-11-02",
+      "kind": "weekly_weight",
+      "status": "user_reported",
+      "week_start": "2026-11-02",
+      "week_end": "2026-11-08",
+      "weight_kg": 85,
+      "notes": "11/2週（月曜開始）の体重として登録。実際の測定日時は報告されていないためnull。",
+      "updated_at": "2026-11-01T16:25:13.216Z",
+      "recorded_at": "2026-11-01T16:25:13.216Z"
+    },
+    {
+      "record_id": "meal-d0b3fe33-b3fa-4b67-9b0a-0c99b8a58227",
+      "date": "2026-11-02",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "NewDays えびマヨおにぎり1個（一般レシピから推定・仮計上）",
+      "kcal": 234,
+      "protein_g": 5.2,
+      "fat_g": 6,
+      "carbohydrate_g": 38.7,
+      "status": "user_reported_with_estimated_nutrition_and_portion",
+      "notes": "11/2朝。数量未指定のため1個として仮計上。NewDaysの海老マヨおにぎりの商品存在は公式の関連商品一覧で確認したが、現行商品の栄養表示は確認できなかった。ユーザーの推定方針に従いキユーピーの同名料理1人分（2個）の半分を採用。234kcal/P5.2/F6/C38.7は商品の公式値ではない。別の手巻寿司・増量品は選ばず通常おにぎりを仮定。",
+      "updated_at": "2026-11-02T02:41:45.250Z",
+      "recorded_at": "2026-11-02T02:41:45.250Z",
+      "food_items": [
+        {
+          "food": "NewDays えびマヨおにぎり1個（一般レシピから推定）",
+          "portion_g": null,
+          "kcal": 234,
+          "protein_g": 5.2,
+          "fat_g": 6,
+          "carbohydrate_g": 38.7
+        }
+      ]
+    },
+    {
+      "record_id": "meal-b3c6034a-9d09-4e50-8174-11794c0f4f16",
+      "date": "2026-11-02",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "BASE BREAD ミルク1袋＋こしあん1袋（数量は仮計上）",
+      "kcal": 523,
+      "protein_g": 27.2,
+      "fat_g": 15.4,
+      "carbohydrate_g": 74.9,
+      "status": "user_reported_with_assumed_quantity",
+      "notes": "11/2昼。ミルク味とこしあん味はユーザー指定。数量未指定のため各1袋を仮計上。ミルクは前回確認済みの公式1袋250kcal表示を再利用。こしあんは今回確認した2026年9月リニューアル版の公式1袋273kcal表示。Cは糖質ではなく炭水化物。実際の袋数・手元の製品版は未確認。",
+      "updated_at": "2026-11-02T02:41:45.250Z",
+      "recorded_at": "2026-11-02T02:41:45.250Z",
+      "food_items": [
+        {
+          "food": "BASE BREAD ミルク1袋（2個入り・仮計上）",
+          "portion_g": null,
+          "kcal": 250,
+          "protein_g": 13.5,
+          "fat_g": 8.5,
+          "carbohydrate_g": 33.1
+        },
+        {
+          "food": "BASE BREAD こしあん1袋（1個入り・仮計上）",
+          "portion_g": null,
+          "kcal": 273,
+          "protein_g": 13.7,
+          "fat_g": 6.9,
+          "carbohydrate_g": 41.8
+        }
+      ]
     }
   ],
   "settings": {
