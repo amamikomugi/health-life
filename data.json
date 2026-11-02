@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-02T05:04:22.387Z",
+  "updated_at": "2026-11-02T07:07:39.571Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -1224,6 +1224,31 @@
           "carbohydrate_g": 41.8
         }
       ]
+    },
+    {
+      "record_id": "meal-2efa2d26-8bb1-4df6-8cb4-72184ea6a7c7",
+      "date": "2026-11-02",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "ブラックサンダーひとくちサイズ レーズンバターサンド1袋（47g・数量は仮計上）",
+      "kcal": 265,
+      "protein_g": 2.7,
+      "fat_g": 16.7,
+      "carbohydrate_g": 26,
+      "status": "user_reported_with_assumed_quantity",
+      "notes": "メーカー公式表示を使用。数量の指定がないため1袋（47g）として仮計上。ひとくちサイズは商品名であり、1粒としては換算していない。",
+      "updated_at": "2026-11-02T07:07:36.431Z",
+      "recorded_at": "2026-11-02T07:07:36.431Z",
+      "food_items": [
+        {
+          "food": "ブラックサンダーひとくちサイズ レーズンバターサンド1袋（仮計上）",
+          "portion_g": 47,
+          "kcal": 265,
+          "protein_g": 2.7,
+          "fat_g": 16.7,
+          "carbohydrate_g": 26
+        }
+      ]
     }
   ],
   "settings": {
@@ -1353,6 +1378,11 @@
   },
   "repository": "https://github.com/amamikomugi/health-life",
   "update_schedule": {
+    "healthcare_local_times": [
+      "01:00",
+      "14:00"
+    ],
+    "healthcare_schedule_pending": false,
     "status": "ACTIVE",
     "local_time": "01:00",
     "local_times": [
