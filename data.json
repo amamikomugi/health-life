@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-02T07:07:39.571Z",
+  "updated_at": "2026-11-02T13:11:11.093Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -1247,6 +1247,39 @@
           "protein_g": 2.7,
           "fat_g": 16.7,
           "carbohydrate_g": 26
+        }
+      ]
+    },
+    {
+      "record_id": "meal-e21b292a-1d89-4509-9877-e5fc9022551b",
+      "date": "2026-11-02",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "KFC オリジナルチキンてりやきバーガー1個＋オリジナルチキン1ピース（数量は仮計上）",
+      "kcal": 736,
+      "protein_g": 39.4,
+      "fat_g": 40.8,
+      "carbohydrate_g": 52.7,
+      "status": "user_reported_with_assumed_quantity",
+      "notes": "11/2夕食。バーガーはKFC公式に掲載されているオリジナルチキンてりやきバーガーとして特定。量は各1個・1ピースを仮定。栄養値は公式発表値を掲載する二次資料により仮計上し、最新の公式成分表での直接照合は未実施。チキンは部位別の推測をせず可食部平均の標準値を使用。",
+      "updated_at": "2026-11-02T13:11:07.612Z",
+      "recorded_at": "2026-11-02T13:11:07.612Z",
+      "food_items": [
+        {
+          "food": "KFC オリジナルチキンてりやきバーガー1個（数量は仮計上）",
+          "portion_g": null,
+          "kcal": 518,
+          "protein_g": 22.9,
+          "fat_g": 28,
+          "carbohydrate_g": 43.6
+        },
+        {
+          "food": "KFC オリジナルチキン1ピース（数量は仮計上）",
+          "portion_g": 87,
+          "kcal": 218,
+          "protein_g": 16.5,
+          "fat_g": 12.8,
+          "carbohydrate_g": 9.1
         }
       ]
     }
