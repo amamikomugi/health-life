@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-03T00:52:10.640Z",
+  "updated_at": "2026-11-03T01:57:57.779Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -1346,6 +1346,31 @@
           "protein_g": 1.8,
           "fat_g": 5.8,
           "carbohydrate_g": 14.6
+        }
+      ]
+    },
+    {
+      "record_id": "meal-48f0c190-7a37-46d0-9e02-8d85e1cb4c7d",
+      "date": "2026-11-03",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "コメダ珈琲店 ビーフシチュー1食（数量は仮計上・PFCは概算）",
+      "kcal": 553,
+      "protein_g": 23.9,
+      "fat_g": 35.5,
+      "carbohydrate_g": 46.7,
+      "status": "user_reported_with_estimated_nutrition_and_portion",
+      "notes": "11/3昼。通常メニュー1食として公式掲載カロリー553kcalを仮計上。PFCは商品固有の公開表示を確認できないためS&B濃厚ビーフシチュー1人分310kcal/P13.4/F19.9/C26.2を553/310倍して推定。ポテトサラダ・チーズ・付属パンの配合差がある概算であり公式PFCではない。飲料や追加注文は未報告。",
+      "updated_at": "2026-11-03T01:57:54.675Z",
+      "recorded_at": "2026-11-03T01:57:54.675Z",
+      "food_items": [
+        {
+          "food": "コメダ珈琲店 ビーフシチュー1食（PFC概算）",
+          "portion_g": null,
+          "kcal": 553,
+          "protein_g": 23.9,
+          "fat_g": 35.5,
+          "carbohydrate_g": 46.7
         }
       ]
     }
