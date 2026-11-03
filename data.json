@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-03T07:30:18.715Z",
+  "updated_at": "2026-11-03T13:32:51.850Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -1404,6 +1404,39 @@
           "protein_g": 15.9,
           "fat_g": 10.8,
           "carbohydrate_g": 1.4
+        }
+      ]
+    },
+    {
+      "record_id": "meal-b24b1926-e2b9-4971-a444-55d343631914",
+      "date": "2026-11-03",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "JAKSソイプロテイン チョコレート味1杯＋低脂肪乳割（粉末25g・乳200mlは仮計上）",
+      "kcal": 175,
+      "protein_g": 23.7,
+      "fat_g": 2.2,
+      "carbohydrate_g": 15.6,
+      "status": "user_reported_with_assumed_quantity",
+      "notes": "11/3おやつ。jacsを登録済みJAKSの表記揺れと解釈。チョコレート味標準25g（95kcal/P20/F1/C2）＋前回確認済みのさわやかなあじわい低脂肪200ml（80kcal/P3.7/F1.2/C13.6）として仮計上。粉末量・乳の量と銘柄は今回未指定で仮定。明示の低脂肪乳を優先し、水割りの既定値は使わない。確認済みのラベル・販売店表示を再利用。",
+      "updated_at": "2026-11-03T13:32:48.303Z",
+      "recorded_at": "2026-11-03T13:32:48.303Z",
+      "food_items": [
+        {
+          "food": "JAKSソイプロテイン チョコレート味1杯（25g・仮計上）",
+          "portion_g": 25,
+          "kcal": 95,
+          "protein_g": 20,
+          "fat_g": 1,
+          "carbohydrate_g": 2
+        },
+        {
+          "food": "さわやかなあじわい 低脂肪200ml（商品・量は仮計上）",
+          "portion_g": null,
+          "kcal": 80,
+          "protein_g": 3.7,
+          "fat_g": 1.2,
+          "carbohydrate_g": 13.6
         }
       ]
     }
