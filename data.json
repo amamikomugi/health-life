@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-02T16:05:04.307Z",
+  "updated_at": "2026-11-03T00:52:10.640Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -1323,6 +1323,31 @@
       "updated_at": "2026-11-02T16:05:04.254Z",
       "recorded_at": "2026-11-02T16:05:04.254Z",
       "day_coverage": "breakfast_lunch_dinner_recorded"
+    },
+    {
+      "record_id": "meal-01197a3d-4cf4-4f83-be03-8b7773309753",
+      "date": "2026-11-03",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "コメダ珈琲店 ローブパン1個（数量は仮計上・PFCは概算）",
+      "kcal": 115,
+      "protein_g": 1.8,
+      "fat_g": 5.8,
+      "carbohydrate_g": 14.6,
+      "status": "user_reported_with_estimated_nutrition_and_portion",
+      "notes": "11/3朝。数量未指定のためローブパン1個として仮計上。パン単体の公式115kcalを保持し、PFC非公開のため一般クロワッサンの成分を115/406倍して概算（P1.8/F5.8/C14.6）。卵・スプレッド・飲料の有無は未報告で、パンのみの記録。メーカーの公式PFCではない。",
+      "updated_at": "2026-11-03T00:52:02.923Z",
+      "recorded_at": "2026-11-03T00:52:02.923Z",
+      "food_items": [
+        {
+          "food": "コメダ珈琲店 ローブパン1個（PFC概算）",
+          "portion_g": null,
+          "kcal": 115,
+          "protein_g": 1.8,
+          "fat_g": 5.8,
+          "carbohydrate_g": 14.6
+        }
+      ]
     }
   ],
   "settings": {
