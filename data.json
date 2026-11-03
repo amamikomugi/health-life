@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-03T01:57:57.779Z",
+  "updated_at": "2026-11-03T07:30:18.715Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -1371,6 +1371,39 @@
           "protein_g": 23.9,
           "fat_g": 35.5,
           "carbohydrate_g": 46.7
+        }
+      ]
+    },
+    {
+      "record_id": "meal-a67ea50d-4c30-48b5-8e56-52411b272520",
+      "date": "2026-11-03",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "西友 ロースかつ重1パック＋焼とり もも（塩）2本（写真ラベル値・各1包装）",
+      "kcal": 934,
+      "protein_g": 40.6,
+      "fat_g": 42.8,
+      "carbohydrate_g": 83.9,
+      "status": "user_reported_with_assumed_quantity",
+      "notes": "11/3夕食。写真の各1パックを全量として計上。ロースかつ重：773kcal/P24.7/F32/C82.5。焼とりもも塩：2本入り1包装161kcal/P15.9/F10.8/C1.4。いずれも1包装当たりのラベル記載値（メーカーの推定値）。焼とりは2倍せず1包装の値を採用。",
+      "updated_at": "2026-11-03T07:30:15.747Z",
+      "recorded_at": "2026-11-03T07:30:15.747Z",
+      "food_items": [
+        {
+          "food": "西友 ロースかつ重1パック",
+          "portion_g": null,
+          "kcal": 773,
+          "protein_g": 24.7,
+          "fat_g": 32,
+          "carbohydrate_g": 82.5
+        },
+        {
+          "food": "西友 焼とり もも（塩）2本・1パック",
+          "portion_g": null,
+          "kcal": 161,
+          "protein_g": 15.9,
+          "fat_g": 10.8,
+          "carbohydrate_g": 1.4
         }
       ]
     }
