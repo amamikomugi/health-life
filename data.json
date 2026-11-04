@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-03T13:32:51.850Z",
+  "updated_at": "2026-11-04T03:07:15.682Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -1439,6 +1439,86 @@
           "carbohydrate_g": 13.6
         }
       ]
+    },
+    {
+      "record_id": "meal-4d3b0d89-026b-4966-a602-f1311978236a",
+      "date": "2026-11-04",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "アンビーク ソイプロテイン バナナ味22g＋低脂肪乳200ml（乳の銘柄・量は仮計上）",
+      "kcal": 162,
+      "protein_g": 20.1,
+      "fat_g": 2.1,
+      "carbohydrate_g": 15.9,
+      "status": "user_reported_with_assumed_quantity",
+      "notes": "朝のプロテインはユーザー確認でアンビークソイ・バナナ味22g。低脂肪乳割は報告済みだが銘柄・量は未指定のため以前のさわやかなあじわい低脂肪200mlを仮定。確認済みの製品表示を再利用。",
+      "updated_at": "2026-11-04T03:07:09.419Z",
+      "recorded_at": "2026-11-04T03:07:09.419Z",
+      "food_items": [
+        {
+          "food": "アンビーク ソイプロテイン バナナ味",
+          "portion_g": 22,
+          "kcal": 82,
+          "protein_g": 16.4,
+          "fat_g": 0.9,
+          "carbohydrate_g": 2.3
+        },
+        {
+          "food": "さわやかなあじわい 低脂肪200ml（商品・量は仮計上）",
+          "portion_g": null,
+          "kcal": 80,
+          "protein_g": 3.7,
+          "fat_g": 1.2,
+          "carbohydrate_g": 13.6
+        }
+      ]
+    },
+    {
+      "record_id": "meal-da8fd190-1627-45c2-88f9-7dbdf5f63a02",
+      "date": "2026-11-04",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "BASE BREAD ミルク1袋＋ゆで卵2個（パンの味・量と卵の重量は仮計上）",
+      "kcal": 384,
+      "protein_g": 26,
+      "fat_g": 18.9,
+      "carbohydrate_g": 33.4,
+      "status": "user_reported_with_assumed_quantity",
+      "notes": "ベースブレッドの味・量は未指定のためミルク味1袋を仮定し、確認済みの公式栄養表示を再利用。ゆで卵2個は報告済み、殻を除く可食部を1個50g・計100gとして文部科学省の全卵ゆでの成分を使用。",
+      "updated_at": "2026-11-04T03:07:09.419Z",
+      "recorded_at": "2026-11-04T03:07:09.419Z",
+      "food_items": [
+        {
+          "food": "BASE BREAD ミルク1袋（味・量は仮計上）",
+          "portion_g": null,
+          "kcal": 250,
+          "protein_g": 13.5,
+          "fat_g": 8.5,
+          "carbohydrate_g": 33.1
+        },
+        {
+          "food": "ゆで卵2個（可食部合計100gとして概算）",
+          "portion_g": 100,
+          "kcal": 134,
+          "protein_g": 12.5,
+          "fat_g": 10.4,
+          "carbohydrate_g": 0.3
+        }
+      ]
+    },
+    {
+      "record_id": "daily-20261103",
+      "date": "2026-11-03",
+      "kind": "daily_summary",
+      "kcal": 1777,
+      "protein_g": 90,
+      "fat_g": 86.3,
+      "carbohydrate_g": 160.8,
+      "status": "calculated_from_recorded_meals",
+      "notes": "記録済みの食事だけを合計しています。未報告の食事の有無は未確認です。",
+      "updated_at": "2026-11-04T03:07:15.626Z",
+      "recorded_at": "2026-11-04T03:07:15.626Z",
+      "day_coverage": "breakfast_lunch_dinner_recorded"
     }
   ],
   "settings": {
