@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-04T04:38:17.916Z",
+  "updated_at": "2026-11-04T07:51:07.615Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -1542,6 +1542,31 @@
           "protein_g": 3.92,
           "fat_g": 0.72,
           "carbohydrate_g": 38.8
+        }
+      ]
+    },
+    {
+      "record_id": "meal-4a8c73bf-0886-402a-b197-792658ae8261",
+      "date": "2026-11-04",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "くめ納豆 秘伝金印ミニ3 1パック（納豆40g・たれ／からし込みとして仮計上）",
+      "kcal": 77,
+      "protein_g": 6.5,
+      "fat_g": 3.7,
+      "carbohydrate_g": 5.9,
+      "status": "user_reported_with_assumed_quantity",
+      "notes": "11/4おやつ。前回同様、秘伝金印ミニ3の1パック（納豆40g、たれ・からし込み46.4g）として仮計上。手元の商品種類・数量・添付調味料の使用は未指定のため仮定。確認済みの同商品の1セット表示77kcal/P6.5/F3.7/C5.9を再利用。甘栗のおやつは別の食事記録として保持。",
+      "updated_at": "2026-11-04T07:51:02.013Z",
+      "recorded_at": "2026-11-04T07:51:02.013Z",
+      "food_items": [
+        {
+          "food": "くめ納豆 秘伝金印ミニ3 1パック（たれ・からし込み・仮計上）",
+          "portion_g": 46.4,
+          "kcal": 77,
+          "protein_g": 6.5,
+          "fat_g": 3.7,
+          "carbohydrate_g": 5.9
         }
       ]
     }
