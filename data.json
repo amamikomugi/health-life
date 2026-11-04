@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-04T09:10:40.230Z",
+  "updated_at": "2026-11-04T17:01:43.984Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -1626,6 +1626,53 @@
           "carbohydrate_g": 2.2
         }
       ]
+    },
+    {
+      "record_id": "meal-d8d86335-cef3-49de-acdf-626bbfc3232e",
+      "date": "2026-11-05",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "なとり チーズinかまぼこ1本（29gと仮定）とJAKSソイプロテイン チョコレート味1杯（25g・水割り）",
+      "kcal": 130,
+      "protein_g": 22.9,
+      "fat_g": 1.9,
+      "carbohydrate_g": 5.9,
+      "status": "user_reported",
+      "notes": "なとりは商品サイズ・本数未指定のため、チーズinかまぼこ1本29gとして概算・仮計上。JAKSは既定のチョコレート味25g・水割り。",
+      "updated_at": "2026-11-04T17:01:32.346Z",
+      "recorded_at": "2026-11-04T17:01:32.346Z",
+      "food_items": [
+        {
+          "food": "なとり チーズinかまぼこ（1本29gと仮定）",
+          "portion_g": 29,
+          "kcal": 35,
+          "protein_g": 2.9,
+          "fat_g": 0.9,
+          "carbohydrate_g": 3.9
+        },
+        {
+          "food": "JAKSソイプロテイン チョコレート味25g・水割り",
+          "portion_g": 25,
+          "kcal": 95,
+          "protein_g": 20,
+          "fat_g": 1,
+          "carbohydrate_g": 2
+        }
+      ]
+    },
+    {
+      "record_id": "daily-20261104",
+      "date": "2026-11-04",
+      "kind": "daily_summary",
+      "kcal": 1326.65,
+      "protein_g": 143.21,
+      "fat_g": 40.225,
+      "carbohydrate_g": 117.08,
+      "status": "calculated_from_recorded_meals",
+      "notes": "記録済みの食事だけを合計しています。未報告の食事の有無は未確認です。",
+      "updated_at": "2026-11-04T17:01:43.936Z",
+      "recorded_at": "2026-11-04T17:01:43.936Z",
+      "day_coverage": "breakfast_lunch_dinner_recorded"
     }
   ],
   "settings": {
