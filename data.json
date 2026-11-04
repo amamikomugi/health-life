@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-04T03:07:15.682Z",
+  "updated_at": "2026-11-04T04:38:17.916Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -1519,6 +1519,31 @@
       "updated_at": "2026-11-04T03:07:15.626Z",
       "recorded_at": "2026-11-04T03:07:15.626Z",
       "day_coverage": "breakfast_lunch_dinner_recorded"
+    },
+    {
+      "record_id": "meal-c2477477-5d47-4280-bc90-2d27b952d7b1",
+      "date": "2026-11-04",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "TRIAL 有機むき甘栗1袋80g（写真ラベル値・1袋として仮計上）",
+      "kcal": 165.6,
+      "protein_g": 3.92,
+      "fat_g": 0.72,
+      "carbohydrate_g": 38.8,
+      "status": "user_reported_with_assumed_quantity",
+      "notes": "11/4おやつ。写真のTRIAL有機むき甘栗1袋80gを全量として仮計上。栄養表示は100g当たり207kcal/P4.9/F0.9/C48.5、食塩0g（メーカーの成分表に基づく推定値）。0.8倍で165.6kcal/P3.92/F0.72/C38.8を計上。100g表示を1袋値と混同しない。",
+      "updated_at": "2026-11-04T04:38:12.180Z",
+      "recorded_at": "2026-11-04T04:38:12.180Z",
+      "food_items": [
+        {
+          "food": "TRIAL 有機むき甘栗1袋（80g）",
+          "portion_g": 80,
+          "kcal": 165.6,
+          "protein_g": 3.92,
+          "fat_g": 0.72,
+          "carbohydrate_g": 38.8
+        }
+      ]
     }
   ],
   "settings": {
