@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-04T07:51:07.615Z",
+  "updated_at": "2026-11-04T09:10:40.230Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -1567,6 +1567,63 @@
           "protein_g": 6.5,
           "fat_g": 3.7,
           "carbohydrate_g": 5.9
+        }
+      ]
+    },
+    {
+      "record_id": "meal-cc074d22-d1c9-4c86-8628-0dd75a924e7e",
+      "date": "2026-11-04",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "鶏むね肉皮なし300g・ぶなしめじ・木綿豆腐・キャベツ1/4玉の鍋（鍋キューブとんこつ1個、分量等は概算）",
+      "kcal": 538.05,
+      "protein_g": 86.69,
+      "fat_g": 14.805,
+      "carbohydrate_g": 23.08,
+      "status": "user_reported_with_estimated_portions",
+      "notes": "11/4夕食。鶏むねは皮なし確認済み、調理前300gと解釈。ぶなしめじは一般的な1袋100gから石づき等10%を除く90g、木綿は以前のおかめ130g、キャベツ1/4玉は1200gの1/4から廃棄率15%を除く255gとして概算。鍋キューブはとんこつ1個との報告から豚骨・鶏ガラベースの現行濃厚白湯30kcal/P2.2/F1.4/C2.2を仮定。キューブの具体的商品名は未確認。スープを残したとの報告はなく、調味料1個を全量計上。",
+      "updated_at": "2026-11-04T09:10:32.995Z",
+      "recorded_at": "2026-11-04T09:10:32.995Z",
+      "food_items": [
+        {
+          "food": "鶏むね肉 皮なし300g",
+          "portion_g": 300,
+          "kcal": 315,
+          "protein_g": 69.9,
+          "fat_g": 5.7,
+          "carbohydrate_g": 0.3
+        },
+        {
+          "food": "ぶなしめじ1袋（可食部90g・仮計上）",
+          "portion_g": 90,
+          "kcal": 23.4,
+          "protein_g": 2.43,
+          "fat_g": 0.45,
+          "carbohydrate_g": 4.32
+        },
+        {
+          "food": "おかめ豆腐 もめんミニ3 130g（商品・量は仮計上）",
+          "portion_g": 130,
+          "kcal": 111,
+          "protein_g": 9.1,
+          "fat_g": 7,
+          "carbohydrate_g": 3
+        },
+        {
+          "food": "キャベツ1/4玉（可食部255g・概算）",
+          "portion_g": 255,
+          "kcal": 58.65,
+          "protein_g": 3.06,
+          "fat_g": 0.255,
+          "carbohydrate_g": 13.26
+        },
+        {
+          "food": "鍋キューブ 濃厚白湯1個（とんこつとして仮定）",
+          "portion_g": 9.1,
+          "kcal": 30,
+          "protein_g": 2.2,
+          "fat_g": 1.4,
+          "carbohydrate_g": 2.2
         }
       ]
     }
