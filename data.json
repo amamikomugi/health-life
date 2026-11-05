@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-05T04:51:17.524Z",
+  "updated_at": "2026-11-05T09:04:57.993Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -1721,6 +1721,63 @@
           "protein_g": 12.5,
           "fat_g": 10.4,
           "carbohydrate_g": 0.3
+        }
+      ]
+    },
+    {
+      "record_id": "meal-e6aa2258-259b-45d8-821e-c4d04542f8de",
+      "date": "2026-11-05",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "鶏むね肉300g・キャベツ1/4玉・エリンギ・えび油小さじ1・白だし大さじ1（概算）",
+      "kcal": 447.576,
+      "protein_g": 75.794,
+      "fat_g": 10.893,
+      "carbohydrate_g": 19.761,
+      "status": "user_reported_with_estimated_portions",
+      "notes": "鶏むね肉は前回と同じ皮なし・調理前300gを仮定。キャベツ1/4玉は可食255g、エリンギは1袋として可食84.6gを仮定。えび油と白だしは銘柄未指定のためユウキ食品とヤマキの表示を参考に、使用量を全量計上。",
+      "updated_at": "2026-11-05T09:04:47.877Z",
+      "recorded_at": "2026-11-05T09:04:47.877Z",
+      "food_items": [
+        {
+          "food": "鶏むね肉 皮なし300g",
+          "portion_g": 300,
+          "kcal": 315,
+          "protein_g": 69.9,
+          "fat_g": 5.7,
+          "carbohydrate_g": 0.3
+        },
+        {
+          "food": "キャベツ1/4玉（可食部255g・概算）",
+          "portion_g": 255,
+          "kcal": 58.65,
+          "protein_g": 3.06,
+          "fat_g": 0.255,
+          "carbohydrate_g": 13.26
+        },
+        {
+          "food": "エリンギ（1袋・可食部84.6gと仮定）",
+          "portion_g": 84.6,
+          "kcal": 26.226,
+          "protein_g": 2.3688,
+          "fat_g": 0.3384,
+          "carbohydrate_g": 5.076
+        },
+        {
+          "food": "えび油 小さじ1（約4.6g）",
+          "portion_g": 4.6,
+          "kcal": 41.4,
+          "protein_g": 0,
+          "fat_g": 4.6,
+          "carbohydrate_g": 0
+        },
+        {
+          "food": "白だし 大さじ1（15ml）",
+          "portion_g": null,
+          "kcal": 6.3,
+          "protein_g": 0.465,
+          "fat_g": 0,
+          "carbohydrate_g": 1.125
         }
       ]
     }
