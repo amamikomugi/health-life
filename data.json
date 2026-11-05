@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-05T09:04:57.993Z",
+  "updated_at": "2026-11-05T13:37:36.996Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -1778,6 +1778,31 @@
           "protein_g": 0.465,
           "fat_g": 0,
           "carbohydrate_g": 1.125
+        }
+      ]
+    },
+    {
+      "record_id": "meal-24a6c18d-312d-40c3-a5ad-df16f7dae7c5",
+      "date": "2026-11-05",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "マクドナルド チーズチーズダブルチーズバーガー単品1個（夜食）",
+      "kcal": 561,
+      "protein_g": 32.4,
+      "fat_g": 33.2,
+      "carbohydrate_g": 33.1,
+      "status": "user_reported",
+      "notes": "直前に比較したチーチーダブチ単品1個を食べたとの報告として、夜食（おやつ区分）に記録。",
+      "updated_at": "2026-11-05T13:37:26.161Z",
+      "recorded_at": "2026-11-05T13:37:26.161Z",
+      "food_items": [
+        {
+          "food": "チーズチーズダブルチーズバーガー 単品1個",
+          "portion_g": null,
+          "kcal": 561,
+          "protein_g": 32.4,
+          "fat_g": 33.2,
+          "carbohydrate_g": 33.1
         }
       ]
     }
