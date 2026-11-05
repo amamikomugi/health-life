@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-04T17:01:43.984Z",
+  "updated_at": "2026-11-05T03:24:04.409Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -1673,6 +1673,64 @@
       "updated_at": "2026-11-04T17:01:43.936Z",
       "recorded_at": "2026-11-04T17:01:43.936Z",
       "day_coverage": "breakfast_lunch_dinner_recorded"
+    },
+    {
+      "record_id": "meal-98812920-be7b-4d9e-aaf1-4e5c1a4cf979",
+      "date": "2026-11-05",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "アンビーク ソイプロテイン バナナ味22g・水割り（商品・量は前回同様として仮計上）",
+      "kcal": 82,
+      "protein_g": 16.4,
+      "fat_g": 0.9,
+      "carbohydrate_g": 2.3,
+      "status": "user_reported_with_assumed_quantity",
+      "notes": "水割りはユーザー指定。商品名と量は未指定のため、以前の朝と同じアンビークソイ・バナナ味22gを仮定。確認済みの商品表示を再利用。",
+      "updated_at": "2026-11-05T03:23:53.998Z",
+      "recorded_at": "2026-11-05T03:23:53.998Z",
+      "food_items": [
+        {
+          "food": "アンビーク ソイプロテイン バナナ味22g・水割り（商品・量は前回同様と仮定）",
+          "portion_g": 22,
+          "kcal": 82,
+          "protein_g": 16.4,
+          "fat_g": 0.9,
+          "carbohydrate_g": 2.3
+        }
+      ]
+    },
+    {
+      "record_id": "meal-04090474-d5c6-4971-93ab-cc8249b46353",
+      "date": "2026-11-05",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "みそきん 濃厚味噌ラーメン1個＋ゆで卵2個（109g版・卵可食部100gとして概算）",
+      "kcal": 644,
+      "protein_g": 23.6,
+      "fat_g": 32.5,
+      "carbohydrate_g": 66.9,
+      "status": "user_reported_with_assumed_quantity",
+      "notes": "みそきんは通常の濃厚味噌ラーメン109g版1個を仮定。スープを含む全量の表示値510kcal/P11.1/F22.1/C66.6。ゆで卵2個は可食部1個50g・計100gを仮定し、確認済み文科省成分値を再利用。スープ残量は未報告のため差し引かない。",
+      "updated_at": "2026-11-05T03:23:53.998Z",
+      "recorded_at": "2026-11-05T03:23:53.998Z",
+      "food_items": [
+        {
+          "food": "みそきん 濃厚味噌ラーメン1個（109g版として仮計上）",
+          "portion_g": 109,
+          "kcal": 510,
+          "protein_g": 11.1,
+          "fat_g": 22.1,
+          "carbohydrate_g": 66.6
+        },
+        {
+          "food": "ゆで卵2個（可食部合計100gとして概算）",
+          "portion_g": 100,
+          "kcal": 134,
+          "protein_g": 12.5,
+          "fat_g": 10.4,
+          "carbohydrate_g": 0.3
+        }
+      ]
     }
   ],
   "settings": {
