@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-06T04:51:10.205Z",
+  "updated_at": "2026-11-06T11:57:40.175Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -1991,6 +1991,39 @@
       "status": "possibly_incomplete",
       "source_metric": "basal_energy_total",
       "fetched_at": "2026-11-06T04:50:59Z"
+    },
+    {
+      "record_id": "meal-b2ba92ad-d33a-45a6-a05b-793d32461d3c",
+      "date": "2026-11-06",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "ケンタッキー オリジナルチキンレッドホットバーガー1個・オリジナルチキン1ピース",
+      "kcal": 668,
+      "protein_g": 39.2,
+      "fat_g": 36.9,
+      "carbohydrate_g": 45.6,
+      "status": "user_reported",
+      "notes": "KFC公式栄養成分表の単品1個・標準1ピースの値を使用。チキンは部位未指定。",
+      "updated_at": "2026-11-06T11:57:29.896Z",
+      "recorded_at": "2026-11-06T11:57:29.896Z",
+      "food_items": [
+        {
+          "food": "オリジナルチキンレッドホットバーガー1個",
+          "portion_g": null,
+          "kcal": 450,
+          "protein_g": 22.7,
+          "fat_g": 24.1,
+          "carbohydrate_g": 36.5
+        },
+        {
+          "food": "オリジナルチキン1ピース",
+          "portion_g": null,
+          "kcal": 218,
+          "protein_g": 16.5,
+          "fat_g": 12.8,
+          "carbohydrate_g": 9.1
+        }
+      ]
     }
   ],
   "settings": {
