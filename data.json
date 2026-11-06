@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-05T13:37:36.996Z",
+  "updated_at": "2026-11-06T03:19:51.385Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -1805,6 +1805,84 @@
           "carbohydrate_g": 33.1
         }
       ]
+    },
+    {
+      "record_id": "meal-7ab3fe9c-5d50-4970-80a8-4ee10c8509b5",
+      "date": "2026-11-06",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "朝食なし（本人報告）",
+      "kcal": 0,
+      "protein_g": 0,
+      "fat_g": 0,
+      "carbohydrate_g": 0,
+      "status": "user_reported",
+      "notes": "本人が朝食を抜いたと明示したため摂取量0として記録。",
+      "updated_at": "2026-11-06T03:19:38.724Z",
+      "recorded_at": "2026-11-06T03:19:38.724Z"
+    },
+    {
+      "record_id": "meal-b2b84366-165d-4590-9d83-4ea603d043ab",
+      "date": "2026-11-06",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "鶏むね肉300g・ゆで卵2個・にんじん1本・えび油小さじ1（概算）",
+      "kcal": 541.325,
+      "protein_g": 83.419,
+      "fat_g": 20.991,
+      "carbohydrate_g": 14.131,
+      "status": "user_reported_with_estimated_portions",
+      "notes": "鶏むね肉は前回と同じ皮なし・調理前300g、ゆで卵2個は可食部計100g、にんじんは皮つき1本150g（可食部145.5g）と仮定。えび油小さじ1は約4.6gで、前回と同じユウキ食品の参考値を使用。油は使用量を全量計上。",
+      "updated_at": "2026-11-06T03:19:38.724Z",
+      "recorded_at": "2026-11-06T03:19:38.724Z",
+      "food_items": [
+        {
+          "food": "鶏むね肉 皮なし300g",
+          "portion_g": 300,
+          "kcal": 315,
+          "protein_g": 69.9,
+          "fat_g": 5.7,
+          "carbohydrate_g": 0.3
+        },
+        {
+          "food": "ゆで卵2個（可食部合計100gとして概算）",
+          "portion_g": 100,
+          "kcal": 134,
+          "protein_g": 12.5,
+          "fat_g": 10.4,
+          "carbohydrate_g": 0.3
+        },
+        {
+          "food": "にんじん1本（可食部145.5g・概算）",
+          "portion_g": 145.5,
+          "kcal": 50.925,
+          "protein_g": 1.0185,
+          "fat_g": 0.291,
+          "carbohydrate_g": 13.5315
+        },
+        {
+          "food": "えび油 小さじ1（約4.6g）",
+          "portion_g": 4.6,
+          "kcal": 41.4,
+          "protein_g": 0,
+          "fat_g": 4.6,
+          "carbohydrate_g": 0
+        }
+      ]
+    },
+    {
+      "record_id": "daily-20261105",
+      "date": "2026-11-05",
+      "kind": "daily_summary",
+      "kcal": 1734.576,
+      "protein_g": 148.194,
+      "fat_g": 77.493,
+      "carbohydrate_g": 122.061,
+      "status": "calculated_from_recorded_meals",
+      "notes": "記録済みの食事だけを合計しています。未報告の食事の有無は未確認です。",
+      "updated_at": "2026-11-06T03:19:51.328Z",
+      "recorded_at": "2026-11-06T03:19:51.328Z",
+      "day_coverage": "breakfast_lunch_dinner_recorded"
     }
   ],
   "settings": {
