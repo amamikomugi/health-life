@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-06T11:57:40.175Z",
+  "updated_at": "2026-11-06T12:22:40.992Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -2022,6 +2022,39 @@
           "protein_g": 16.5,
           "fat_g": 12.8,
           "carbohydrate_g": 9.1
+        }
+      ]
+    },
+    {
+      "record_id": "meal-c8e561b5-6316-4edc-ab34-610d20769168",
+      "date": "2026-11-06",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "ミスタードーナツ エンゼルフレンチ・エンゼルクリーム 各1個",
+      "kcal": 377,
+      "protein_g": 5.4,
+      "fat_g": 24.8,
+      "carbohydrate_g": 32.7,
+      "status": "user_reported",
+      "notes": "ミスタードーナツ公式の2026年11月1日版の値を使い、それぞれ1個として記録。",
+      "updated_at": "2026-11-06T12:22:28.976Z",
+      "recorded_at": "2026-11-06T12:22:28.976Z",
+      "food_items": [
+        {
+          "food": "エンゼルフレンチ1個",
+          "portion_g": null,
+          "kcal": 185,
+          "protein_g": 2.1,
+          "fat_g": 13.9,
+          "carbohydrate_g": 12.7
+        },
+        {
+          "food": "エンゼルクリーム1個",
+          "portion_g": null,
+          "kcal": 192,
+          "protein_g": 3.3,
+          "fat_g": 10.9,
+          "carbohydrate_g": 20
         }
       ]
     }
