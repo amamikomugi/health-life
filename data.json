@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-07T10:34:34.220Z",
+  "updated_at": "2026-11-07T17:55:36.674Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -2162,6 +2162,45 @@
           "carbohydrate_g": 5.609
         }
       ]
+    },
+    {
+      "record_id": "meal-85e00ee9-dcc2-4157-8742-f490c7981a0b",
+      "date": "2026-11-07",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "シェ・レカミエ レカミエのエクレア1個（類似品から概算）",
+      "kcal": 232,
+      "protein_g": 3.7,
+      "fat_g": 15.6,
+      "carbohydrate_g": 19.1,
+      "status": "user_reported",
+      "notes": "同じ山崎製パンのホイップカスタードエクレア1個の栄養表示を参考にした概算です。",
+      "updated_at": "2026-11-07T17:55:25.651Z",
+      "recorded_at": "2026-11-07T17:55:25.651Z",
+      "food_items": [
+        {
+          "food": "シェ・レカミエ レカミエのエクレア1個（類似品から概算）",
+          "portion_g": null,
+          "kcal": 232,
+          "protein_g": 3.7,
+          "fat_g": 15.6,
+          "carbohydrate_g": 19.1
+        }
+      ]
+    },
+    {
+      "record_id": "daily-20261107",
+      "date": "2026-11-07",
+      "kind": "daily_summary",
+      "kcal": 2285.6,
+      "protein_g": 61.233,
+      "fat_g": 131.121,
+      "carbohydrate_g": 222.409,
+      "status": "calculated_from_recorded_meals",
+      "notes": "記録済みの食事だけを合計しています。未報告の食事の有無は未確認です。",
+      "updated_at": "2026-11-07T17:55:36.619Z",
+      "recorded_at": "2026-11-07T17:55:36.619Z",
+      "day_coverage": "breakfast_lunch_dinner_recorded"
     }
   ],
   "settings": {
