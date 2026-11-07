@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-07T17:55:36.674Z",
+  "updated_at": "2026-11-07T17:59:04.436Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -2201,6 +2201,31 @@
       "updated_at": "2026-11-07T17:55:36.619Z",
       "recorded_at": "2026-11-07T17:55:36.619Z",
       "day_coverage": "breakfast_lunch_dinner_recorded"
+    },
+    {
+      "record_id": "meal-284e8f01-9ab0-4646-b8cb-33562d552c8b",
+      "date": "2026-11-08",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "シェ・レカミエのりんごパイ1人分（類似品から概算）",
+      "kcal": 287,
+      "protein_g": 3.1,
+      "fat_g": 15,
+      "carbohydrate_g": 34.7,
+      "status": "user_reported",
+      "notes": "1人分を仮定し、RINGOの焼きたてカスタードアップルパイ1個分の栄養表示を参考にした概算です。",
+      "updated_at": "2026-11-07T17:58:55.292Z",
+      "recorded_at": "2026-11-07T17:58:55.292Z",
+      "food_items": [
+        {
+          "food": "シェ・レカミエのりんごパイ1人分（類似品から概算）",
+          "portion_g": null,
+          "kcal": 287,
+          "protein_g": 3.1,
+          "fat_g": 15,
+          "carbohydrate_g": 34.7
+        }
+      ]
     }
   ],
   "settings": {
