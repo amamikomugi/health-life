@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-06T12:22:40.992Z",
+  "updated_at": "2026-11-07T00:36:00.229Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -2057,6 +2057,45 @@
           "carbohydrate_g": 20
         }
       ]
+    },
+    {
+      "record_id": "meal-5ac60cef-a5c4-4015-ae3f-c631b6a3ec1a",
+      "date": "2026-11-07",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "ミスタードーナツ ココナツチョコレート1個",
+      "kcal": 274,
+      "protein_g": 3,
+      "fat_g": 17.3,
+      "carbohydrate_g": 27.1,
+      "status": "user_reported",
+      "notes": "個数は1個と仮定し、ミスタードーナツ公式栄養成分表（2026年11月1日版）を使用。",
+      "updated_at": "2026-11-07T00:35:48.833Z",
+      "recorded_at": "2026-11-07T00:35:48.833Z",
+      "food_items": [
+        {
+          "food": "ミスタードーナツ ココナツチョコレート1個",
+          "portion_g": null,
+          "kcal": 274,
+          "protein_g": 3,
+          "fat_g": 17.3,
+          "carbohydrate_g": 27.1
+        }
+      ]
+    },
+    {
+      "record_id": "daily-20261106",
+      "date": "2026-11-06",
+      "kind": "daily_summary",
+      "kcal": 1586.325,
+      "protein_g": 128.019,
+      "fat_g": 82.691,
+      "carbohydrate_g": 92.431,
+      "status": "calculated_from_recorded_meals",
+      "notes": "記録済みの食事だけを合計しています。未報告の食事の有無は未確認です。",
+      "updated_at": "2026-11-07T00:36:00.164Z",
+      "recorded_at": "2026-11-07T00:36:00.164Z",
+      "day_coverage": "breakfast_lunch_dinner_recorded"
     }
   ],
   "settings": {
