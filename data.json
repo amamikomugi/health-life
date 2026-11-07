@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-07T03:11:45.328Z",
+  "updated_at": "2026-11-07T10:34:34.220Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -2127,6 +2127,39 @@
           "protein_g": 5.4,
           "fat_g": 21.7,
           "carbohydrate_g": 15.9
+        }
+      ]
+    },
+    {
+      "record_id": "meal-3948716d-eb1f-4c55-bd27-b9ab8e5bf455",
+      "date": "2026-11-07",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "白焼き鴨の贅沢そば1包装・豚バラチャーシュー79g",
+      "kcal": 577.6,
+      "protein_g": 26.733,
+      "fat_g": 28.921,
+      "carbohydrate_g": 54.809,
+      "status": "user_reported",
+      "notes": "写真の商品を各1パック食べたと仮定。そばは1包装表示、豚バラチャーシューは内容量79gに合わせて100g表示を0.79倍。両方とも表示は推定値。",
+      "updated_at": "2026-11-07T10:34:21.417Z",
+      "recorded_at": "2026-11-07T10:34:21.417Z",
+      "food_items": [
+        {
+          "food": "白焼き鴨の贅沢そば1包装",
+          "portion_g": null,
+          "kcal": 309,
+          "protein_g": 16.7,
+          "fat_g": 5.3,
+          "carbohydrate_g": 49.2
+        },
+        {
+          "food": "濃厚つゆ使用！豚バラチャーシュー79g",
+          "portion_g": 79,
+          "kcal": 268.6,
+          "protein_g": 10.033,
+          "fat_g": 23.621,
+          "carbohydrate_g": 5.609
         }
       ]
     }
