@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-07T00:36:00.229Z",
+  "updated_at": "2026-11-07T03:11:45.328Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -2096,6 +2096,39 @@
       "updated_at": "2026-11-07T00:36:00.164Z",
       "recorded_at": "2026-11-07T00:36:00.164Z",
       "day_coverage": "breakfast_lunch_dinner_recorded"
+    },
+    {
+      "record_id": "meal-10b93a0c-1155-404b-a01d-e909df3774cb",
+      "date": "2026-11-07",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "リンガーハット 野菜たっぷり皿うどん（通常サイズ）・にんにくぎょうざ5個",
+      "kcal": 1202,
+      "protein_g": 27.8,
+      "fat_g": 69.3,
+      "carbohydrate_g": 121.4,
+      "status": "user_reported",
+      "notes": "皿うどんは通常サイズ1食と仮定し、にんにく入り餃子5個を計上。公式アレルギー・栄養価情報の2026年10月31日更新表示を確認。栄養表の列はエネルギー・食塩相当量・P・F・Cの順。",
+      "updated_at": "2026-11-07T03:11:32.902Z",
+      "recorded_at": "2026-11-07T03:11:32.902Z",
+      "food_items": [
+        {
+          "food": "リンガーハット 野菜たっぷり皿うどん（レギュラー1食）",
+          "portion_g": null,
+          "kcal": 918,
+          "protein_g": 22.4,
+          "fat_g": 47.6,
+          "carbohydrate_g": 105.5
+        },
+        {
+          "food": "リンガーハット にんにく竹炭ぎょうざ5個",
+          "portion_g": null,
+          "kcal": 284,
+          "protein_g": 5.4,
+          "fat_g": 21.7,
+          "carbohydrate_g": 15.9
+        }
+      ]
     }
   ],
   "settings": {
