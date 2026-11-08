@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-07T18:08:13.482Z",
+  "updated_at": "2026-11-08T02:34:15.872Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -2253,6 +2253,31 @@
       "status": "synced",
       "source_metric": "basal_energy_total",
       "fetched_at": "2026-11-07T18:08:01.203Z"
+    },
+    {
+      "record_id": "meal-382c9f3f-1d23-404a-bbe3-003cf5d04535",
+      "date": "2026-11-08",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "BASE BREAD ミルク1袋（2個入り・味と量は仮計上）",
+      "kcal": 250,
+      "protein_g": 13.5,
+      "fat_g": 8.5,
+      "carbohydrate_g": 33.1,
+      "status": "user_reported",
+      "notes": "以前の食事記録からBASE BREAD ミルク1袋（2個入り）と仮定し、公式の1袋分の栄養表示を使用。",
+      "updated_at": "2026-11-08T02:34:04.068Z",
+      "recorded_at": "2026-11-08T02:34:04.068Z",
+      "food_items": [
+        {
+          "food": "BASE BREAD ミルク1袋（2個入り・味と量は仮計上）",
+          "portion_g": null,
+          "kcal": 250,
+          "protein_g": 13.5,
+          "fat_g": 8.5,
+          "carbohydrate_g": 33.1
+        }
+      ]
     }
   ],
   "settings": {
@@ -2383,15 +2408,13 @@
   "repository": "https://github.com/amamikomugi/health-life",
   "update_schedule": {
     "healthcare_local_times": [
-      "01:00",
-      "14:00"
+      "01:00"
     ],
     "healthcare_schedule_pending": false,
     "status": "ACTIVE",
     "local_time": "01:00",
     "local_times": [
-      "01:00",
-      "14:00"
+      "01:00"
     ],
     "healthcare_local_time": "01:00",
     "timezone": "Asia/Tokyo",
