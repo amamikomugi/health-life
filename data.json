@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-08T08:17:04.027Z",
+  "updated_at": "2026-11-08T12:02:20.344Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -2301,6 +2301,31 @@
           "protein_g": 29.5,
           "fat_g": 19.4,
           "carbohydrate_g": 91.1
+        }
+      ]
+    },
+    {
+      "record_id": "meal-3eff24dc-5a16-4d15-918d-99ff3e3e0ff4",
+      "date": "2026-11-08",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "りんご1個（皮なし・可食部約213gで概算）",
+      "kcal": 112.625,
+      "protein_g": 0.213,
+      "fat_g": 0.425,
+      "carbohydrate_g": 32.938,
+      "status": "user_reported",
+      "notes": "前回と同じく1個250gを仮定。皮と芯を除いた可食部212.5gを文部科学省の生・皮なしの成分値から換算。",
+      "updated_at": "2026-11-08T12:02:09.618Z",
+      "recorded_at": "2026-11-08T12:02:09.618Z",
+      "food_items": [
+        {
+          "food": "りんご1個（皮なし・可食部約213gで概算）",
+          "portion_g": 212.5,
+          "kcal": 112.625,
+          "protein_g": 0.213,
+          "fat_g": 0.425,
+          "carbohydrate_g": 32.938
         }
       ]
     }
