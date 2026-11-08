@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-08T12:02:20.344Z",
+  "updated_at": "2026-11-08T16:33:55.964Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -2328,6 +2328,53 @@
           "carbohydrate_g": 32.938
         }
       ]
+    },
+    {
+      "record_id": "meal-fce13b43-8f25-49f0-a24d-2a0c558c2602",
+      "date": "2026-11-08",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "JAKSソイプロテイン チョコレート味1杯（25g）・特選よつ葉無脂肪牛乳200ml",
+      "kcal": 165,
+      "protein_g": 27,
+      "fat_g": 1,
+      "carbohydrate_g": 12.6,
+      "status": "user_reported",
+      "notes": "JAKSは登録済みの標準1杯25gとし、牛乳は申告どおり200mlを計上。",
+      "updated_at": "2026-11-08T16:33:45.509Z",
+      "recorded_at": "2026-11-08T16:33:45.509Z",
+      "food_items": [
+        {
+          "food": "JAKSソイプロテイン チョコレート味1杯（25g）",
+          "portion_g": 25,
+          "kcal": 95,
+          "protein_g": 20,
+          "fat_g": 1,
+          "carbohydrate_g": 2
+        },
+        {
+          "food": "特選よつ葉無脂肪牛乳200ml",
+          "portion_g": null,
+          "kcal": 70,
+          "protein_g": 7,
+          "fat_g": 0,
+          "carbohydrate_g": 10.6
+        }
+      ]
+    },
+    {
+      "record_id": "daily-20261108",
+      "date": "2026-11-08",
+      "kind": "daily_summary",
+      "kcal": 1472.625,
+      "protein_g": 73.313,
+      "fat_g": 44.325,
+      "carbohydrate_g": 204.438,
+      "status": "calculated_from_recorded_meals",
+      "notes": "記録済みの食事だけを合計しています。未報告の食事の有無は未確認です。",
+      "updated_at": "2026-11-08T16:33:55.908Z",
+      "recorded_at": "2026-11-08T16:33:55.908Z",
+      "day_coverage": "partial_recorded"
     }
   ],
   "settings": {
