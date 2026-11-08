@@ -247,7 +247,5 @@
 .review-controls { display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:16px; margin-bottom:30px; }
 .review-controls .feedback-rules { margin:0; max-width:48em; flex:1; }
 .review-controls .mascot-tool-buttons { flex-shrink:0; }
-.update-notice details { margin-top:6px; color:var(--muted); font-size:.875rem; }
-.update-notice summary { cursor:pointer; width:fit-content; padding:4px 0; }
 @media (max-width:1150px) { .review-pair { grid-template-columns:minmax(0,1fr); } .review-pair .room-stage .mascot-cast { max-width:420px; } }
 @media (max-width:760px) { .review-pair { gap:20px; } .review-pair .review-card { padding:14px; } .review-pair .mascot-message { padding:18px 16px; } .review-heading h2 { font-size:1.25rem; } .review-nutrition { gap:6px; } .review-nutrition dd { font-size:1rem; } }

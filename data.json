@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-08T02:34:15.872Z",
+  "updated_at": "2026-11-08T08:17:04.027Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -2276,6 +2276,31 @@
           "protein_g": 13.5,
           "fat_g": 8.5,
           "carbohydrate_g": 33.1
+        }
+      ]
+    },
+    {
+      "record_id": "meal-f3af1ab0-a73d-455e-b4fc-f1f070d86dfb",
+      "date": "2026-11-08",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "唐揚げ弁当1食（写真と類似品から概算）",
+      "kcal": 658,
+      "protein_g": 29.5,
+      "fat_g": 19.4,
+      "carbohydrate_g": 91.1,
+      "status": "user_reported",
+      "notes": "写真から唐揚げ4個程度・ごはん並盛相当の弁当1食と見積もり、ほっともっと「4コ入りから揚弁当（ごはん並盛）」1食の栄養値を参考にした概算。",
+      "updated_at": "2026-11-08T08:16:50.778Z",
+      "recorded_at": "2026-11-08T08:16:50.778Z",
+      "food_items": [
+        {
+          "food": "唐揚げ弁当1食（写真と類似品から概算）",
+          "portion_g": null,
+          "kcal": 658,
+          "protein_g": 29.5,
+          "fat_g": 19.4,
+          "carbohydrate_g": 91.1
         }
       ]
     }
