@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-08T16:33:55.964Z",
+  "updated_at": "2026-11-09T02:03:07.363Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -2375,6 +2375,64 @@
       "updated_at": "2026-11-08T16:33:55.908Z",
       "recorded_at": "2026-11-08T16:33:55.908Z",
       "day_coverage": "partial_recorded"
+    },
+    {
+      "record_id": "meal-9b4c4eb8-d9f5-4cc5-8fa5-f3b4fcd802fe",
+      "date": "2026-11-09",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "アンビーク ソイプロテイン バナナ風味1杯（22g）＋特選よつ葉無脂肪牛乳200ml（味・量などは仮計上）",
+      "kcal": 152,
+      "protein_g": 23.4,
+      "fat_g": 0.9,
+      "carbohydrate_g": 12.9,
+      "status": "user_reported",
+      "notes": "前回の記録をもとにアンビーク ソイプロテイン バナナ風味1杯（22g）と特選よつ葉無脂肪牛乳200mlとして仮計上。",
+      "updated_at": "2026-11-09T02:02:57.446Z",
+      "recorded_at": "2026-11-09T02:02:57.446Z",
+      "food_items": [
+        {
+          "food": "アンビーク ソイプロテイン バナナ風味1杯（22g）",
+          "portion_g": 22,
+          "kcal": 82,
+          "protein_g": 16.4,
+          "fat_g": 0.9,
+          "carbohydrate_g": 2.3
+        },
+        {
+          "food": "特選よつ葉無脂肪牛乳200ml",
+          "portion_g": null,
+          "kcal": 70,
+          "protein_g": 7,
+          "fat_g": 0,
+          "carbohydrate_g": 10.6
+        }
+      ]
+    },
+    {
+      "record_id": "meal-927e2d42-fe23-4c5f-b01e-02e9314991b4",
+      "date": "2026-11-09",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "BASE BREAD ミルク1袋（2個入り）（味・量などは仮計上）",
+      "kcal": 250,
+      "protein_g": 13.5,
+      "fat_g": 8.5,
+      "carbohydrate_g": 33.1,
+      "status": "user_reported",
+      "notes": "前回の記録をもとにベースブレッド ミルク1袋（2個入り）として仮計上。",
+      "updated_at": "2026-11-09T02:02:57.446Z",
+      "recorded_at": "2026-11-09T02:02:57.446Z",
+      "food_items": [
+        {
+          "food": "BASE BREAD ミルク1袋（2個入り）",
+          "portion_g": null,
+          "kcal": 250,
+          "protein_g": 13.5,
+          "fat_g": 8.5,
+          "carbohydrate_g": 33.1
+        }
+      ]
     }
   ],
   "settings": {
