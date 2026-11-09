@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-09T05:30:29.808Z",
+  "updated_at": "2026-11-09T07:04:40.047Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -2443,6 +2443,31 @@
       "notes": "11月9日の体重として本人が報告。測定時刻は不明。",
       "updated_at": "2026-11-09T05:29:04.032Z",
       "recorded_at": "2026-11-09T05:24:21.431Z"
+    },
+    {
+      "record_id": "meal-e9ab922f-62dc-499b-8a34-410c14c82128",
+      "date": "2026-11-09",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "くめ納豆 秘伝金印ミニ3 1パック（たれ・からし込み・仮計上）",
+      "kcal": 77,
+      "protein_g": 6.5,
+      "fat_g": 3.7,
+      "carbohydrate_g": 5.9,
+      "status": "user_reported",
+      "notes": "以前の記録と同じ商品1パックと仮定。納豆40gに添付のたれ・からしを加えた1セット46.4gの栄養表示を使用。",
+      "updated_at": "2026-11-09T07:04:30.131Z",
+      "recorded_at": "2026-11-09T07:04:30.131Z",
+      "food_items": [
+        {
+          "food": "くめ納豆 秘伝金印ミニ3 1パック（たれ・からし込み・仮計上）",
+          "portion_g": 46.4,
+          "kcal": 77,
+          "protein_g": 6.5,
+          "fat_g": 3.7,
+          "carbohydrate_g": 5.9
+        }
+      ]
     }
   ],
   "settings": {
