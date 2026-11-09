@@ -27,9 +27,18 @@ export function dailyRows(records, start, end, asOf = japanDate()) {
   });
 }
 export function weightRows(records, baselineId) {
-  const weights = records.filter(r => r.kind === 'weekly_weight' && !r.deleted_at).sort((a, b) => a.week_start.localeCompare(b.week_start));
+  const weights = records.filter(r => ['weekly_weight', 'daily_weight'].includes(r.kind) && !r.deleted_at)
+    .map(r => ({ ...r, date: r.kind === 'weekly_weight' ? r.week_start : r.date }))
+    .sort((a, b) => a.date.localeCompare(b.date) || Number(a.kind === 'daily_weight') - Number(b.kind === 'daily_weight'));
   const baseline = weights.find(r => r.record_id === baselineId) || weights[0];
-  return weights.map(r => { const previous = weights.find(w => w.week_start === dateAdd(r.week_start, -7)); return { ...r, previous_delta: previous ? r.weight_kg - previous.weight_kg : null, baseline_delta: baseline ? r.weight_kg - baseline.weight_kg : null }; });
+  const weeks = new Map(weights.filter(r => r.kind === 'weekly_weight').map(r => [r.date, r]));
+  return weights.map((r, index) => {
+    const weekly = r.kind === 'weekly_weight';
+    const earlierEntry = weights[index - 1];
+    const previousDateEntry = earlierEntry?.date === r.date ? weights[index - 2] : earlierEntry;
+    const previous = weekly ? weeks.get(dateAdd(r.date, -7)) : previousDateEntry;
+    return { ...r, previous_delta: previous ? r.weight_kg - previous.weight_kg : null, baseline_delta: baseline ? r.weight_kg - baseline.weight_kg : null };
+  });
 }
 export function recordedDailyTotals(records, today, now = new Date().toISOString(), startDate = '') {
   const next = records.map(r => ({ ...r }));
@@ -70,7 +79,7 @@ export function applyEntry(records, input, now = new Date().toISOString()) {
   };
   if (input.action === 'delete') {
     if (!existing) fail('対象の記録が見つかりません。', 404);
-    if (!['meal', 'weekly_weight', 'daily_summary'].includes(existing.kind)) fail('ヘルスケアの記録は取得元で修正してください。');
+    if (!['meal', 'weekly_weight', 'daily_weight', 'daily_summary'].includes(existing.kind)) fail('ヘルスケアの記録は取得元で修正してください。');
     if (existing.kind === 'meal') updateSummary(existing.date, existing, true);
     const deleted = { ...existing, deleted_at: now, updated_at: now };
     save(deleted); return { records: next, record: deleted, deleted: true };
@@ -78,15 +87,23 @@ export function applyEntry(records, input, now = new Date().toISOString()) {
   const date = validDate(input.date);
   if (date > japanDate(new Date(now))) fail('未来の日付には実績を登録できません。');
   if (existing && existing.date !== date) fail('訂正では元の記録の日付を使用してください。');
-  if (input.kind === 'weekly_weight') {
-    const start = weekStart(date), weight = optionalNumber(input.weight_kg, '体重', 500);
+  if (existing && existing.kind !== input.kind) fail('訂正では元の記録の種類を使用してください。');
+  if (['weekly_weight', 'daily_weight'].includes(input.kind)) {
+    const weekly = input.kind === 'weekly_weight';
+    const start = weekly ? weekStart(date) : date;
+    const weight = optionalNumber(input.weight_kg, '体重', 500);
     if (weight === null || weight <= 0) fail('体重を入力してください。');
-    const prior = next.find(r => r.kind === 'weekly_weight' && r.week_start === start);
-    const record = { ...prior, record_id: prior?.record_id || `weight-week-${start.replaceAll('-', '')}`, date: start, kind: 'weekly_weight', week_start: start, week_end: dateAdd(start, 6), weight_kg: weight, unit: 'kg', measured_at: prior?.measured_at ?? null, status: 'user_reported', source_type: 'website_form', source_text: `${start}週の体重 ${weight}kg`, recorded_at: prior?.recorded_at || now, updated_at: now };
+    const prior = next.find(r => r.kind === input.kind && (weekly ? r.week_start : r.date) === start);
+    const record = {
+      ...prior, record_id: prior?.record_id || `weight-${weekly ? 'week' : 'day'}-${start.replaceAll('-', '')}`,
+      date: start, kind: input.kind, ...(weekly ? { week_start: start, week_end: dateAdd(start, 6) } : {}),
+      weight_kg: weight, unit: 'kg', measured_at: prior?.measured_at ?? null, status: 'user_reported',
+      source_type: 'website_form', source_text: `${start}${weekly ? '週' : ''}の体重 ${weight}kg`,
+      recorded_at: prior?.recorded_at || now, updated_at: now
+    };
     delete record.deleted_at; save(record); return { records: next, record };
   }
   if (!['meal', 'daily_summary'].includes(input.kind)) fail('記録の種類を確認してください。');
-  if (existing && existing.kind !== input.kind) fail('訂正では元の記録の種類を使用してください。');
   const description = String(input.description || '').trim();
   if (description.length > 4000 || (input.kind === 'meal' && !description)) fail('食べたものを4,000文字以内で入力してください。');
   if (input.kind === 'meal' && !Object.hasOwn(MEALS, input.meal)) fail('食事区分を選んでください。');
@@ -102,7 +119,7 @@ export function mergeRecords(current, incoming) {
   if (!Array.isArray(incoming) || incoming.length > 20000) fail('記録ファイルの形式を確認してください。');
   const map = new Map(current.map(r => [r.record_id, r]));
   for (const r of incoming) {
-    if (!r || typeof r.record_id !== 'string' || r.record_id.length > 160 || !['meal','daily_summary','daily_activity','weekly_weight'].includes(r.kind)) fail('不正な記録が含まれています。');
+    if (!r || typeof r.record_id !== 'string' || r.record_id.length > 160 || !['meal','daily_summary','daily_activity','weekly_weight','daily_weight'].includes(r.kind)) fail('不正な記録が含まれています。');
     validDate(r.date);
     for (const key of [...NUTRIENTS, 'steps', 'active_kcal', 'basal_kcal', 'weight_kg']) if (r[key] !== undefined && r[key] !== null && (typeof r[key] !== 'number' || !Number.isFinite(r[key]) || r[key] < 0)) fail('記録内の数値を確認してください。');
     const existing = map.get(r.record_id);

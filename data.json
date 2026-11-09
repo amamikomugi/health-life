@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-09T02:03:07.363Z",
+  "updated_at": "2026-11-09T05:30:29.808Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -2433,6 +2433,16 @@
           "carbohydrate_g": 33.1
         }
       ]
+    },
+    {
+      "record_id": "weight-week-20261109",
+      "date": "2026-11-09",
+      "kind": "daily_weight",
+      "status": "user_reported",
+      "weight_kg": 84.5,
+      "notes": "11月9日の体重として本人が報告。測定時刻は不明。",
+      "updated_at": "2026-11-09T05:29:04.032Z",
+      "recorded_at": "2026-11-09T05:24:21.431Z"
     }
   ],
   "settings": {

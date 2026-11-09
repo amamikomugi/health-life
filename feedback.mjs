@@ -12,7 +12,7 @@ const praiseLines = {
   streak: ['こつこつ続けるおぬしを、わらわは見ておるぞ♪', '毎日のひとことが積み重なったのじゃな♪', 'おぬしの記録、すてきな足あとになっておるぞ♪', '続けられたことを、わらわと喜ぼうの♪', 'いつも教えてくれて嬉しいぞ。おぬし、えらいのじゃ♪'],
   resumed: ['また記録してくれて嬉しいのじゃ♪ お休みしても、戻ってきてくれたことが嬉しいぞ。', 'おかえりなのじゃ♪ 今日のお話を聞けて、わらわもにっこりじゃ。', 'また一緒に記録できるのじゃな♪ おぬしのペースでよいぞ。', 'ひさしぶりのひとこと、大切に残すぞ♪ よく来てくれたのう。', '今日からまた、おぬしと一緒じゃ♪ わらわはここで待っておったぞ。'],
   three: ['記録を残せたこと、わらわは嬉しいぞ♪', '一日の食事を教えてくれて、ありがとうなのじゃ♪', '三つのお話がそろったのじゃな。おぬしに拍手じゃ♪', 'こまめに残せたのう。わらわも見返すのが楽しみじゃ♪', '今日のおぬしの足あと、しっかり受け取ったぞ♪'],
-  weight: ['今週の体重を教えてくれてありがとうなのじゃ♪', '週の記録を残せたのじゃな。おぬし、えらいぞ♪', 'ひとつ分の足あとを、わらわと残せたのう♪', '体重のお話も聞かせてくれて嬉しいのじゃ♪', '今週の記録、ちゃんと受け取ったぞ。ありがとうなのじゃ♪']
+  weight: ['体重を教えてくれてありがとうなのじゃ♪', '記録を残せたのじゃな。おぬし、えらいぞ♪', 'ひとつ分の足あとを、わらわと残せたのう♪', '体重のお話も聞かせてくれて嬉しいのじゃ♪', '体重の記録、ちゃんと受け取ったぞ。ありがとうなのじゃ♪']
 };
 function praiseLine(kind, options = {}) {
   const index=Number.isInteger(options.praise_variant)?((options.praise_variant%5)+5)%5:0;
@@ -65,7 +65,7 @@ export function habitFeedback(records, date, options = {}) {
 
 export function weightFeedback(weight, options = {}) {
   if (options.enabled === false || options.weekly_weight_recorded === false || !weight || weight.deleted_at || !valid(weight.weight_kg) || weight.weight_kg <= 0) return null;
-  return { label: '週の体重を記録', message: `${praiseLine('weight', options)} 増えた週も減った週も、一緒に見守っていこうぞ。` };
+  return { label: '体重を記録', message: `${praiseLine('weight', options)} 増えたときも減ったときも、一緒に見守っていこうぞ。` };
 }
 
 export function characterFeedback(day, targets, options = {}) {
