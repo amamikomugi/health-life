@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-09T08:21:06.148Z",
+  "updated_at": "2026-11-09T13:05:52.918Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -2515,6 +2515,31 @@
           "protein_g": 1.0185,
           "fat_g": 0.29100000000000004,
           "carbohydrate_g": 13.531500000000001
+        }
+      ]
+    },
+    {
+      "record_id": "meal-2f93a7d1-130b-42d3-89f0-dcb0041ac2e7",
+      "date": "2026-11-09",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "ミニストップ 大きなコーヒーゼリー1個（類似品から概算）",
+      "kcal": 217,
+      "protein_g": 3.4,
+      "fat_g": 12.3,
+      "carbohydrate_g": 23.7,
+      "status": "user_reported",
+      "notes": "1個として登録。対象商品の栄養表示は確認できず、コロンビア産コーヒーのゼリーとホイップを使うドンレミー「パフェびより コーヒー」1個分を参考に概算。",
+      "updated_at": "2026-11-09T13:05:41.504Z",
+      "recorded_at": "2026-11-09T13:05:41.504Z",
+      "food_items": [
+        {
+          "food": "ミニストップ 大きなコーヒーゼリー1個（類似品から概算）",
+          "portion_g": null,
+          "kcal": 217,
+          "protein_g": 3.4,
+          "fat_g": 12.3,
+          "carbohydrate_g": 23.7
         }
       ]
     }
