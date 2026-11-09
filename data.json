@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-09T16:09:23.331Z",
+  "updated_at": "2026-11-09T16:41:42.679Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -1918,7 +1918,7 @@
       "steps": 21,
       "status": "synced",
       "source_metric": "steps_total",
-      "fetched_at": "2026-11-09T16:09:08.707Z"
+      "fetched_at": "2026-11-09T16:41:11.726Z"
     },
     {
       "record_id": "apple-health-20261104-active-energy",
@@ -1927,7 +1927,7 @@
       "active_kcal": 0.643,
       "status": "synced",
       "source_metric": "active_energy_total",
-      "fetched_at": "2026-11-09T16:09:08.707Z"
+      "fetched_at": "2026-11-09T16:41:11.726Z"
     },
     {
       "record_id": "apple-health-20261104-basal-energy",
@@ -1936,7 +1936,7 @@
       "basal_kcal": 1786.0037525294754,
       "status": "synced",
       "source_metric": "basal_energy_total",
-      "fetched_at": "2026-11-09T16:09:08.707Z"
+      "fetched_at": "2026-11-09T16:41:11.726Z"
     },
     {
       "record_id": "apple-health-20261105-steps",
@@ -1945,7 +1945,7 @@
       "steps": 8207,
       "status": "synced",
       "source_metric": "steps_total",
-      "fetched_at": "2026-11-09T16:09:08.707Z"
+      "fetched_at": "2026-11-09T16:41:11.726Z"
     },
     {
       "record_id": "apple-health-20261105-active-energy",
@@ -1954,7 +1954,7 @@
       "active_kcal": 334.47099999999995,
       "status": "synced",
       "source_metric": "active_energy_total",
-      "fetched_at": "2026-11-09T16:09:08.707Z"
+      "fetched_at": "2026-11-09T16:41:11.726Z"
     },
     {
       "record_id": "apple-health-20261105-basal-energy",
@@ -1963,7 +1963,7 @@
       "basal_kcal": 1826.458709407966,
       "status": "synced",
       "source_metric": "basal_energy_total",
-      "fetched_at": "2026-11-09T16:09:08.707Z"
+      "fetched_at": "2026-11-09T16:41:11.726Z"
     },
     {
       "record_id": "apple-health-20261106-steps",
@@ -1972,7 +1972,7 @@
       "steps": 3245,
       "status": "synced",
       "source_metric": "steps_total",
-      "fetched_at": "2026-11-09T16:09:08.707Z"
+      "fetched_at": "2026-11-09T16:41:11.726Z"
     },
     {
       "record_id": "apple-health-20261106-active-energy",
@@ -1981,7 +1981,7 @@
       "active_kcal": 135.01999999999998,
       "status": "synced",
       "source_metric": "active_energy_total",
-      "fetched_at": "2026-11-09T16:09:08.707Z"
+      "fetched_at": "2026-11-09T16:41:11.726Z"
     },
     {
       "record_id": "apple-health-20261106-basal-energy",
@@ -1990,7 +1990,7 @@
       "basal_kcal": 1801.6080243271101,
       "status": "synced",
       "source_metric": "basal_energy_total",
-      "fetched_at": "2026-11-09T16:09:08.707Z"
+      "fetched_at": "2026-11-09T16:41:11.726Z"
     },
     {
       "record_id": "meal-b2ba92ad-d33a-45a6-a05b-793d32461d3c",
@@ -2234,7 +2234,7 @@
       "steps": 14596,
       "status": "synced",
       "source_metric": "steps_total",
-      "fetched_at": "2026-11-09T16:09:08.707Z"
+      "fetched_at": "2026-11-09T16:41:11.726Z"
     },
     {
       "record_id": "apple-health-20261107-active-energy",
@@ -2243,7 +2243,7 @@
       "active_kcal": 510.28399999999993,
       "status": "synced",
       "source_metric": "active_energy_total",
-      "fetched_at": "2026-11-09T16:09:08.707Z"
+      "fetched_at": "2026-11-09T16:41:11.726Z"
     },
     {
       "record_id": "apple-health-20261107-basal-energy",
@@ -2252,7 +2252,7 @@
       "basal_kcal": 1855.8768973202195,
       "status": "synced",
       "source_metric": "basal_energy_total",
-      "fetched_at": "2026-11-09T16:09:08.707Z"
+      "fetched_at": "2026-11-09T16:41:11.726Z"
     },
     {
       "record_id": "meal-382c9f3f-1d23-404a-bbe3-003cf5d04535",
@@ -2550,7 +2550,7 @@
       "steps": 1704,
       "status": "synced",
       "source_metric": "steps_total",
-      "fetched_at": "2026-11-09T16:09:08.707Z"
+      "fetched_at": "2026-11-09T16:41:11.726Z"
     },
     {
       "record_id": "apple-health-20261108-active-energy",
@@ -2559,7 +2559,7 @@
       "active_kcal": 74.495,
       "status": "synced",
       "source_metric": "active_energy_total",
-      "fetched_at": "2026-11-09T16:09:08.707Z"
+      "fetched_at": "2026-11-09T16:41:11.726Z"
     },
     {
       "record_id": "apple-health-20261108-basal-energy",
@@ -2568,7 +2568,7 @@
       "basal_kcal": 1733.0428208493286,
       "status": "synced",
       "source_metric": "basal_energy_total",
-      "fetched_at": "2026-11-09T16:09:08.707Z"
+      "fetched_at": "2026-11-09T16:41:11.726Z"
     },
     {
       "record_id": "apple-health-20261109-steps",
@@ -2577,7 +2577,7 @@
       "steps": 1184,
       "status": "synced",
       "source_metric": "steps_total",
-      "fetched_at": "2026-11-09T16:09:08.707Z"
+      "fetched_at": "2026-11-09T16:41:11.726Z"
     },
     {
       "record_id": "apple-health-20261109-active-energy",
@@ -2586,7 +2586,7 @@
       "active_kcal": 41.232000000000006,
       "status": "synced",
       "source_metric": "active_energy_total",
-      "fetched_at": "2026-11-09T16:09:08.707Z"
+      "fetched_at": "2026-11-09T16:41:11.726Z"
     },
     {
       "record_id": "apple-health-20261109-basal-energy",
@@ -2595,7 +2595,7 @@
       "basal_kcal": 1638.1930050863377,
       "status": "synced",
       "source_metric": "basal_energy_total",
-      "fetched_at": "2026-11-09T16:09:08.707Z"
+      "fetched_at": "2026-11-09T16:41:11.726Z"
     },
     {
       "record_id": "daily-20261109",
@@ -2734,21 +2734,23 @@
     }
   },
   "health_sync": {
-    "last_fetched_at": "2026-11-09T16:09:08.707Z",
-    "last_source_sync_at": "2026-11-09T16:07:15.183Z"
+    "last_fetched_at": "2026-11-09T16:41:11.726Z",
+    "last_source_sync_at": "2026-11-09T16:35:09.574Z"
   },
   "repository": "https://github.com/amamikomugi/health-life",
   "update_schedule": {
     "healthcare_local_times": [
-      "01:00"
+      "12:00",
+      "00:00"
     ],
     "healthcare_schedule_pending": false,
     "status": "ACTIVE",
-    "local_time": "01:00",
+    "local_time": "00:00",
     "local_times": [
-      "01:00"
+      "12:00",
+      "00:00"
     ],
-    "healthcare_local_time": "01:00",
+    "healthcare_local_time": "00:00",
     "timezone": "Asia/Tokyo",
     "push_on_meal_change": true
   }
