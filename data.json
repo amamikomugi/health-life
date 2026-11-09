@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-09T07:04:40.047Z",
+  "updated_at": "2026-11-09T08:21:06.148Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -2466,6 +2466,55 @@
           "protein_g": 6.5,
           "fat_g": 3.7,
           "carbohydrate_g": 5.9
+        }
+      ]
+    },
+    {
+      "record_id": "meal-20f847ce-f338-4270-ba0c-3ed73f5794b0",
+      "date": "2026-11-09",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "西洋料理店のビーフシチュー1袋・鶏もも肉皮なし250g・白菜200g・にんじん1本（概算を含む）",
+      "kcal": 577.425,
+      "protein_g": 61.119,
+      "fat_g": 24.591,
+      "carbohydrate_g": 37.332,
+      "status": "user_reported",
+      "notes": "シチューは写真の表示を1袋200g分として計上。肉と野菜は調理前とし、にんじんは1本150gから廃棄率3%を引いた可食部145.5gで換算。",
+      "updated_at": "2026-11-09T08:20:56.750Z",
+      "recorded_at": "2026-11-09T08:20:56.750Z",
+      "food_items": [
+        {
+          "food": "西洋料理店のビーフシチュー1袋（200g）",
+          "portion_g": 200,
+          "kcal": 218,
+          "protein_g": 11,
+          "fat_g": 11.6,
+          "carbohydrate_g": 17.4
+        },
+        {
+          "food": "鶏もも肉 皮なし250g（調理前と仮定）",
+          "portion_g": 250,
+          "kcal": 282.5,
+          "protein_g": 47.5,
+          "fat_g": 12.5,
+          "carbohydrate_g": 0
+        },
+        {
+          "food": "白菜200g（調理前の可食部と仮定）",
+          "portion_g": 200,
+          "kcal": 26,
+          "protein_g": 1.6,
+          "fat_g": 0.2,
+          "carbohydrate_g": 6.4
+        },
+        {
+          "food": "にんじん1本（皮つき・可食部145.5gで概算）",
+          "portion_g": 145.5,
+          "kcal": 50.925,
+          "protein_g": 1.0185,
+          "fat_g": 0.29100000000000004,
+          "carbohydrate_g": 13.531500000000001
         }
       ]
     }
