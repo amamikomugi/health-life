@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-10T02:59:31.147Z",
+  "updated_at": "2026-11-10T03:12:06.861Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -2640,6 +2640,56 @@
       "source_metric": "basal_energy_total",
       "fetched_at": "2026-11-10T11:59:02.201+09:00",
       "notes": "照会しましたが値が返りませんでした。0として扱いません。"
+    },
+    {
+      "record_id": "meal-83153824-e5dd-425d-b72f-1320ea0a2732",
+      "date": "2026-11-10",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "NewDays えびマヨおにぎり1個（概算）",
+      "kcal": 234,
+      "protein_g": 5.2,
+      "fat_g": 6,
+      "carbohydrate_g": 38.7,
+      "status": "user_reported_with_estimated_nutrition_and_portion",
+      "notes": "商品固有の栄養表示を確認できなかったため、キユーピーの同名レシピの1人分（2個）を1/2に換算し、1個分として概算。",
+      "updated_at": "2026-11-10T03:11:55.763Z",
+      "recorded_at": "2026-11-10T03:11:55.763Z",
+      "food_items": [
+        {
+          "food": "NewDays えびマヨおにぎり1個（概算）",
+          "portion_g": null,
+          "kcal": 234,
+          "protein_g": 5.2,
+          "fat_g": 6,
+          "carbohydrate_g": 38.7
+        }
+      ]
+    },
+    {
+      "record_id": "meal-d8492af3-6533-4050-a0cf-b1b86911396b",
+      "date": "2026-11-10",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "BASE BREAD ミルク2袋（味・袋数は仮計上）",
+      "kcal": 500,
+      "protein_g": 27,
+      "fat_g": 17,
+      "carbohydrate_g": 66.2,
+      "status": "user_reported_with_assumed_product_and_portion",
+      "notes": "これまでの記録を参考に、味はミルクと仮定。「2つ」は2袋（1袋2個入り、計4個）と仮定し、公式の1袋あたりの栄養表示を2倍。",
+      "updated_at": "2026-11-10T03:11:55.763Z",
+      "recorded_at": "2026-11-10T03:11:55.763Z",
+      "food_items": [
+        {
+          "food": "BASE BREAD ミルク2袋（仮計上）",
+          "portion_g": null,
+          "kcal": 500,
+          "protein_g": 27,
+          "fat_g": 17,
+          "carbohydrate_g": 66.2
+        }
+      ]
     }
   ],
   "settings": {
