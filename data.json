@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-10T03:21:02.443Z",
+  "updated_at": "2026-11-10T06:47:37.019Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -2696,6 +2696,31 @@
           "protein_g": 13.7,
           "fat_g": 6.9,
           "carbohydrate_g": 41.8
+        }
+      ]
+    },
+    {
+      "record_id": "meal-1a22ff73-6e48-4b06-8e58-a59bb18c154e",
+      "date": "2026-11-10",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "ファミリーマート グリルチキン 炭火やきとり風味 1袋（80gとして計上）",
+      "kcal": 112,
+      "protein_g": 18.2,
+      "fat_g": 1.4,
+      "carbohydrate_g": 7,
+      "status": "user_reported_with_assumed_quantity",
+      "notes": "1袋（80g）として計上。同一商品の1袋あたりの掲載値を採用。",
+      "updated_at": "2026-11-10T06:47:28.132Z",
+      "recorded_at": "2026-11-10T06:47:28.132Z",
+      "food_items": [
+        {
+          "food": "ファミリーマート グリルチキン 炭火やきとり風味 1袋（80gとして計上）",
+          "portion_g": 80,
+          "kcal": 112,
+          "protein_g": 18.2,
+          "fat_g": 1.4,
+          "carbohydrate_g": 7
         }
       ]
     }
