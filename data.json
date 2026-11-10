@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-10T03:12:06.861Z",
+  "updated_at": "2026-11-10T03:21:02.443Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -2671,23 +2671,31 @@
       "date": "2026-11-10",
       "kind": "meal",
       "meal": "lunch",
-      "description": "BASE BREAD ミルク2袋（味・袋数は仮計上）",
-      "kcal": 500,
-      "protein_g": 27,
-      "fat_g": 17,
-      "carbohydrate_g": 66.2,
-      "status": "user_reported_with_assumed_product_and_portion",
-      "notes": "これまでの記録を参考に、味はミルクと仮定。「2つ」は2袋（1袋2個入り、計4個）と仮定し、公式の1袋あたりの栄養表示を2倍。",
-      "updated_at": "2026-11-10T03:11:55.763Z",
+      "description": "BASE BREAD ミルク1袋＋こしあん1袋",
+      "kcal": 523,
+      "protein_g": 27.2,
+      "fat_g": 15.4,
+      "carbohydrate_g": 74.9,
+      "status": "user_reported",
+      "notes": "ミルク1袋（2個入り）とこしあん1袋（1個入り）。それぞれ1袋あたりのメーカー表示に基づく。",
+      "updated_at": "2026-11-10T03:20:50.335Z",
       "recorded_at": "2026-11-10T03:11:55.763Z",
       "food_items": [
         {
-          "food": "BASE BREAD ミルク2袋（仮計上）",
+          "food": "BASE BREAD ミルク1袋（2個入り）",
           "portion_g": null,
-          "kcal": 500,
-          "protein_g": 27,
-          "fat_g": 17,
-          "carbohydrate_g": 66.2
+          "kcal": 250,
+          "protein_g": 13.5,
+          "fat_g": 8.5,
+          "carbohydrate_g": 33.1
+        },
+        {
+          "food": "BASE BREAD こしあん1袋（1個入り）",
+          "portion_g": null,
+          "kcal": 273,
+          "protein_g": 13.7,
+          "fat_g": 6.9,
+          "carbohydrate_g": 41.8
         }
       ]
     }
