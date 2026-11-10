@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-10T13:23:05.535Z",
+  "updated_at": "2026-11-10T13:39:42.771Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -2754,6 +2754,31 @@
           "protein_g": 15.4,
           "fat_g": 14.6,
           "carbohydrate_g": 6.1
+        }
+      ]
+    },
+    {
+      "record_id": "meal-4920a13e-d637-479f-a6c8-8e34235ff57a",
+      "date": "2026-11-10",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "メロン 可食部140g（露地メロン・生の標準値で概算）",
+      "kcal": 63,
+      "protein_g": 1.4,
+      "fat_g": 0.14,
+      "carbohydrate_g": 14.56,
+      "status": "user_reported_with_standard_composition",
+      "notes": "可食部140g。露地メロン・生の食品成分表を使った概算。",
+      "updated_at": "2026-11-10T13:39:33.651Z",
+      "recorded_at": "2026-11-10T13:39:33.651Z",
+      "food_items": [
+        {
+          "food": "メロン 可食部140g",
+          "portion_g": 140,
+          "kcal": 63,
+          "protein_g": 1.4,
+          "fat_g": 0.14,
+          "carbohydrate_g": 14.56
         }
       ]
     }
