@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-10T13:08:44.140Z",
+  "updated_at": "2026-11-10T13:23:05.535Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -2729,14 +2729,14 @@
       "date": "2026-11-10",
       "kind": "meal",
       "meal": "dinner",
-      "description": "おさかな海苔弁当（銀鮭塩焼き）1包装＋おつまみ鶏三昧（量を確認中）",
-      "kcal": null,
-      "protein_g": null,
-      "fat_g": null,
-      "carbohydrate_g": null,
-      "status": "user_reported_with_unconfirmed_portion",
-      "notes": "弁当は1包装の表示値。おつまみ鶏三昧は食べた重さを確認中。",
-      "updated_at": "2026-11-10T13:08:30.607Z",
+      "description": "おさかな海苔弁当（銀鮭塩焼き）1包装＋おつまみ鶏三昧100g",
+      "kcal": 709,
+      "protein_g": 37.2,
+      "fat_g": 27.2,
+      "carbohydrate_g": 74.5,
+      "status": "user_reported_with_assumed_quantity",
+      "notes": "弁当は1包装として計上。おつまみ鶏三昧は本人確認の100g。どちらも写真の栄養成分表示を使用。",
+      "updated_at": "2026-11-10T13:22:47.467Z",
       "recorded_at": "2026-11-10T13:08:30.607Z",
       "food_items": [
         {
@@ -2748,12 +2748,12 @@
           "carbohydrate_g": 68.4
         },
         {
-          "food": "おつまみ鶏三昧（量を確認中）",
-          "portion_g": null,
-          "kcal": null,
-          "protein_g": null,
-          "fat_g": null,
-          "carbohydrate_g": null
+          "food": "おつまみ鶏三昧100g",
+          "portion_g": 100,
+          "kcal": 225,
+          "protein_g": 15.4,
+          "fat_g": 14.6,
+          "carbohydrate_g": 6.1
         }
       ]
     }
