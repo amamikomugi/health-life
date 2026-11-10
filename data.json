@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-10T13:39:42.771Z",
+  "updated_at": "2026-11-10T15:01:30.221Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -1945,7 +1945,7 @@
       "steps": 8207,
       "status": "synced",
       "source_metric": "steps_total",
-      "fetched_at": "2026-11-10T11:59:02.201+09:00"
+      "fetched_at": "2026-11-11T00:00:50.146+09:00"
     },
     {
       "record_id": "apple-health-20261105-active-energy",
@@ -1954,7 +1954,7 @@
       "active_kcal": 334.47099999999995,
       "status": "synced",
       "source_metric": "active_energy_total",
-      "fetched_at": "2026-11-10T11:59:02.201+09:00"
+      "fetched_at": "2026-11-11T00:00:50.146+09:00"
     },
     {
       "record_id": "apple-health-20261105-basal-energy",
@@ -1963,7 +1963,7 @@
       "basal_kcal": 1826.458709407966,
       "status": "synced",
       "source_metric": "basal_energy_total",
-      "fetched_at": "2026-11-10T11:59:02.201+09:00"
+      "fetched_at": "2026-11-11T00:00:50.146+09:00"
     },
     {
       "record_id": "apple-health-20261106-steps",
@@ -1972,7 +1972,7 @@
       "steps": 3245,
       "status": "synced",
       "source_metric": "steps_total",
-      "fetched_at": "2026-11-10T11:59:02.201+09:00"
+      "fetched_at": "2026-11-11T00:00:50.146+09:00"
     },
     {
       "record_id": "apple-health-20261106-active-energy",
@@ -1981,7 +1981,7 @@
       "active_kcal": 135.01999999999998,
       "status": "synced",
       "source_metric": "active_energy_total",
-      "fetched_at": "2026-11-10T11:59:02.201+09:00"
+      "fetched_at": "2026-11-11T00:00:50.146+09:00"
     },
     {
       "record_id": "apple-health-20261106-basal-energy",
@@ -1990,7 +1990,7 @@
       "basal_kcal": 1801.6080243271101,
       "status": "synced",
       "source_metric": "basal_energy_total",
-      "fetched_at": "2026-11-10T11:59:02.201+09:00"
+      "fetched_at": "2026-11-11T00:00:50.146+09:00"
     },
     {
       "record_id": "meal-b2ba92ad-d33a-45a6-a05b-793d32461d3c",
@@ -2234,7 +2234,7 @@
       "steps": 14596,
       "status": "synced",
       "source_metric": "steps_total",
-      "fetched_at": "2026-11-10T11:59:02.201+09:00"
+      "fetched_at": "2026-11-11T00:00:50.146+09:00"
     },
     {
       "record_id": "apple-health-20261107-active-energy",
@@ -2243,7 +2243,7 @@
       "active_kcal": 510.28399999999993,
       "status": "synced",
       "source_metric": "active_energy_total",
-      "fetched_at": "2026-11-10T11:59:02.201+09:00"
+      "fetched_at": "2026-11-11T00:00:50.146+09:00"
     },
     {
       "record_id": "apple-health-20261107-basal-energy",
@@ -2252,7 +2252,7 @@
       "basal_kcal": 1855.8768973202195,
       "status": "synced",
       "source_metric": "basal_energy_total",
-      "fetched_at": "2026-11-10T11:59:02.201+09:00"
+      "fetched_at": "2026-11-11T00:00:50.146+09:00"
     },
     {
       "record_id": "meal-382c9f3f-1d23-404a-bbe3-003cf5d04535",
@@ -2550,7 +2550,7 @@
       "steps": 1704,
       "status": "synced",
       "source_metric": "steps_total",
-      "fetched_at": "2026-11-10T11:59:02.201+09:00"
+      "fetched_at": "2026-11-11T00:00:50.146+09:00"
     },
     {
       "record_id": "apple-health-20261108-active-energy",
@@ -2559,7 +2559,7 @@
       "active_kcal": 74.495,
       "status": "synced",
       "source_metric": "active_energy_total",
-      "fetched_at": "2026-11-10T11:59:02.201+09:00"
+      "fetched_at": "2026-11-11T00:00:50.146+09:00"
     },
     {
       "record_id": "apple-health-20261108-basal-energy",
@@ -2568,7 +2568,7 @@
       "basal_kcal": 1733.0428208493286,
       "status": "synced",
       "source_metric": "basal_energy_total",
-      "fetched_at": "2026-11-10T11:59:02.201+09:00"
+      "fetched_at": "2026-11-11T00:00:50.146+09:00"
     },
     {
       "record_id": "apple-health-20261109-steps",
@@ -2577,7 +2577,7 @@
       "steps": 1184,
       "status": "synced",
       "source_metric": "steps_total",
-      "fetched_at": "2026-11-10T11:59:02.201+09:00"
+      "fetched_at": "2026-11-11T00:00:50.146+09:00"
     },
     {
       "record_id": "apple-health-20261109-active-energy",
@@ -2586,16 +2586,16 @@
       "active_kcal": 41.232000000000006,
       "status": "synced",
       "source_metric": "active_energy_total",
-      "fetched_at": "2026-11-10T11:59:02.201+09:00"
+      "fetched_at": "2026-11-11T00:00:50.146+09:00"
     },
     {
       "record_id": "apple-health-20261109-basal-energy",
       "date": "2026-11-09",
       "kind": "daily_activity",
-      "basal_kcal": 1638.1930050863377,
+      "basal_kcal": 1791.6533631316588,
       "status": "synced",
       "source_metric": "basal_energy_total",
-      "fetched_at": "2026-11-10T11:59:02.201+09:00"
+      "fetched_at": "2026-11-11T00:00:50.146+09:00"
     },
     {
       "record_id": "daily-20261109",
@@ -2615,31 +2615,28 @@
       "record_id": "apple-health-20261110-steps",
       "date": "2026-11-10",
       "kind": "daily_activity",
-      "steps": null,
-      "status": "not_returned",
+      "steps": 7574,
+      "status": "possibly_incomplete",
       "source_metric": "steps_total",
-      "fetched_at": "2026-11-10T11:59:02.201+09:00",
-      "notes": "照会しましたが値が返りませんでした。0として扱いません。"
+      "fetched_at": "2026-11-11T00:00:50.146+09:00"
     },
     {
       "record_id": "apple-health-20261110-active-energy",
       "date": "2026-11-10",
       "kind": "daily_activity",
-      "active_kcal": null,
-      "status": "not_returned",
+      "active_kcal": 301.797,
+      "status": "possibly_incomplete",
       "source_metric": "active_energy_total",
-      "fetched_at": "2026-11-10T11:59:02.201+09:00",
-      "notes": "照会しましたが値が返りませんでした。0として扱いません。"
+      "fetched_at": "2026-11-11T00:00:50.146+09:00"
     },
     {
       "record_id": "apple-health-20261110-basal-energy",
       "date": "2026-11-10",
       "kind": "daily_activity",
-      "basal_kcal": null,
-      "status": "not_returned",
+      "basal_kcal": 1680.027641954679,
+      "status": "possibly_incomplete",
       "source_metric": "basal_energy_total",
-      "fetched_at": "2026-11-10T11:59:02.201+09:00",
-      "notes": "照会しましたが値が返りませんでした。0として扱いません。"
+      "fetched_at": "2026-11-11T00:00:50.146+09:00"
     },
     {
       "record_id": "meal-83153824-e5dd-425d-b72f-1320ea0a2732",
@@ -2781,6 +2778,20 @@
           "carbohydrate_g": 14.56
         }
       ]
+    },
+    {
+      "record_id": "daily-20261110",
+      "date": "2026-11-10",
+      "kind": "daily_summary",
+      "kcal": 1641,
+      "protein_g": 89.2,
+      "fat_g": 50.14,
+      "carbohydrate_g": 209.66,
+      "status": "calculated_from_recorded_meals",
+      "notes": "記録済みの食事だけを合計しています。未報告の食事の有無は未確認です。",
+      "updated_at": "2026-11-10T15:01:30.158Z",
+      "recorded_at": "2026-11-10T15:01:30.158Z",
+      "day_coverage": "breakfast_lunch_dinner_recorded"
     }
   ],
   "settings": {
@@ -2905,8 +2916,8 @@
     }
   },
   "health_sync": {
-    "last_fetched_at": "2026-11-10T11:59:02.201+09:00",
-    "last_source_sync_at": "2026-11-10T07:27:43.001+09:00"
+    "last_fetched_at": "2026-11-11T00:00:50.146+09:00",
+    "last_source_sync_at": "2026-11-10T13:58:11.548Z"
   },
   "repository": "https://github.com/amamikomugi/health-life",
   "update_schedule": {
