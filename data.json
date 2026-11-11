@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-11T09:50:18.196Z",
+  "updated_at": "2026-11-11T14:17:14.683Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -2922,6 +2922,39 @@
           "protein_g": 6.5,
           "fat_g": 3.7,
           "carbohydrate_g": 5.9
+        }
+      ]
+    },
+    {
+      "record_id": "meal-6f9d0a90-523e-4350-9ef7-4346b30ed517",
+      "date": "2026-11-11",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "ビヒダス ヨーグルト ざく盛りフルーツ1個（200g）＋濃厚うにあげせん1袋（37g）",
+      "kcal": 309,
+      "protein_g": 8.9,
+      "fat_g": 14.8,
+      "carbohydrate_g": 35.7,
+      "status": "user_reported_with_assumed_quantity",
+      "notes": "ヨーグルト1個とうにあげせん1袋として、それぞれの公式栄養表示で計上。",
+      "updated_at": "2026-11-11T14:17:02.047Z",
+      "recorded_at": "2026-11-11T14:17:02.047Z",
+      "food_items": [
+        {
+          "food": "森永乳業 ビヒダス ヨーグルト ざく盛りフルーツ1個（200g）",
+          "portion_g": 200,
+          "kcal": 94,
+          "protein_g": 7.1,
+          "fat_g": 0,
+          "carbohydrate_g": 16.8
+        },
+        {
+          "food": "セブンプレミアム 濃厚うにあげせん1袋（37g）",
+          "portion_g": 37,
+          "kcal": 215,
+          "protein_g": 1.8,
+          "fat_g": 14.8,
+          "carbohydrate_g": 18.9
         }
       ]
     }
