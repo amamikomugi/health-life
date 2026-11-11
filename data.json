@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-10T15:01:30.221Z",
+  "updated_at": "2026-11-11T09:46:41.242Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -2792,6 +2792,113 @@
       "updated_at": "2026-11-10T15:01:30.158Z",
       "recorded_at": "2026-11-10T15:01:30.158Z",
       "day_coverage": "breakfast_lunch_dinner_recorded"
+    },
+    {
+      "record_id": "meal-716bc399-ee94-489a-aed8-e5c38f610496",
+      "date": "2026-11-11",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "アンビーク ソイプロテイン バナナ風味22g＋特選よつ葉無脂肪牛乳200ml（仮計上）",
+      "kcal": 152,
+      "protein_g": 23.4,
+      "fat_g": 0.9,
+      "carbohydrate_g": 12.9,
+      "status": "user_reported_with_assumed_portions",
+      "notes": "前回の朝の記録を参考に、アンビーク バナナ風味22gと無脂肪牛乳200mlで仮計上。",
+      "updated_at": "2026-11-11T09:46:25.407Z",
+      "recorded_at": "2026-11-11T09:46:25.407Z",
+      "food_items": [
+        {
+          "food": "アンビーク ソイプロテイン バナナ風味22g（仮計上）",
+          "portion_g": 22,
+          "kcal": 82,
+          "protein_g": 16.4,
+          "fat_g": 0.9,
+          "carbohydrate_g": 2.3
+        },
+        {
+          "food": "特選よつ葉無脂肪牛乳200ml（仮計上）",
+          "portion_g": null,
+          "kcal": 70,
+          "protein_g": 7,
+          "fat_g": 0,
+          "carbohydrate_g": 10.6
+        }
+      ]
+    },
+    {
+      "record_id": "meal-58b8fc61-51ca-4261-ba46-a2e0a4b7942f",
+      "date": "2026-11-11",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "BASE BREAD ミルク1袋（2個入り・味と量は仮計上）",
+      "kcal": 250,
+      "protein_g": 13.5,
+      "fat_g": 8.5,
+      "carbohydrate_g": 33.1,
+      "status": "user_reported_with_assumed_portions",
+      "notes": "ミルク味1袋（2個入り）として仮計上。",
+      "updated_at": "2026-11-11T09:46:25.407Z",
+      "recorded_at": "2026-11-11T09:46:25.407Z",
+      "food_items": [
+        {
+          "food": "BASE BREAD ミルク1袋（2個入り・仮計上）",
+          "portion_g": null,
+          "kcal": 250,
+          "protein_g": 13.5,
+          "fat_g": 8.5,
+          "carbohydrate_g": 33.1
+        }
+      ]
+    },
+    {
+      "record_id": "meal-5a052944-f178-43c1-8a27-009049fd7fc6",
+      "date": "2026-11-11",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "鶏むね250g・ぶなしめじ・キャベツ1/4玉・チーズinかまぼこ1本（概算を含む）",
+      "kcal": 379.55,
+      "protein_g": 66.64,
+      "fat_g": 6.355,
+      "carbohydrate_g": 21.73,
+      "status": "user_reported_with_assumed_portions",
+      "notes": "鶏むねは皮なし・調理前250gを仮定。しめじは可食部90g、キャベツは可食部255g、ちーかまはなとり29gの1本で仮計上。",
+      "updated_at": "2026-11-11T09:46:25.407Z",
+      "recorded_at": "2026-11-11T09:46:25.407Z",
+      "food_items": [
+        {
+          "food": "鶏むね肉250g（皮なし・調理前と仮定）",
+          "portion_g": 250,
+          "kcal": 262.5,
+          "protein_g": 58.25,
+          "fat_g": 4.75,
+          "carbohydrate_g": 0.25
+        },
+        {
+          "food": "ぶなしめじ1パック（可食部90g・概算）",
+          "portion_g": 90,
+          "kcal": 23.4,
+          "protein_g": 2.43,
+          "fat_g": 0.45,
+          "carbohydrate_g": 4.32
+        },
+        {
+          "food": "キャベツ1/4玉（可食部255g・概算）",
+          "portion_g": 255,
+          "kcal": 58.65,
+          "protein_g": 3.06,
+          "fat_g": 0.255,
+          "carbohydrate_g": 13.26
+        },
+        {
+          "food": "なとり チーズinかまぼこ1本（29gと仮定）",
+          "portion_g": 29,
+          "kcal": 35,
+          "protein_g": 2.9,
+          "fat_g": 0.9,
+          "carbohydrate_g": 3.9
+        }
+      ]
     }
   ],
   "settings": {
