@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-12T01:55:24.111Z",
+  "updated_at": "2026-11-12T05:40:21.461Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -3064,6 +3064,31 @@
           "protein_g": 13.5,
           "fat_g": 8.5,
           "carbohydrate_g": 33.1
+        }
+      ]
+    },
+    {
+      "record_id": "meal-0d4a879e-0382-40cc-bcff-8ab7f2934c01",
+      "date": "2026-11-12",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "伊藤ハム じぶんプラス 糖質0サラダチキン（スモーク）1パック（110g）（脂質・炭水化物は概算）",
+      "kcal": 120,
+      "protein_g": 25.6,
+      "fat_g": 1.9,
+      "carbohydrate_g": 1.75,
+      "status": "user_reported_with_assumed_quantity",
+      "notes": "写真と一致する1パック110gの公式表示で計上。脂質0.7〜3.1g・炭水化物0.8〜2.7gは、それぞれ表示範囲の中間値で概算。",
+      "updated_at": "2026-11-12T05:40:08.908Z",
+      "recorded_at": "2026-11-12T05:40:08.908Z",
+      "food_items": [
+        {
+          "food": "伊藤ハム じぶんプラス 糖質0サラダチキン（スモーク）1パック（110g）",
+          "portion_g": 110,
+          "kcal": 120,
+          "protein_g": 25.6,
+          "fat_g": 1.9,
+          "carbohydrate_g": 1.75
         }
       ]
     }
