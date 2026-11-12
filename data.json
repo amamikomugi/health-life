@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-12T10:40:18.993Z",
+  "updated_at": "2026-11-12T13:57:05.556Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -3130,6 +3130,39 @@
           "protein_g": 11.7,
           "fat_g": 6.3,
           "carbohydrate_g": 14.5
+        }
+      ]
+    },
+    {
+      "record_id": "meal-f6cf74fc-eaa4-4640-b76d-297a36098a9c",
+      "date": "2026-11-12",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "中トロのにぎり5貫＋きんぴらごぼう73kcal（概算を含む）",
+      "kcal": 428,
+      "protein_g": 15.756,
+      "fat_g": 21.09,
+      "carbohydrate_g": 37.812,
+      "status": "user_reported_with_estimated_nutrition",
+      "notes": "11月12日の夕食に追加。中トロは近い商品のにぎり5貫で概算。きんぴらは申告の73kcalに合わせてPFCを推定。",
+      "updated_at": "2026-11-12T13:56:50.911Z",
+      "recorded_at": "2026-11-12T13:56:50.911Z",
+      "food_items": [
+        {
+          "food": "中トロのにぎり5貫（概算）",
+          "portion_g": null,
+          "kcal": 355,
+          "protein_g": 14.5,
+          "fat_g": 18.5,
+          "carbohydrate_g": 28
+        },
+        {
+          "food": "きんぴらごぼう（73kcal・PFC推定）",
+          "portion_g": null,
+          "kcal": 73,
+          "protein_g": 1.256,
+          "fat_g": 2.59,
+          "carbohydrate_g": 9.812
         }
       ]
     }
