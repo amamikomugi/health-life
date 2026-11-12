@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-12T05:40:21.461Z",
+  "updated_at": "2026-11-12T10:40:18.993Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -3089,6 +3089,47 @@
           "protein_g": 25.6,
           "fat_g": 1.9,
           "carbohydrate_g": 1.75
+        }
+      ]
+    },
+    {
+      "record_id": "meal-2f04df1d-ccd5-4175-b7ac-a306bc3e6f1a",
+      "date": "2026-11-12",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "鶏むね肉250g＋にんじん1本＋西友 こだわりだしのおでん1人前（概算を含む）",
+      "kcal": 466.425,
+      "protein_g": 70.969,
+      "fat_g": 11.341,
+      "carbohydrate_g": 28.282,
+      "status": "user_reported_with_assumed_portions",
+      "notes": "鶏むね250gは皮なし・調理前、にんじん1本は可食部145.5gで計上。おでんは前回と同じ西友のこだわりだし450gを仮定。",
+      "updated_at": "2026-11-12T10:40:06.512Z",
+      "recorded_at": "2026-11-12T10:40:06.512Z",
+      "food_items": [
+        {
+          "food": "鶏むね肉250g（皮なし・調理前として計上）",
+          "portion_g": 250,
+          "kcal": 262.5,
+          "protein_g": 58.25,
+          "fat_g": 4.75,
+          "carbohydrate_g": 0.25
+        },
+        {
+          "food": "にんじん1本（皮つき・可食部145.5gで概算）",
+          "portion_g": 145.5,
+          "kcal": 50.925,
+          "protein_g": 1.0185,
+          "fat_g": 0.291,
+          "carbohydrate_g": 13.5315
+        },
+        {
+          "food": "西友 こだわりだしのおでん1人前（1袋450g）",
+          "portion_g": 450,
+          "kcal": 153,
+          "protein_g": 11.7,
+          "fat_g": 6.3,
+          "carbohydrate_g": 14.5
         }
       ]
     }
