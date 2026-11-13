@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-13T02:28:54.152Z",
+  "updated_at": "2026-11-13T09:50:35.685Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -3278,6 +3278,47 @@
           "protein_g": 11,
           "fat_g": 24.7,
           "carbohydrate_g": 65.8
+        }
+      ]
+    },
+    {
+      "record_id": "meal-80f08a91-af1d-4653-a91d-9be485a1269b",
+      "date": "2026-11-13",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "KFC オリジナルチキンバーガー1個＋オリジナルチキン1ピース＋生姜香る温辛チキン1ピース",
+      "kcal": 951,
+      "protein_g": 56.9,
+      "fat_g": 56.6,
+      "carbohydrate_g": 53.9,
+      "status": "user_reported_with_assumed_quantity",
+      "notes": "3品を各1点で計上。生姜チキンは生姜香る温辛チキンと解釈し、KFC公式の標準値を使用。",
+      "updated_at": "2026-11-13T09:49:12Z",
+      "recorded_at": "2026-11-13T09:49:12Z",
+      "food_items": [
+        {
+          "food": "KFC オリジナルチキンバーガー1個",
+          "portion_g": null,
+          "kcal": 480,
+          "protein_g": 22.5,
+          "fat_g": 28,
+          "carbohydrate_g": 35
+        },
+        {
+          "food": "KFC オリジナルチキン1ピース",
+          "portion_g": null,
+          "kcal": 218,
+          "protein_g": 16.5,
+          "fat_g": 12.8,
+          "carbohydrate_g": 9.1
+        },
+        {
+          "food": "KFC 生姜香る温辛チキン1ピース",
+          "portion_g": null,
+          "kcal": 253,
+          "protein_g": 17.9,
+          "fat_g": 15.8,
+          "carbohydrate_g": 9.8
         }
       ]
     }
