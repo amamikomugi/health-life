@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-12T15:01:42.867Z",
+  "updated_at": "2026-11-13T02:28:54.152Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -3206,6 +3206,80 @@
       "updated_at": "2026-11-12T15:01:42.791Z",
       "recorded_at": "2026-11-12T15:01:42.791Z",
       "day_coverage": "breakfast_lunch_dinner_recorded"
+    },
+    {
+      "record_id": "meal-7bb95add-7689-48a7-ae00-525ce345eba0",
+      "date": "2026-11-13",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "アンビーク ソイプロテイン バナナ風味22g＋特選よつ葉無脂肪牛乳200ml（仮計上）",
+      "kcal": 152,
+      "protein_g": 23.4,
+      "fat_g": 0.9,
+      "carbohydrate_g": 12.9,
+      "status": "user_reported_with_assumed_portions",
+      "notes": "前日の朝と同じアンビークのバナナ風味22gと、特選よつ葉無脂肪牛乳200mlで仮計上。",
+      "updated_at": "2026-11-13T02:25:35Z",
+      "recorded_at": "2026-11-13T02:25:35Z",
+      "food_items": [
+        {
+          "food": "アンビーク ソイプロテイン バナナ風味1食（22g・仮計上）",
+          "portion_g": 22,
+          "kcal": 82,
+          "protein_g": 16.4,
+          "fat_g": 0.9,
+          "carbohydrate_g": 2.3
+        },
+        {
+          "food": "特選よつ葉無脂肪牛乳200ml（仮計上）",
+          "portion_g": null,
+          "kcal": 70,
+          "protein_g": 7,
+          "fat_g": 0,
+          "carbohydrate_g": 10.6
+        }
+      ]
+    },
+    {
+      "record_id": "meal-e1e01425-01d6-4be4-baab-a88e18af163c",
+      "date": "2026-11-13",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "西友のカキフライ6個・塩唐揚99g＋カレーみそきん1食",
+      "kcal": 1105.12,
+      "protein_g": 37.323,
+      "fat_g": 57.025,
+      "carbohydrate_g": 109.876,
+      "status": "user_reported_with_assumed_portions",
+      "notes": "写真の栄養表示で計算。カキフライは6個、塩唐揚は重量欄の99g、カレーみそきんはスープ込みの1食として計上。",
+      "updated_at": "2026-11-13T02:25:35Z",
+      "recorded_at": "2026-11-13T02:25:35Z",
+      "food_items": [
+        {
+          "food": "西友 濃厚な海の旨味！カキフライ6個（1パック）",
+          "portion_g": null,
+          "kcal": 389,
+          "protein_g": 8.8,
+          "fat_g": 24.9,
+          "carbohydrate_g": 31.8
+        },
+        {
+          "food": "西友 国産鶏むね×こうじ！！塩唐揚 小（1パック99g）",
+          "portion_g": 99,
+          "kcal": 186.12,
+          "protein_g": 17.523,
+          "fat_g": 7.425,
+          "carbohydrate_g": 12.276
+        },
+        {
+          "food": "日清食品 カレーみそきん 濃厚味噌カレー（1食111g・スープ込み）",
+          "portion_g": 111,
+          "kcal": 530,
+          "protein_g": 11,
+          "fat_g": 24.7,
+          "carbohydrate_g": 65.8
+        }
+      ]
     }
   ],
   "settings": {
