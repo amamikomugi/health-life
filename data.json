@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-13T15:00:44.181Z",
+  "updated_at": "2026-11-14T01:44:45.543Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -3362,6 +3362,31 @@
       "updated_at": "2026-11-13T15:00:44.102Z",
       "recorded_at": "2026-11-13T15:00:44.102Z",
       "day_coverage": "breakfast_lunch_dinner_recorded"
+    },
+    {
+      "record_id": "meal-8ffe5aca-2a97-4c1f-b7e3-6b9c2ce1d007",
+      "date": "2026-11-14",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "ミスタードーナツ チョコファッション1個（仮計上）",
+      "kcal": 331,
+      "protein_g": 3.4,
+      "fat_g": 21.6,
+      "carbohydrate_g": 31,
+      "status": "user_reported_with_assumed_quantity",
+      "notes": "ミスタードーナツのチョコファッション1個として仮計上。公式の1商品当たりの栄養成分表示を使用。",
+      "updated_at": "2026-11-14T01:44:38Z",
+      "recorded_at": "2026-11-14T01:44:38Z",
+      "food_items": [
+        {
+          "food": "ミスタードーナツ チョコファッション1個",
+          "portion_g": null,
+          "kcal": 331,
+          "protein_g": 3.4,
+          "fat_g": 21.6,
+          "carbohydrate_g": 31
+        }
+      ]
     }
   ],
   "settings": {
