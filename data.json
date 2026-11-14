@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-14T01:44:45.543Z",
+  "updated_at": "2026-11-14T05:19:18.270Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -3385,6 +3385,39 @@
           "protein_g": 3.4,
           "fat_g": 21.6,
           "carbohydrate_g": 31
+        }
+      ]
+    },
+    {
+      "record_id": "meal-2078c1db-1ca5-4f03-a59c-66db78a12253",
+      "date": "2026-11-14",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "ジューシーチキンステーキ1人前（ソース・付け合わせ込み）＋ご飯150g（概算）",
+      "kcal": 800,
+      "protein_g": 42.05,
+      "fat_g": 37.45,
+      "carbohydrate_g": 72.25,
+      "status": "user_reported_with_estimated_nutrition_and_portion",
+      "notes": "写真をもとにチキンステーキはソース・付け合わせ込みの1人前を近い料理の栄養値で概算。ご飯は炊いた白米の茶碗1杯150gとして計上。",
+      "updated_at": "2026-11-14T05:19:11Z",
+      "recorded_at": "2026-11-14T05:19:11Z",
+      "food_items": [
+        {
+          "food": "ジューシーチキンステーキ1人前（付け合わせ込み・概算）",
+          "portion_g": null,
+          "kcal": 566,
+          "protein_g": 38.3,
+          "fat_g": 37,
+          "carbohydrate_g": 16.6
+        },
+        {
+          "food": "ご飯150g（茶碗1杯として概算）",
+          "portion_g": 150,
+          "kcal": 234,
+          "protein_g": 3.75,
+          "fat_g": 0.45,
+          "carbohydrate_g": 55.65
         }
       ]
     }
