@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-14T05:19:18.270Z",
+  "updated_at": "2026-11-14T10:21:34.155Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -3418,6 +3418,31 @@
           "protein_g": 3.75,
           "fat_g": 0.45,
           "carbohydrate_g": 55.65
+        }
+      ]
+    },
+    {
+      "record_id": "meal-e6f3547e-44de-4e30-80ac-8a10652f4d44",
+      "date": "2026-11-14",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "珈琲館 燻しベーコンのB.L.Tサンド（サラダ付き）1人前（PFC推定）",
+      "kcal": 617,
+      "protein_g": 16.574,
+      "fat_g": 35.568,
+      "carbohydrate_g": 56.498,
+      "status": "user_reported_with_estimated_nutrition_and_portion",
+      "notes": "サラダ付き1人前として仮計上。カロリーは珈琲館の公式値。PFCはキユーピーのBLTマスタードサンドの値をカロリー比で換算した推定。",
+      "updated_at": "2026-11-14T10:20:30Z",
+      "recorded_at": "2026-11-14T10:20:30Z",
+      "food_items": [
+        {
+          "food": "珈琲館 燻しベーコンのB.L.Tサンド（サラダ付き）1人前（PFC推定）",
+          "portion_g": null,
+          "kcal": 617,
+          "protein_g": 16.574,
+          "fat_g": 35.568,
+          "carbohydrate_g": 56.498
         }
       ]
     }
