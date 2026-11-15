@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-15T03:30:01.084Z",
+  "updated_at": "2026-11-15T12:00:52.603Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -3517,23 +3517,23 @@
       "date": "2026-11-15",
       "kind": "meal",
       "meal": "lunch",
-      "description": "バーミヤン 厚切り焼豚のバミ郎そば マシ盛（濃厚醤油・スープ込み1杯）＋本格焼餃子6個（PFC推定）",
-      "kcal": 2757,
-      "protein_g": 78.513,
-      "fat_g": 184.163,
-      "carbohydrate_g": 171.128,
+      "description": "バーミヤン バミ郎そば マシ盛（濃厚醤油・スープ約9割残し）＋本格焼餃子6個（概算）",
+      "kcal": 2392,
+      "protein_g": 65.655,
+      "fat_g": 155.751,
+      "carbohydrate_g": 155.781,
       "status": "user_reported_with_estimated_nutrition_and_portion",
-      "notes": "昼食として仮計上。濃厚醤油のマシ盛はスープ込み1杯、餃子は6個。エネルギーはバーミヤン公式、PFCは二郎系ラーメンの成分分析と同ブランドの冷凍生餃子を参考に概算。",
-      "updated_at": "2026-11-15T03:29:55Z",
+      "notes": "麺と具は1杯分、スープは約9割残したと仮定して、完飲時の公式2,300kcalから残した分の約365kcalを控除。控除量とPFCは類似する背脂醤油系ラーメン・スープの資料による概算。餃子は6個。",
+      "updated_at": "2026-11-15T12:00:34Z",
       "recorded_at": "2026-11-15T03:29:55Z",
       "food_items": [
         {
-          "food": "厚切り焼豚のバミ郎そば マシ盛（濃厚醤油・スープ込み1杯・PFC推定）",
+          "food": "厚切り焼豚のバミ郎そば マシ盛（濃厚醤油・スープ約9割残し、概算）",
           "portion_g": null,
-          "kcal": 2300,
-          "protein_g": 68.324,
-          "fat_g": 154.196,
-          "carbohydrate_g": 136.216
+          "kcal": 1935,
+          "protein_g": 55.466,
+          "fat_g": 125.784,
+          "carbohydrate_g": 120.869
         },
         {
           "food": "本格焼餃子6個（PFC推定）",
