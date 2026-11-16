@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-16T01:13:53.037Z",
+  "updated_at": "2026-11-16T02:43:42.142Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -3644,6 +3644,21 @@
       "weight_kg": 84.8,
       "updated_at": "2026-11-16T01:13:35Z",
       "recorded_at": "2026-11-16T01:13:35Z"
+    },
+    {
+      "record_id": "meal-e198f510-6ef3-45ee-8f03-2635964d51e2",
+      "date": "2026-11-16",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "BASE BREAD ミルク1袋・ゆで卵2個・ミニストップ ほぐしサラダチキン プレーン1袋（概算）",
+      "kcal": 474,
+      "protein_g": 44.3,
+      "fat_g": 20.1,
+      "carbohydrate_g": 35,
+      "status": "user_reported_with_estimated_nutrition_and_portion",
+      "notes": "味・分量・調理法を仮定した概算。チキンは90g入りの掲載品を参照。",
+      "updated_at": "2026-11-16T02:43:24.466Z",
+      "recorded_at": "2026-11-16T02:43:24.466Z"
     }
   ],
   "settings": {
