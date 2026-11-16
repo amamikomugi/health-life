@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-16T09:23:24.094Z",
+  "updated_at": "2026-11-16T14:54:32.280Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -3714,6 +3714,39 @@
           "protein_g": 24.2,
           "fat_g": 1,
           "carbohydrate_g": 3
+        }
+      ]
+    },
+    {
+      "record_id": "meal-6765bbf6-fa67-4167-99d7-cbcfeb883c32",
+      "date": "2026-11-16",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "蒸しさつまいも150g・りんご1個（概算）",
+      "kcal": 309.125,
+      "protein_g": 2.013,
+      "fat_g": 0.725,
+      "carbohydrate_g": 80.788,
+      "status": "user_reported_with_estimated_nutrition_and_portion",
+      "notes": "さつまいもは皮なし・蒸しで可食部150g、りんごは1個250gから皮と芯を除いた可食部212.5gとして概算。",
+      "updated_at": "2026-11-16T14:54:18.511Z",
+      "recorded_at": "2026-11-16T14:54:18.511Z",
+      "food_items": [
+        {
+          "food": "蒸しさつまいも150g（皮なし・概算）",
+          "portion_g": 150,
+          "kcal": 196.5,
+          "protein_g": 1.8,
+          "fat_g": 0.3,
+          "carbohydrate_g": 47.85
+        },
+        {
+          "food": "りんご1個（皮なし・可食部約213g・概算）",
+          "portion_g": 212.5,
+          "kcal": 112.625,
+          "protein_g": 0.213,
+          "fat_g": 0.425,
+          "carbohydrate_g": 32.938
         }
       ]
     }
