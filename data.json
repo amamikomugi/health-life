@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-15T15:01:11.950Z",
+  "updated_at": "2026-11-16T01:13:53.037Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -3610,6 +3610,40 @@
       "updated_at": "2026-11-15T15:01:11.896Z",
       "recorded_at": "2026-11-15T15:01:11.896Z",
       "day_coverage": "breakfast_lunch_dinner_recorded"
+    },
+    {
+      "record_id": "meal-6c132e4c-04c3-4e84-9387-93a48192e2f4",
+      "date": "2026-11-16",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "アンビーク ソイプロテイン バナナ風味22g（水割り・味と量は仮計上）",
+      "kcal": 82,
+      "protein_g": 16.4,
+      "fat_g": 0.9,
+      "carbohydrate_g": 2.3,
+      "status": "user_reported_with_assumed_portions",
+      "notes": "前日の朝と同じアンビークのソイプロテイン バナナ風味22gと仮定。水割りはユーザー報告。",
+      "updated_at": "2026-11-16T01:13:35Z",
+      "recorded_at": "2026-11-16T01:13:35Z",
+      "food_items": [
+        {
+          "food": "アンビーク ソイプロテイン バナナ風味1食（22g・水割り）",
+          "portion_g": 22,
+          "kcal": 82,
+          "protein_g": 16.4,
+          "fat_g": 0.9,
+          "carbohydrate_g": 2.3
+        }
+      ]
+    },
+    {
+      "record_id": "weight-day-20261116",
+      "date": "2026-11-16",
+      "kind": "daily_weight",
+      "status": "user_reported",
+      "weight_kg": 84.8,
+      "updated_at": "2026-11-16T01:13:35Z",
+      "recorded_at": "2026-11-16T01:13:35Z"
     }
   ],
   "settings": {
