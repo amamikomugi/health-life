@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-16T02:43:42.142Z",
+  "updated_at": "2026-11-16T09:23:24.094Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -3659,6 +3659,63 @@
       "notes": "味・分量・調理法を仮定した概算。チキンは90g入りの掲載品を参照。",
       "updated_at": "2026-11-16T02:43:24.466Z",
       "recorded_at": "2026-11-16T02:43:24.466Z"
+    },
+    {
+      "record_id": "meal-74505b57-0bb7-4bd9-a06e-2d740c4a47b8",
+      "date": "2026-11-16",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "カップヌードル 魚豚・卵2個・キャベツ1/4玉・エリンギ1袋・ミニストップ サラダチキン山賊焼風味1袋（概算）",
+      "kcal": 760.876,
+      "protein_g": 52.029,
+      "fat_g": 33.093,
+      "carbohydrate_g": 67.936,
+      "status": "user_reported_with_estimated_nutrition_and_portion",
+      "notes": "魚豚はスープ込みを仮定。卵の可食部計100g、キャベツの可食部255g、エリンギの可食部84.6g、チキンは117kcal掲載品1袋115gとして概算。",
+      "updated_at": "2026-11-16T09:23:09.353Z",
+      "recorded_at": "2026-11-16T09:23:09.353Z",
+      "food_items": [
+        {
+          "food": "カップヌードル 魚豚 1食（85g）",
+          "portion_g": 85,
+          "kcal": 417,
+          "protein_g": 10.2,
+          "fat_g": 21.3,
+          "carbohydrate_g": 46.2
+        },
+        {
+          "food": "卵2個（可食部計100g・概算）",
+          "portion_g": 100,
+          "kcal": 142,
+          "protein_g": 12.2,
+          "fat_g": 10.2,
+          "carbohydrate_g": 0.4
+        },
+        {
+          "food": "キャベツ1/4玉（可食部255g・概算）",
+          "portion_g": 255,
+          "kcal": 58.65,
+          "protein_g": 3.06,
+          "fat_g": 0.255,
+          "carbohydrate_g": 13.26
+        },
+        {
+          "food": "エリンギ1袋（可食部84.6g・概算）",
+          "portion_g": 84.6,
+          "kcal": 26.226,
+          "protein_g": 2.3688,
+          "fat_g": 0.3384,
+          "carbohydrate_g": 5.076
+        },
+        {
+          "food": "ミニストップ サラダチキン 山賊焼風味1袋（115g・仮計上）",
+          "portion_g": 115,
+          "kcal": 117,
+          "protein_g": 24.2,
+          "fat_g": 1,
+          "carbohydrate_g": 3
+        }
+      ]
     }
   ],
   "settings": {
