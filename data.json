@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-17T03:13:14.903Z",
+  "updated_at": "2026-11-17T06:12:10.849Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -3847,6 +3847,31 @@
           "protein_g": 13.3,
           "fat_g": 8.2,
           "carbohydrate_g": 29.9
+        }
+      ]
+    },
+    {
+      "record_id": "meal-7ef8b057-0a5f-40ae-8b23-785d37217eaa",
+      "date": "2026-11-17",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "1本満足バー プロテインストロベリー 1本（39g）",
+      "kcal": 186,
+      "protein_g": 16,
+      "fat_g": 9,
+      "carbohydrate_g": 11.1,
+      "status": "user_reported_with_assumed_portions",
+      "notes": "1本39gとして計上。",
+      "updated_at": "2026-11-17T06:12:09.305Z",
+      "recorded_at": "2026-11-17T06:12:09.305Z",
+      "food_items": [
+        {
+          "food": "1本満足バー プロテインストロベリー 1本（39g）",
+          "portion_g": 39,
+          "kcal": 186,
+          "protein_g": 16,
+          "fat_g": 9,
+          "carbohydrate_g": 11.1
         }
       ]
     }
