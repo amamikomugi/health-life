@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-16T15:00:38.947Z",
+  "updated_at": "2026-11-17T03:13:14.903Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -3791,6 +3791,64 @@
       "updated_at": "2026-11-16T15:00:38.892Z",
       "recorded_at": "2026-11-16T15:00:38.892Z",
       "day_coverage": "breakfast_lunch_dinner_recorded"
+    },
+    {
+      "record_id": "meal-f6e28bff-b2ae-4970-bb90-1834f8e208c0",
+      "date": "2026-11-17",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "アンビーク ソイプロテイン バナナ風味22g（水割り・仮計上）",
+      "kcal": 82,
+      "protein_g": 16.4,
+      "fat_g": 0.9,
+      "carbohydrate_g": 2.3,
+      "status": "user_reported_with_estimated_nutrition_and_portion",
+      "notes": "前回と同じ商品・味・量を仮定。水割りはユーザー報告。",
+      "updated_at": "2026-11-17T03:13:13.814Z",
+      "recorded_at": "2026-11-17T03:13:13.814Z",
+      "food_items": [
+        {
+          "food": "アンビーク ソイプロテイン バナナ風味1食（22g・水割り）",
+          "portion_g": 22,
+          "kcal": 82,
+          "protein_g": 16.4,
+          "fat_g": 0.9,
+          "carbohydrate_g": 2.3
+        }
+      ]
+    },
+    {
+      "record_id": "meal-40e2863b-d9f3-4619-865b-6feb1b39b9b1",
+      "date": "2026-11-17",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "NewDays グリルサラダチキン 照り焼き味1袋・海老入りトマトクリーミーサラダのトルティーヤ1食（トルティーヤは概算）",
+      "kcal": 359,
+      "protein_g": 31.3,
+      "fat_g": 10.4,
+      "carbohydrate_g": 33.4,
+      "status": "user_reported_with_estimated_nutrition_and_portion",
+      "notes": "各1食と仮定。チキンは購入者掲載のラベル、トルティーヤはキユーピーのえび入りサラダラップ1人分を代用した概算。",
+      "updated_at": "2026-11-17T03:13:13.814Z",
+      "recorded_at": "2026-11-17T03:13:13.814Z",
+      "food_items": [
+        {
+          "food": "NewDays グリルサラダチキン 照り焼き味1袋",
+          "portion_g": null,
+          "kcal": 106,
+          "protein_g": 18,
+          "fat_g": 2.2,
+          "carbohydrate_g": 3.5
+        },
+        {
+          "food": "NewDays 海老入りトマトクリーミーサラダのトルティーヤ1食（概算）",
+          "portion_g": null,
+          "kcal": 253,
+          "protein_g": 13.3,
+          "fat_g": 8.2,
+          "carbohydrate_g": 29.9
+        }
+      ]
     }
   ],
   "settings": {
