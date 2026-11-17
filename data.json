@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-17T06:12:10.849Z",
+  "updated_at": "2026-11-17T13:16:26.435Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -3872,6 +3872,39 @@
           "protein_g": 16,
           "fat_g": 9,
           "carbohydrate_g": 11.1
+        }
+      ]
+    },
+    {
+      "record_id": "meal-6a173c5c-b106-4a2d-821b-fc08b896b867",
+      "date": "2026-11-17",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "こはく本舗 もつ鍋1包装・西友 焼とり6本セット（もも・ねぎま）",
+      "kcal": 777,
+      "protein_g": 57,
+      "fat_g": 39.1,
+      "carbohydrate_g": 54,
+      "status": "user_reported_with_assumed_portions",
+      "notes": "写真の包装表示を採用。もつ鍋は麺とスープ込みの1包装、焼とりは6本すべてとして仮計上。",
+      "updated_at": "2026-11-17T13:16:25.942Z",
+      "recorded_at": "2026-11-17T13:16:25.942Z",
+      "food_items": [
+        {
+          "food": "こはく本舗 杠シェフこだわりのもつ鍋 1包装",
+          "portion_g": null,
+          "kcal": 321,
+          "protein_g": 14.6,
+          "fat_g": 11.3,
+          "carbohydrate_g": 41.2
+        },
+        {
+          "food": "西友 焼とり6本セット（もも・ねぎま）1包装",
+          "portion_g": null,
+          "kcal": 456,
+          "protein_g": 42.4,
+          "fat_g": 27.8,
+          "carbohydrate_g": 12.8
         }
       ]
     }
