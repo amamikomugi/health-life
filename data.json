@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-18T07:07:06.655Z",
+  "updated_at": "2026-11-18T10:30:27.374Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -4012,6 +4012,63 @@
           "protein_g": 13.7,
           "fat_g": 6.9,
           "carbohydrate_g": 41.8
+        }
+      ]
+    },
+    {
+      "record_id": "meal-daccfee4-ae77-4ef7-bdb7-1f0d644b35ac",
+      "date": "2026-11-18",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "鮭100g・鶏もも皮なし200g・にんじん1本・ぶなしめじ1パック・木綿豆腐150g（概算）",
+      "kcal": 533.825,
+      "protein_g": 74.249,
+      "fat_g": 22.191,
+      "carbohydrate_g": 20.202,
+      "status": "user_reported_with_estimated_nutrition_and_portion",
+      "notes": "鮭はしろさけ、肉と魚は調理前重量として概算。にんじん可食部145.5g、しめじ可食部90gを仮定。油・調味料は使用の報告がなく計上量未確認。",
+      "updated_at": "2026-11-18T10:30:27.047Z",
+      "recorded_at": "2026-11-18T10:30:27.047Z",
+      "food_items": [
+        {
+          "food": "鮭100g（しろさけ・調理前と仮定）",
+          "portion_g": 100,
+          "kcal": 124,
+          "protein_g": 22.3,
+          "fat_g": 4.1,
+          "carbohydrate_g": 0.1
+        },
+        {
+          "food": "鶏もも肉 皮なし200g",
+          "portion_g": 200,
+          "kcal": 226,
+          "protein_g": 38,
+          "fat_g": 10,
+          "carbohydrate_g": 0
+        },
+        {
+          "food": "にんじん1本（可食部145.5g・概算）",
+          "portion_g": 145.5,
+          "kcal": 50.925,
+          "protein_g": 1.0185,
+          "fat_g": 0.291,
+          "carbohydrate_g": 13.5315
+        },
+        {
+          "food": "ぶなしめじ1パック（可食部90g・概算）",
+          "portion_g": 90,
+          "kcal": 23.4,
+          "protein_g": 2.43,
+          "fat_g": 0.45,
+          "carbohydrate_g": 4.32
+        },
+        {
+          "food": "木綿豆腐150g",
+          "portion_g": 150,
+          "kcal": 109.5,
+          "protein_g": 10.5,
+          "fat_g": 7.35,
+          "carbohydrate_g": 2.25
         }
       ]
     }
