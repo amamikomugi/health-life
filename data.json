@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-17T15:03:03.244Z",
+  "updated_at": "2026-11-18T07:07:06.655Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -3948,6 +3948,72 @@
       "updated_at": "2026-11-17T15:03:03.184Z",
       "recorded_at": "2026-11-17T15:03:03.184Z",
       "day_coverage": "breakfast_lunch_dinner_recorded"
+    },
+    {
+      "record_id": "meal-1f649546-09ab-4b39-99c8-cf4516d179e7",
+      "date": "2026-11-18",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "アンビーク ソイプロテイン バナナ風味22g＋みなさまのお墨付き無脂肪牛乳200ml（味・量は仮計上）",
+      "kcal": 153,
+      "protein_g": 23.1,
+      "fat_g": 1,
+      "carbohydrate_g": 13,
+      "status": "user_reported_with_assumed_portions",
+      "notes": "アンビークのバナナ風味22gと無脂肪牛乳200mlを仮定。",
+      "updated_at": "2026-11-18T07:07:05.691Z",
+      "recorded_at": "2026-11-18T07:07:05.691Z",
+      "food_items": [
+        {
+          "food": "アンビーク ソイプロテイン バナナ風味22g（味・量は仮計上）",
+          "portion_g": 22,
+          "kcal": 82,
+          "protein_g": 16.4,
+          "fat_g": 0.9,
+          "carbohydrate_g": 2.3
+        },
+        {
+          "food": "みなさまのお墨付き 無脂肪牛乳200ml（量は仮計上）",
+          "portion_g": null,
+          "kcal": 71,
+          "protein_g": 6.7,
+          "fat_g": 0.1,
+          "carbohydrate_g": 10.7
+        }
+      ]
+    },
+    {
+      "record_id": "meal-3ab95556-a035-4e7d-92ab-873ef4723a63",
+      "date": "2026-11-18",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "BASE BREAD ミルク1袋・こしあん1袋（味・袋数の解釈は仮計上）",
+      "kcal": 523,
+      "protein_g": 27.2,
+      "fat_g": 15.4,
+      "carbohydrate_g": 74.9,
+      "status": "user_reported_with_assumed_portions",
+      "notes": "以前に本人が確認した2つの内訳と同じ、ミルク1袋（2個入り）とこしあん1袋を仮定。",
+      "updated_at": "2026-11-18T07:07:05.691Z",
+      "recorded_at": "2026-11-18T07:07:05.691Z",
+      "food_items": [
+        {
+          "food": "BASE BREAD ミルク1袋（2個入り）",
+          "portion_g": null,
+          "kcal": 250,
+          "protein_g": 13.5,
+          "fat_g": 8.5,
+          "carbohydrate_g": 33.1
+        },
+        {
+          "food": "BASE BREAD こしあん1袋（1個入り）",
+          "portion_g": null,
+          "kcal": 273,
+          "protein_g": 13.7,
+          "fat_g": 6.9,
+          "carbohydrate_g": 41.8
+        }
+      ]
     }
   ],
   "settings": {
