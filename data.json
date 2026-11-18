@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-18T10:30:27.374Z",
+  "updated_at": "2026-11-18T14:28:39.539Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -4069,6 +4069,31 @@
           "protein_g": 10.5,
           "fat_g": 7.35,
           "carbohydrate_g": 2.25
+        }
+      ]
+    },
+    {
+      "record_id": "meal-337b50e5-54af-453c-9317-fa6db3a082c7",
+      "date": "2026-11-18",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "ふわっと生どら焼 つぶあん＆ホイップ 1個",
+      "kcal": 264,
+      "protein_g": 5.3,
+      "fat_g": 9.7,
+      "carbohydrate_g": 40.2,
+      "status": "user_reported",
+      "notes": "写真の1包装当たりの栄養表示を採用。1個として計上。",
+      "updated_at": "2026-11-18T14:28:24.614Z",
+      "recorded_at": "2026-11-18T14:28:24.614Z",
+      "food_items": [
+        {
+          "food": "ふわっと生どら焼 つぶあん＆ホイップ 1個",
+          "portion_g": null,
+          "kcal": 264,
+          "protein_g": 5.3,
+          "fat_g": 9.7,
+          "carbohydrate_g": 40.2
         }
       ]
     }
