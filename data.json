@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-18T15:01:51.902Z",
+  "updated_at": "2026-11-19T02:41:29.131Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -4137,6 +4137,64 @@
       "updated_at": "2026-11-18T15:01:51.846Z",
       "recorded_at": "2026-11-18T15:01:51.846Z",
       "day_coverage": "breakfast_lunch_dinner_recorded"
+    },
+    {
+      "record_id": "meal-5e562e79-af5f-4e1a-ba83-5a0aba846752",
+      "date": "2026-11-19",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "アンビーク ソイプロテイン バナナ風味22g＋みなさまのお墨付き無脂肪牛乳200ml（仮計上）",
+      "kcal": 153,
+      "protein_g": 23.1,
+      "fat_g": 1,
+      "carbohydrate_g": 13,
+      "status": "user_reported_with_assumed_portions",
+      "notes": "前日の朝食と同じアンビーク バナナ風味22g＋みなさまのお墨付き無脂肪牛乳200mlを仮定。",
+      "updated_at": "2026-11-19T02:41:28.121Z",
+      "recorded_at": "2026-11-19T02:41:28.121Z",
+      "food_items": [
+        {
+          "food": "アンビーク ソイプロテイン バナナ風味22g（味・量は仮計上）",
+          "portion_g": 22,
+          "kcal": 82,
+          "protein_g": 16.4,
+          "fat_g": 0.9,
+          "carbohydrate_g": 2.3
+        },
+        {
+          "food": "みなさまのお墨付き 無脂肪牛乳200ml（量は仮計上）",
+          "portion_g": null,
+          "kcal": 71,
+          "protein_g": 6.7,
+          "fat_g": 0.1,
+          "carbohydrate_g": 10.7
+        }
+      ]
+    },
+    {
+      "record_id": "meal-a2cfd329-c902-4d00-8243-a250bde0127c",
+      "date": "2026-11-19",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "BASE BREAD ミルク1袋（2個入り・味と袋数は仮計上）",
+      "kcal": 250,
+      "protein_g": 13.5,
+      "fat_g": 8.5,
+      "carbohydrate_g": 33.1,
+      "status": "user_reported_with_assumed_portions",
+      "notes": "味・袋数の指定がないため、最近の単品記録に合わせてミルク1袋（2個入り）を仮定。",
+      "updated_at": "2026-11-19T02:41:28.121Z",
+      "recorded_at": "2026-11-19T02:41:28.121Z",
+      "food_items": [
+        {
+          "food": "BASE BREAD ミルク1袋（2個入り）",
+          "portion_g": null,
+          "kcal": 250,
+          "protein_g": 13.5,
+          "fat_g": 8.5,
+          "carbohydrate_g": 33.1
+        }
+      ]
     }
   ],
   "settings": {
