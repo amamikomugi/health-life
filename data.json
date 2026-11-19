@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-19T11:14:16.287Z",
+  "updated_at": "2026-11-19T11:16:00.099Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -4244,14 +4244,14 @@
       "date": "2026-11-19",
       "kind": "meal",
       "meal": "dinner",
-      "description": "鶏もも肉200g・ほうれん草4束・木綿豆腐・ぶなしめじ（ほうれん草の量を確認中）",
-      "kcal": null,
-      "protein_g": null,
-      "fat_g": null,
-      "carbohydrate_g": null,
-      "status": "user_reported_with_unknown_portion",
-      "notes": "鶏ももは前回と同じ皮なし・調理前200g、豆腐は150g、しめじは1パック可食部90gを仮定。ほうれん草の「4束」は4株か市販4束か確認待ちのため栄養合計はnull。油・調味料は未報告。",
-      "updated_at": "2026-11-19T11:14:15.969Z",
+      "description": "鶏もも肉200g・ほうれん草4株・木綿豆腐150g・ぶなしめじ1パック（皮なしと量を仮定した概算）",
+      "kcal": 378.34,
+      "protein_g": 53.306,
+      "fat_g": 18.232,
+      "carbohydrate_g": 9.918,
+      "status": "user_reported_with_estimated_nutrition_and_portion",
+      "notes": "ほうれん草は本人確認の4株を可食部108gで概算。鶏ももは前回と同じ皮なし・調理前200g、豆腐150g、しめじ1パック可食部90gを仮定。油・調味料は未報告。",
+      "updated_at": "2026-11-19T11:15:59.824Z",
       "recorded_at": "2026-11-19T11:14:15.969Z",
       "food_items": [
         {
@@ -4263,12 +4263,12 @@
           "carbohydrate_g": 0
         },
         {
-          "food": "ほうれん草4束（4株か市販4束か確認待ち）",
-          "portion_g": null,
-          "kcal": null,
-          "protein_g": null,
-          "fat_g": null,
-          "carbohydrate_g": null
+          "food": "ほうれん草4株（可食部約108g・概算）",
+          "portion_g": 108,
+          "kcal": 19.44,
+          "protein_g": 2.376,
+          "fat_g": 0.432,
+          "carbohydrate_g": 3.348
         },
         {
           "food": "ぶなしめじ1パック（可食部90g・概算）",
