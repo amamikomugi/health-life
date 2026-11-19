@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-19T16:03:52.893Z",
+  "updated_at": "2026-11-19T23:52:33.812Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -4361,6 +4361,47 @@
           "protein_g": 2.6,
           "fat_g": 10.1,
           "carbohydrate_g": 22.2
+        }
+      ]
+    },
+    {
+      "record_id": "meal-4af0e02c-a656-41f5-b5da-c480981b177a",
+      "date": "2026-11-20",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "マックグリドル ソーセージ1個・チキンマックナゲット5ピース・芳醇トリュフのチーズソース1個（数量は仮計上）",
+      "kcal": 765,
+      "protein_g": 26,
+      "fat_g": 48.4,
+      "carbohydrate_g": 56.5,
+      "status": "user_reported_with_assumed_portions",
+      "notes": "ソーセージエッグではなく、本人の商品名のとおりマックグリドル ソーセージを採用。グリドル1個、ナゲット5ピース、ソース1個を仮定。公式のソース抜きナゲット値にソースだけ別加算。飲料等は未報告。",
+      "updated_at": "2026-11-19T23:52:24.434Z",
+      "recorded_at": "2026-11-19T23:52:24.434Z",
+      "food_items": [
+        {
+          "food": "マックグリドル ソーセージ",
+          "portion_g": null,
+          "kcal": 414,
+          "protein_g": 10.5,
+          "fat_g": 23.4,
+          "carbohydrate_g": 40.4
+        },
+        {
+          "food": "チキンマックナゲット5ピース（ソース除く）",
+          "portion_g": null,
+          "kcal": 262,
+          "protein_g": 15.3,
+          "fat_g": 15.9,
+          "carbohydrate_g": 14.4
+        },
+        {
+          "food": "芳醇トリュフのチーズソース1個",
+          "portion_g": null,
+          "kcal": 89,
+          "protein_g": 0.2,
+          "fat_g": 9.1,
+          "carbohydrate_g": 1.7
         }
       ]
     }
