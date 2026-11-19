@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-19T02:41:29.131Z",
+  "updated_at": "2026-11-19T08:22:37.846Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -4195,6 +4195,49 @@
           "carbohydrate_g": 33.1
         }
       ]
+    },
+    {
+      "record_id": "meal-5bec84f9-aa74-4716-8292-1e61fe8e5e5a",
+      "date": "2026-11-19",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "くめ納豆 秘伝金印ミニ3 1パック＋トッポ内袋1袋36g（商品・量は仮計上）",
+      "kcal": 267,
+      "protein_g": 9.1,
+      "fat_g": 13.8,
+      "carbohydrate_g": 28.1,
+      "status": "user_reported_with_assumed_product_and_portion",
+      "notes": "納豆は過去の同商品と同じ1パック（納豆40g・たれとからし込み）、トッポは通常チョコ味の内袋1袋36gを仮定。トッポは本日確認した公式値190kcalを採用。",
+      "updated_at": "2026-11-19T08:22:36.922Z",
+      "recorded_at": "2026-11-19T08:22:36.922Z",
+      "food_items": [
+        {
+          "food": "くめ納豆 秘伝金印ミニ3 1パック（たれ・からし込みとして仮計上）",
+          "portion_g": 46.4,
+          "kcal": 77,
+          "protein_g": 6.5,
+          "fat_g": 3.7,
+          "carbohydrate_g": 5.9
+        },
+        {
+          "food": "ロッテ トッポ 通常チョコ味 内袋1袋（標準36g・商品とサイズは仮定）",
+          "portion_g": 36,
+          "kcal": 190,
+          "protein_g": 2.6,
+          "fat_g": 10.1,
+          "carbohydrate_g": 22.2
+        }
+      ]
+    },
+    {
+      "record_id": "weight-day-20261119",
+      "date": "2026-11-19",
+      "kind": "daily_weight",
+      "status": "user_reported",
+      "weight_kg": 84.2,
+      "notes": "11/19の体重として報告。測定時刻は不明。",
+      "updated_at": "2026-11-19T08:22:36.922Z",
+      "recorded_at": "2026-11-19T08:22:36.922Z"
     }
   ],
   "settings": {
