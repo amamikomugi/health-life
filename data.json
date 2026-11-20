@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-20T11:07:06.153Z",
+  "updated_at": "2026-11-20T12:58:37.599Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -4437,6 +4437,31 @@
           "protein_g": 29.5,
           "fat_g": 19.4,
           "carbohydrate_g": 91.1
+        }
+      ]
+    },
+    {
+      "record_id": "meal-2f24192e-328a-41e7-a7ec-4dd972162af2",
+      "date": "2026-11-20",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "シュークリーム1個（一般的なカスタード入り90gとして概算）",
+      "kcal": 189.9,
+      "protein_g": 5.4,
+      "fat_g": 10.26,
+      "carbohydrate_g": 22.95,
+      "status": "user_reported_with_estimated_nutrition_and_portion",
+      "notes": "商品・店舗・個数・重量は未指定。カスタード入り1個90gを仮計上。昼食は未記録のため本日の累計は記録済み食事による途中集計。",
+      "updated_at": "2026-11-20T12:58:26.483Z",
+      "recorded_at": "2026-11-20T12:58:26.483Z",
+      "food_items": [
+        {
+          "food": "シュークリーム1個（カスタード入り90gとして概算）",
+          "portion_g": 90,
+          "kcal": 189.9,
+          "protein_g": 5.4,
+          "fat_g": 10.26,
+          "carbohydrate_g": 22.95
         }
       ]
     }
