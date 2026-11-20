@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-19T23:52:33.812Z",
+  "updated_at": "2026-11-20T11:07:06.153Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -4402,6 +4402,41 @@
           "protein_g": 0.2,
           "fat_g": 9.1,
           "carbohydrate_g": 1.7
+        }
+      ]
+    },
+    {
+      "record_id": "weight-day-20261120",
+      "date": "2026-11-20",
+      "kind": "daily_weight",
+      "status": "user_reported",
+      "weight_kg": 84,
+      "notes": "本日（日本時間）の体重として本人が報告。測定時刻は不明。",
+      "updated_at": "2026-11-19T23:53:48.256Z",
+      "recorded_at": "2026-11-19T23:53:48.256Z"
+    },
+    {
+      "record_id": "meal-19e854cd-6a85-46ff-aa26-29d0d35678ac",
+      "date": "2026-11-20",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "唐揚げ弁当（唐揚げ4個・ご飯並盛相当の類似品で概算）",
+      "kcal": 658,
+      "protein_g": 29.5,
+      "fat_g": 19.4,
+      "carbohydrate_g": 91.1,
+      "status": "user_reported_with_estimated_nutrition_and_portion",
+      "notes": "店舗・商品名・ご飯量は未指定。ほっともっとの4コ入りから揚弁当ごはん並盛の現行公式表示を参考にした概算。昼食は未記録で、当日の食事が全て報告されたとは扱わない。",
+      "updated_at": "2026-11-20T11:06:53.841Z",
+      "recorded_at": "2026-11-20T11:06:53.841Z",
+      "food_items": [
+        {
+          "food": "唐揚げ弁当（唐揚げ4個・ご飯並盛相当の概算）",
+          "portion_g": null,
+          "kcal": 658,
+          "protein_g": 29.5,
+          "fat_g": 19.4,
+          "carbohydrate_g": 91.1
         }
       ]
     }
