@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-21T00:54:56.205Z",
+  "updated_at": "2026-11-21T03:31:46.990Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -4543,6 +4543,39 @@
           "protein_g": 4.71,
           "fat_g": 14.09,
           "carbohydrate_g": 31.69
+        }
+      ]
+    },
+    {
+      "record_id": "meal-4d4abaed-7a78-4441-85d5-94db108158c8",
+      "date": "2026-11-21",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "大戸屋 しまほっけの炭火焼き定食＋おかかごはんセット（白ご飯普通盛り・卵付きセットとして仮定）",
+      "kcal": 708,
+      "protein_g": 53.8,
+      "fat_g": 18.5,
+      "carbohydrate_g": 81.5,
+      "status": "user_reported_with_assumed_product_and_portion",
+      "notes": "11/21昼食として記録。ご飯は白ご飯普通盛り、セットは現行の大戸屋節と黄身のごはんがけセット相当と仮定。ご飯は定食の1食分だけを計上し、セットのトッピングを別加算。五穀ご飯なら定食分を595kcalへ訂正可能。",
+      "updated_at": "2026-11-21T03:31:46.049Z",
+      "recorded_at": "2026-11-21T03:31:46.049Z",
+      "food_items": [
+        {
+          "food": "しまほっけの炭火焼き定食（白ご飯普通盛りを仮定）",
+          "portion_g": null,
+          "kcal": 612,
+          "protein_g": 45.5,
+          "fat_g": 13.1,
+          "carbohydrate_g": 79.3
+        },
+        {
+          "food": "おかかごはんセット1セット（大戸屋節と黄身のごはんがけセット相当を仮定）",
+          "portion_g": null,
+          "kcal": 96,
+          "protein_g": 8.3,
+          "fat_g": 5.4,
+          "carbohydrate_g": 2.2
         }
       ]
     }
