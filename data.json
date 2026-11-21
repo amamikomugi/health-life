@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-20T15:01:06.799Z",
+  "updated_at": "2026-11-21T00:54:56.205Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -4504,6 +4504,47 @@
       "updated_at": "2026-11-20T15:01:06.745Z",
       "recorded_at": "2026-11-20T15:01:06.745Z",
       "day_coverage": "partial_recorded"
+    },
+    {
+      "record_id": "meal-0556a5d6-0517-4073-ac0e-c766333b44ad",
+      "date": "2026-11-21",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "アンビーク ソイプロテイン22g＋無脂肪牛乳200ml・洋梨のパイ1個（割り方・分量は概算）",
+      "kcal": 414,
+      "protein_g": 27.81,
+      "fat_g": 15.09,
+      "carbohydrate_g": 44.69,
+      "status": "user_reported_with_estimated_nutrition_and_portion",
+      "notes": "プロテインは前回と同じアンビーク ソイ バナナ22g＋みなさまのお墨付き無脂肪牛乳200mlを仮定。洋梨パイは商品・量未指定のため出典付き一般レシピ1個114.4g相当で概算。レカミエ等の特定店舗の商品とは断定しない。",
+      "updated_at": "2026-11-21T00:54:55.289Z",
+      "recorded_at": "2026-11-21T00:54:55.289Z",
+      "food_items": [
+        {
+          "food": "アンビーク ソイプロテイン バナナ風味22g（味・量は仮計上）",
+          "portion_g": 22,
+          "kcal": 82,
+          "protein_g": 16.4,
+          "fat_g": 0.9,
+          "carbohydrate_g": 2.3
+        },
+        {
+          "food": "みなさまのお墨付き 無脂肪牛乳200ml（量は仮計上）",
+          "portion_g": null,
+          "kcal": 71,
+          "protein_g": 6.7,
+          "fat_g": 0.1,
+          "carbohydrate_g": 10.7
+        },
+        {
+          "food": "洋梨のパイ1個（一般レシピの1人分114.4g相当で概算）",
+          "portion_g": 114.4,
+          "kcal": 261,
+          "protein_g": 4.71,
+          "fat_g": 14.09,
+          "carbohydrate_g": 31.69
+        }
+      ]
     }
   ],
   "settings": {
