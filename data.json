@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-21T03:31:46.990Z",
+  "updated_at": "2026-11-21T10:28:25.049Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -4576,6 +4576,31 @@
           "protein_g": 8.3,
           "fat_g": 5.4,
           "carbohydrate_g": 2.2
+        }
+      ]
+    },
+    {
+      "record_id": "meal-8073f6e8-29c2-4869-b616-1ca3ce9cb8c6",
+      "date": "2026-11-21",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "セブンプレミアム 大盛り魚介豚骨まぜそば1食",
+      "kcal": 482,
+      "protein_g": 20.6,
+      "fat_g": 6.8,
+      "carbohydrate_g": 87,
+      "status": "user_reported_with_official_nutrition",
+      "notes": "公式の該当商品1食入りを1パック分として計上。糖質82.1gと食物繊維4.9gを合わせた炭水化物87gを採用。朝食のパイや昼食のご飯種類等には仮定が残る。",
+      "updated_at": "2026-11-21T10:28:23.952Z",
+      "recorded_at": "2026-11-21T10:28:23.952Z",
+      "food_items": [
+        {
+          "food": "7プレミアム 大盛り魚介豚骨まぜそば1食",
+          "portion_g": null,
+          "kcal": 482,
+          "protein_g": 20.6,
+          "fat_g": 6.8,
+          "carbohydrate_g": 87
         }
       ]
     }
