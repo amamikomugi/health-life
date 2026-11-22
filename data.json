@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-22T02:43:21.158Z",
+  "updated_at": "2026-11-22T10:58:15.777Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -4700,6 +4700,47 @@
           "protein_g": 16.3,
           "fat_g": 11.9,
           "carbohydrate_g": 69.1
+        }
+      ]
+    },
+    {
+      "record_id": "meal-c69a49a0-1115-45f6-9c42-ba8173cd3d20",
+      "date": "2026-11-22",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "KFC ガリマヨ厚切りベーコンチキンバーガー1個＋オリジナルチキン1ピース＋生姜香る温辛チキン1ピース",
+      "kcal": 1054,
+      "protein_g": 59.4,
+      "fat_g": 66.5,
+      "carbohydrate_g": 54.4,
+      "status": "user_reported_with_assumed_quantity",
+      "notes": "各1点として仮計上。背徳バーガーのベーコンはガリマヨ厚切りベーコンチキンバーガー、温辛チキンは生姜香る温辛チキンと解釈。公式2026年11月18日版の標準値。ポテト・飲料は報告がないため追加していない。",
+      "updated_at": "2026-11-22T10:58:14.404Z",
+      "recorded_at": "2026-11-22T10:58:14.404Z",
+      "food_items": [
+        {
+          "food": "背徳バーガーズ ガリマヨ厚切りベーコンチキンバーガー",
+          "portion_g": 198,
+          "kcal": 583,
+          "protein_g": 25,
+          "fat_g": 37.9,
+          "carbohydrate_g": 35.5
+        },
+        {
+          "food": "オリジナルチキン",
+          "portion_g": 87,
+          "kcal": 218,
+          "protein_g": 16.5,
+          "fat_g": 12.8,
+          "carbohydrate_g": 9.1
+        },
+        {
+          "food": "生姜香る温辛チキン",
+          "portion_g": 91,
+          "kcal": 253,
+          "protein_g": 17.9,
+          "fat_g": 15.8,
+          "carbohydrate_g": 9.8
         }
       ]
     }
