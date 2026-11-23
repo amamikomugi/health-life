@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-23T03:36:33.726Z",
+  "updated_at": "2026-11-23T06:23:30.962Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -4864,6 +4864,39 @@
           "protein_g": 0.426,
           "fat_g": 0.636,
           "carbohydrate_g": 2.652
+        }
+      ]
+    },
+    {
+      "record_id": "meal-f9854649-8321-42fb-88a5-de21a08f4370",
+      "date": "2026-11-23",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "マクドナルド てりやきマックバーガー1個＋ダブルチーズバーガー1個",
+      "kcal": 944,
+      "protein_g": 40.6,
+      "fat_g": 56.4,
+      "carbohydrate_g": 69.2,
+      "status": "user_reported_with_assumed_quantity",
+      "notes": "通常単品を各1個として仮計上。ポテト・ドリンク等は報告がないため追加していない。朝昼は既存記録を保持し、食事と日合計を二重加算しない。",
+      "updated_at": "2026-11-23T06:23:30.696Z",
+      "recorded_at": "2026-11-23T06:23:30.696Z",
+      "food_items": [
+        {
+          "food": "てりやきマックバーガー1個",
+          "portion_g": null,
+          "kcal": 485,
+          "protein_g": 14.2,
+          "fat_g": 31.3,
+          "carbohydrate_g": 37.4
+        },
+        {
+          "food": "ダブルチーズバーガー1個",
+          "portion_g": null,
+          "kcal": 459,
+          "protein_g": 26.4,
+          "fat_g": 25.1,
+          "carbohydrate_g": 31.8
         }
       ]
     }
