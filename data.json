@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-23T06:23:30.962Z",
+  "updated_at": "2026-11-23T14:41:37.235Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -4897,6 +4897,31 @@
           "protein_g": 26.4,
           "fat_g": 25.1,
           "carbohydrate_g": 31.8
+        }
+      ]
+    },
+    {
+      "record_id": "meal-6c10754d-9099-4e01-b19b-87039a474003",
+      "date": "2026-11-23",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "さつまいも150g（皮なし・蒸しとして概算）",
+      "kcal": 196.5,
+      "protein_g": 1.8,
+      "fat_g": 0.3,
+      "carbohydrate_g": 47.85,
+      "status": "user_reported_with_estimated_preparation",
+      "notes": "150gは本人報告。調理方法・皮の有無は未指定のため、過去と同じ皮なし・蒸しで仮計上。朝昼晩の既存記録は保持。",
+      "updated_at": "2026-11-23T14:41:35.983Z",
+      "recorded_at": "2026-11-23T14:41:35.983Z",
+      "food_items": [
+        {
+          "food": "さつまいも150g（皮なし・蒸しとして概算）",
+          "portion_g": 150,
+          "kcal": 196.5,
+          "protein_g": 1.8,
+          "fat_g": 0.3,
+          "carbohydrate_g": 47.85
         }
       ]
     }
