@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-22T15:00:42.450Z",
+  "updated_at": "2026-11-23T03:36:33.726Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -4784,6 +4784,88 @@
       "updated_at": "2026-11-22T15:00:42.331Z",
       "recorded_at": "2026-11-22T15:00:42.331Z",
       "day_coverage": "breakfast_lunch_dinner_recorded"
+    },
+    {
+      "record_id": "meal-dc44a64c-656d-4443-a40c-fc777388a7b3",
+      "date": "2026-11-23",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "BASE BREAD こしあん1袋（1個入り）",
+      "kcal": 273,
+      "protein_g": 13.7,
+      "fat_g": 6.9,
+      "carbohydrate_g": 41.8,
+      "status": "user_reported",
+      "notes": "こしあん1袋は本人確認。確認済み公式栄養表示を再利用。",
+      "updated_at": "2026-11-23T03:36:32.271Z",
+      "recorded_at": "2026-11-23T03:36:32.271Z",
+      "food_items": [
+        {
+          "food": "BASE BREAD こしあん1袋（1個入り）",
+          "portion_g": null,
+          "kcal": 273,
+          "protein_g": 13.7,
+          "fat_g": 6.9,
+          "carbohydrate_g": 41.8
+        }
+      ]
+    },
+    {
+      "record_id": "meal-3e6e3c21-9724-4225-a848-4e7e7c759ef0",
+      "date": "2026-11-23",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "紅鮭220g・ピーマン2個・にんじん1本・ほうれん草3株・甜麺醤小さじ1（野菜重量・調味料は概算）",
+      "kcal": 374.865,
+      "protein_g": 53.263,
+      "fat_g": 11.27,
+      "carbohydrate_g": 21.95,
+      "status": "user_reported_with_estimated_portions",
+      "notes": "最終訂正により紅鮭の生220gで計算。野菜は標準重量、甜麺醤は類似商品の小さじ1約6gで概算。追加の調理油は未報告のため計上していない。",
+      "updated_at": "2026-11-23T03:36:32.271Z",
+      "recorded_at": "2026-11-23T03:36:32.271Z",
+      "food_items": [
+        {
+          "food": "紅鮭（生）220g",
+          "portion_g": 220,
+          "kcal": 279.4,
+          "protein_g": 49.5,
+          "fat_g": 9.9,
+          "carbohydrate_g": 0.22
+        },
+        {
+          "food": "ピーマン2個（可食部約59.5g・概算）",
+          "portion_g": 59.5,
+          "kcal": 11.9,
+          "protein_g": 0.536,
+          "fat_g": 0.119,
+          "carbohydrate_g": 3.035
+        },
+        {
+          "food": "にんじん1本（皮つき・可食部約145.5g・概算）",
+          "portion_g": 145.5,
+          "kcal": 50.925,
+          "protein_g": 1.019,
+          "fat_g": 0.291,
+          "carbohydrate_g": 13.532
+        },
+        {
+          "food": "ほうれん草3株（可食部約81g・概算）",
+          "portion_g": 81,
+          "kcal": 14.58,
+          "protein_g": 1.782,
+          "fat_g": 0.324,
+          "carbohydrate_g": 2.511
+        },
+        {
+          "food": "甜麺醤 小さじ1（約6g・類似商品で概算）",
+          "portion_g": 6,
+          "kcal": 18.06,
+          "protein_g": 0.426,
+          "fat_g": 0.636,
+          "carbohydrate_g": 2.652
+        }
+      ]
     }
   ],
   "settings": {
