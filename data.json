@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-24T02:32:11.881Z",
+  "updated_at": "2026-11-24T07:22:54.252Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -5021,6 +5021,39 @@
           "protein_g": 17.6,
           "fat_g": 3.2,
           "carbohydrate_g": 8.4
+        }
+      ]
+    },
+    {
+      "record_id": "meal-56b51030-4087-41d1-9ca2-fb3978ff8f7e",
+      "date": "2026-11-24",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "くめ納豆1パック（たれ・からし込み）＋生卵1個（可食部50g・概算）",
+      "kcal": 148,
+      "protein_g": 12.6,
+      "fat_g": 8.8,
+      "carbohydrate_g": 6.1,
+      "status": "user_reported_with_assumed_product_and_portion",
+      "notes": "納豆は以前と同じ秘伝金印ミニ3の1パック（たれ・からし込み）を仮定。生卵は可食部50gとして概算。昼のBASE BREADの味・袋数は確認待ちの仮計上を維持。",
+      "updated_at": "2026-11-24T07:22:53.209Z",
+      "recorded_at": "2026-11-24T07:22:53.209Z",
+      "food_items": [
+        {
+          "food": "くめ納豆 秘伝金印ミニ3 1パック（たれ・からし込みとして仮計上）",
+          "portion_g": 46.4,
+          "kcal": 77,
+          "protein_g": 6.5,
+          "fat_g": 3.7,
+          "carbohydrate_g": 5.9
+        },
+        {
+          "food": "生卵1個（可食部50gとして概算）",
+          "portion_g": 50,
+          "kcal": 71,
+          "protein_g": 6.1,
+          "fat_g": 5.1,
+          "carbohydrate_g": 0.2
         }
       ]
     }
