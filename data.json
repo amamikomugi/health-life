@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-23T15:06:10.133Z",
+  "updated_at": "2026-11-24T02:32:11.881Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -4965,6 +4965,64 @@
       "updated_at": "2026-11-23T15:06:10.079Z",
       "recorded_at": "2026-11-23T15:06:10.079Z",
       "day_coverage": "breakfast_lunch_dinner_recorded"
+    },
+    {
+      "record_id": "meal-0eaa9d06-a844-43c3-a30d-7bb22aaa0c37",
+      "date": "2026-11-24",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "さつまいも150g（皮なし・蒸しとして概算）",
+      "kcal": 196.5,
+      "protein_g": 1.8,
+      "fat_g": 0.3,
+      "carbohydrate_g": 47.85,
+      "status": "user_reported_with_estimated_preparation_or_product",
+      "notes": "量150gは本人報告。調理法は前回と同じ皮なし・蒸しとして仮計上。",
+      "updated_at": "2026-11-24T02:32:10.903Z",
+      "recorded_at": "2026-11-24T02:32:10.903Z",
+      "food_items": [
+        {
+          "food": "さつまいも150g（皮なし・蒸しとして概算）",
+          "portion_g": 150,
+          "kcal": 196.5,
+          "protein_g": 1.8,
+          "fat_g": 0.3,
+          "carbohydrate_g": 47.85
+        }
+      ]
+    },
+    {
+      "record_id": "meal-7b44faba-a92c-497c-b43b-02dd10de04b0",
+      "date": "2026-11-24",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "BASE BREAD こしあん1袋＋プロテイン唐揚げ100g（パンの味・袋数と唐揚げ商品は仮計上）",
+      "kcal": 406,
+      "protein_g": 31.3,
+      "fat_g": 10.1,
+      "carbohydrate_g": 50.2,
+      "status": "user_reported_with_estimated_preparation_or_product",
+      "notes": "パンの味・袋数は確認待ちのため、直近のこしあん1袋を仮定。唐揚げは以前のby Amazon・味の素製通常味100gを仮定。脂質はラベルの2.5〜3.9gの中間値3.2gで概算。確認後は同じrecord_idを更新する。",
+      "updated_at": "2026-11-24T02:32:10.903Z",
+      "recorded_at": "2026-11-24T02:32:10.903Z",
+      "food_items": [
+        {
+          "food": "BASE BREAD こしあん1袋（味・袋数は仮計上）",
+          "portion_g": null,
+          "kcal": 273,
+          "protein_g": 13.7,
+          "fat_g": 6.9,
+          "carbohydrate_g": 41.8
+        },
+        {
+          "food": "by Amazon 味の素 PROTEIN プロテイン唐揚げ100g（通常味と仮定）",
+          "portion_g": 100,
+          "kcal": 133,
+          "protein_g": 17.6,
+          "fat_g": 3.2,
+          "carbohydrate_g": 8.4
+        }
+      ]
     }
   ],
   "settings": {
