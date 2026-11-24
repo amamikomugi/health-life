@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-24T15:16:43.073Z",
+  "updated_at": "2026-11-24T15:20:07.794Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -5179,23 +5179,23 @@
       "date": "2026-11-25",
       "kind": "meal",
       "meal": "snack",
-      "description": "カルディ 合鴨ロース燻製150g（栄養値未確認）",
-      "kcal": null,
-      "protein_g": null,
-      "fat_g": null,
-      "carbohydrate_g": null,
-      "status": "user_reported_nutrition_pending",
-      "notes": "日本時間の本日のおやつとして記録。商品固有の栄養表示が見つからないためカロリー・PFCはnull。別ブランドの合鴨ロースの値は転用せず、パッケージの栄養表示を確認後に同じrecord_idを訂正する。",
-      "updated_at": "2026-11-24T15:16:42.477Z",
+      "description": "カルディ 合鴨ロース燻製150g（パッケージ表示に基づく）",
+      "kcal": 391.5,
+      "protein_g": 22.65,
+      "fat_g": 31.35,
+      "carbohydrate_g": 4.5,
+      "status": "user_reported_with_label_nutrition",
+      "notes": "添付写真の栄養表示（100g当たり、推定値）から150gに換算。先の未確認記録を同じrecord_idで訂正。食塩相当量3.015g。11/25のおやつとして日付は維持。",
+      "updated_at": "2026-11-24T15:20:07.512Z",
       "recorded_at": "2026-11-24T15:16:42.477Z",
       "food_items": [
         {
           "food": "カルディ 合鴨ロース燻製",
           "portion_g": 150,
-          "kcal": null,
-          "protein_g": null,
-          "fat_g": null,
-          "carbohydrate_g": null
+          "kcal": 391.5,
+          "protein_g": 22.65,
+          "fat_g": 31.35,
+          "carbohydrate_g": 4.5
         }
       ]
     }
