@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-24T15:00:45.018Z",
+  "updated_at": "2026-11-24T15:16:43.073Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -5173,6 +5173,31 @@
       "updated_at": "2026-11-24T15:00:44.965Z",
       "recorded_at": "2026-11-24T15:00:44.965Z",
       "day_coverage": "breakfast_lunch_dinner_recorded"
+    },
+    {
+      "record_id": "meal-5e641546-7833-4bed-b825-b9eb7e781459",
+      "date": "2026-11-25",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "カルディ 合鴨ロース燻製150g（栄養値未確認）",
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "carbohydrate_g": null,
+      "status": "user_reported_nutrition_pending",
+      "notes": "日本時間の本日のおやつとして記録。商品固有の栄養表示が見つからないためカロリー・PFCはnull。別ブランドの合鴨ロースの値は転用せず、パッケージの栄養表示を確認後に同じrecord_idを訂正する。",
+      "updated_at": "2026-11-24T15:16:42.477Z",
+      "recorded_at": "2026-11-24T15:16:42.477Z",
+      "food_items": [
+        {
+          "food": "カルディ 合鴨ロース燻製",
+          "portion_g": 150,
+          "kcal": null,
+          "protein_g": null,
+          "fat_g": null,
+          "carbohydrate_g": null
+        }
+      ]
     }
   ],
   "settings": {
