@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-24T07:22:54.252Z",
+  "updated_at": "2026-11-24T10:42:52.324Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -5054,6 +5054,81 @@
           "protein_g": 6.1,
           "fat_g": 5.1,
           "carbohydrate_g": 0.2
+        }
+      ]
+    },
+    {
+      "record_id": "weight-day-20261124",
+      "date": "2026-11-24",
+      "kind": "daily_weight",
+      "status": "user_reported",
+      "weight_kg": 84,
+      "notes": "11/24（日本時間）の体重として本人が報告。測定時刻は不明。体重のみの登録のため即時公開は行わず、既存の定期公開対象とする。",
+      "updated_at": "2026-11-24T07:30:29.958Z",
+      "recorded_at": "2026-11-24T07:30:29.958Z"
+    },
+    {
+      "record_id": "meal-fb10b22d-f7a0-4662-887a-3e27aabc7439",
+      "date": "2026-11-24",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "もち豚こま切れ200g・ピーマン2個・にんじん1本・木綿豆腐150g・焼肉のたれ約大さじ1・甜麺醤約小さじ1（豚部位等は概算）",
+      "kcal": 621.905,
+      "protein_g": 50.255,
+      "fat_g": 37.992,
+      "carbohydrate_g": 27.683,
+      "status": "user_reported_with_estimated_nutrition_and_portions",
+      "notes": "豆腐150gは本人確認、たれと甜麺醤は例示量程度と確認。豚こまは部位不明のため肩肉脂身つきを参考に概算し、もち豚固有の公式栄養値とは扱わない。野菜重量は標準量。追加の調理油は未報告につき未計上。昼パンの味・袋数の仮定は維持。",
+      "updated_at": "2026-11-24T10:42:51.295Z",
+      "recorded_at": "2026-11-24T10:42:51.295Z",
+      "food_items": [
+        {
+          "food": "もち豚こま切れ200g（豚肩・脂身つきで概算）",
+          "portion_g": 200,
+          "kcal": 402,
+          "protein_g": 37,
+          "fat_g": 29.2,
+          "carbohydrate_g": 0.4
+        },
+        {
+          "food": "ピーマン2個（可食部約59.5g・概算）",
+          "portion_g": 59.5,
+          "kcal": 11.9,
+          "protein_g": 0.536,
+          "fat_g": 0.119,
+          "carbohydrate_g": 3.035
+        },
+        {
+          "food": "にんじん1本（皮つき・可食部約145.5g・概算）",
+          "portion_g": 145.5,
+          "kcal": 50.925,
+          "protein_g": 1.019,
+          "fat_g": 0.291,
+          "carbohydrate_g": 13.532
+        },
+        {
+          "food": "木綿豆腐150g",
+          "portion_g": 150,
+          "kcal": 109.5,
+          "protein_g": 10.5,
+          "fat_g": 7.35,
+          "carbohydrate_g": 2.25
+        },
+        {
+          "food": "焼肉のたれ 約大さじ1（18g・一般成分で概算）",
+          "portion_g": 18,
+          "kcal": 29.52,
+          "protein_g": 0.774,
+          "fat_g": 0.396,
+          "carbohydrate_g": 5.814
+        },
+        {
+          "food": "甜麺醤 小さじ1（約6g・類似商品で概算）",
+          "portion_g": 6,
+          "kcal": 18.06,
+          "protein_g": 0.426,
+          "fat_g": 0.636,
+          "carbohydrate_g": 2.652
         }
       ]
     }
