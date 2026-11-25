@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-25T10:34:08.413Z",
+  "updated_at": "2026-11-25T12:43:10.586Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -5279,6 +5279,39 @@
           "protein_g": 5.4,
           "fat_g": 0.6,
           "carbohydrate_g": 6.6
+        }
+      ]
+    },
+    {
+      "record_id": "meal-0c6e1da1-c8d6-40f0-ba9e-98dcdf76ad5a",
+      "date": "2026-11-25",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "トリプルヨーグルト1本（100g）＋旅するパイの実 アメリカンアップルパイ1箱（73g）（各1包装として仮計上）",
+      "kcal": 443,
+      "protein_g": 7.1,
+      "fat_g": 23.6,
+      "carbohydrate_g": 54.2,
+      "status": "user_reported_with_label_nutrition_assumed_quantity",
+      "notes": "写真の栄養表示を優先。ヨーグルト1本100g、パイの実1箱73gを食べたものとして仮計上。既存のおやつ（合鴨150g）に追加。袋数・夕食重量の仮定は既存記録を維持。",
+      "updated_at": "2026-11-25T12:43:09.171Z",
+      "recorded_at": "2026-11-25T12:43:09.171Z",
+      "food_items": [
+        {
+          "food": "森永 トリプルヨーグルト 砂糖不使用・甘さひかえめ1本（100g）",
+          "portion_g": 100,
+          "kcal": 42,
+          "protein_g": 3.7,
+          "fat_g": 0,
+          "carbohydrate_g": 10.5
+        },
+        {
+          "food": "ロッテ 旅するパイの実 アメリカンアップルパイ1箱（73g）",
+          "portion_g": 73,
+          "kcal": 401,
+          "protein_g": 3.4,
+          "fat_g": 23.6,
+          "carbohydrate_g": 43.7
         }
       ]
     }
