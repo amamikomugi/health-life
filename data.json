@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-24T15:20:07.794Z",
+  "updated_at": "2026-11-25T06:42:07.868Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -5196,6 +5196,56 @@
           "protein_g": 22.65,
           "fat_g": 31.35,
           "carbohydrate_g": 4.5
+        }
+      ]
+    },
+    {
+      "record_id": "meal-6eadbe9d-0a46-465e-9c0b-c99afd222a10",
+      "date": "2026-11-25",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "BASE BREAD チョコレート1袋（1個入り・袋数は仮計上）",
+      "kcal": 266,
+      "protein_g": 13.6,
+      "fat_g": 9.1,
+      "carbohydrate_g": 35.4,
+      "status": "user_reported_with_assumed_portions",
+      "notes": "本人の「チョコとカレー」を朝チョコ・昼カレーの順と解釈。各1袋は標準分量として仮計上。",
+      "updated_at": "2026-11-25T06:42:06.868Z",
+      "recorded_at": "2026-11-25T06:42:06.868Z",
+      "food_items": [
+        {
+          "food": "BASE BREAD チョコレート1袋（1個入り・袋数は仮計上）",
+          "portion_g": null,
+          "kcal": 266,
+          "protein_g": 13.6,
+          "fat_g": 9.1,
+          "carbohydrate_g": 35.4
+        }
+      ]
+    },
+    {
+      "record_id": "meal-292ec7a7-1c4c-4552-81e7-dfea345149fb",
+      "date": "2026-11-25",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "BASE BREAD カレー1袋（1個入り・袋数は仮計上）",
+      "kcal": 271,
+      "protein_g": 13.6,
+      "fat_g": 8.3,
+      "carbohydrate_g": 38.5,
+      "status": "user_reported_with_assumed_portions",
+      "notes": "本人の「チョコとカレー」を朝チョコ・昼カレーの順と解釈。各1袋は標準分量として仮計上。",
+      "updated_at": "2026-11-25T06:42:06.868Z",
+      "recorded_at": "2026-11-25T06:42:06.868Z",
+      "food_items": [
+        {
+          "food": "BASE BREAD カレー1袋（1個入り・袋数は仮計上）",
+          "portion_g": null,
+          "kcal": 271,
+          "protein_g": 13.6,
+          "fat_g": 8.3,
+          "carbohydrate_g": 38.5
         }
       ]
     }
