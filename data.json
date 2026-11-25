@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-25T06:42:07.868Z",
+  "updated_at": "2026-11-25T10:34:08.413Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -5246,6 +5246,39 @@
           "protein_g": 13.6,
           "fat_g": 8.3,
           "carbohydrate_g": 38.5
+        }
+      ]
+    },
+    {
+      "record_id": "meal-68f56fd9-228b-4403-81a9-c8265f8f5a63",
+      "date": "2026-11-25",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "紅鮭200g・ブロッコリー100g（調理前の可食部重量として概算）",
+      "kcal": 291,
+      "protein_g": 50.4,
+      "fat_g": 9.6,
+      "carbohydrate_g": 6.8,
+      "status": "user_reported_with_estimated_preparation",
+      "notes": "紅鮭・ブロッコリーとも生の可食部重量として仮計上。調理油・たれ等は報告がなく加算していない。朝昼BASE BREAD各1袋の仮計上と合鴨150gの記録を維持。",
+      "updated_at": "2026-11-25T10:34:08.141Z",
+      "recorded_at": "2026-11-25T10:34:08.141Z",
+      "food_items": [
+        {
+          "food": "紅鮭200g（生の可食部重量として概算）",
+          "portion_g": 200,
+          "kcal": 254,
+          "protein_g": 45,
+          "fat_g": 9,
+          "carbohydrate_g": 0.2
+        },
+        {
+          "food": "ブロッコリー100g（生の可食部重量として概算）",
+          "portion_g": 100,
+          "kcal": 37,
+          "protein_g": 5.4,
+          "fat_g": 0.6,
+          "carbohydrate_g": 6.6
         }
       ]
     }
