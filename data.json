@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-25T15:00:45.354Z",
+  "updated_at": "2026-11-26T05:02:15.779Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -5355,6 +5355,56 @@
       "updated_at": "2026-11-25T15:00:45.295Z",
       "recorded_at": "2026-11-25T15:00:45.295Z",
       "day_coverage": "breakfast_lunch_dinner_recorded"
+    },
+    {
+      "record_id": "meal-96751800-6db2-451e-a3e0-3e91d6e15ae6",
+      "date": "2026-11-26",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "BASE BREAD ミルク1袋（2個入り・袋数は仮計上）",
+      "kcal": 250,
+      "protein_g": 13.5,
+      "fat_g": 8.5,
+      "carbohydrate_g": 33.1,
+      "status": "user_reported_with_assumed_portions",
+      "notes": "ミルク味は本人回答。袋数は標準1袋（2個入り）として仮計上。",
+      "updated_at": "2026-11-26T05:02:14.465Z",
+      "recorded_at": "2026-11-26T05:02:14.465Z",
+      "food_items": [
+        {
+          "food": "BASE BREAD ミルク1袋（2個入り・袋数は仮計上）",
+          "portion_g": null,
+          "kcal": 250,
+          "protein_g": 13.5,
+          "fat_g": 8.5,
+          "carbohydrate_g": 33.1
+        }
+      ]
+    },
+    {
+      "record_id": "meal-06be106d-6cc3-4376-96fb-489b95404932",
+      "date": "2026-11-26",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "BAGEL & BAGEL メープルウォルナッツベーグル1個",
+      "kcal": 218,
+      "protein_g": 6.8,
+      "fat_g": 3.6,
+      "carbohydrate_g": 39.7,
+      "status": "user_reported_with_label_nutrition",
+      "notes": "添付写真は1個入りの冷凍ベーグル。写真の1製品当たり栄養表示をそのまま使用し1個として計上。公式の同名ベーグル表示とも一致。",
+      "updated_at": "2026-11-26T05:02:14.465Z",
+      "recorded_at": "2026-11-26T05:02:14.465Z",
+      "food_items": [
+        {
+          "food": "BAGEL & BAGEL メープルウォルナッツベーグル1個",
+          "portion_g": null,
+          "kcal": 218,
+          "protein_g": 6.8,
+          "fat_g": 3.6,
+          "carbohydrate_g": 39.7
+        }
+      ]
     }
   ],
   "settings": {
