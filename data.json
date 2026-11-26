@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-26T05:02:15.779Z",
+  "updated_at": "2026-11-26T07:37:27.775Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -5403,6 +5403,41 @@
           "protein_g": 6.8,
           "fat_g": 3.6,
           "carbohydrate_g": 39.7
+        }
+      ]
+    },
+    {
+      "record_id": "weight-day-20261126",
+      "date": "2026-11-26",
+      "kind": "daily_weight",
+      "status": "user_reported",
+      "weight_kg": 83.4,
+      "notes": "本人報告の朝の体重。正確な測定時刻は不明のためmeasured_atはnull。体重のみの更新として定期公開または次の食事即時公開時に反映。",
+      "updated_at": "2026-11-26T06:50:42.419Z",
+      "recorded_at": "2026-11-26T06:50:42.419Z"
+    },
+    {
+      "record_id": "meal-c2114c69-429f-48f0-a68e-28a97be4ff76",
+      "date": "2026-11-26",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "セブン やみつきガーリック 山盛ペペロンチーノ1包装",
+      "kcal": 863,
+      "protein_g": 36.2,
+      "fat_g": 33.6,
+      "carbohydrate_g": 108.7,
+      "status": "user_reported_with_label_nutrition",
+      "notes": "添付写真のラベルを使用。1包装863kcal/P36.2g/F33.6g/C108.7g。別売食品・飲料は報告なし。朝のBASE BREADミルクは1袋2個入りの仮計上を維持。",
+      "updated_at": "2026-11-26T07:37:27.508Z",
+      "recorded_at": "2026-11-26T07:37:27.508Z",
+      "food_items": [
+        {
+          "food": "セブン やみつきガーリック 山盛ペペロンチーノ1包装",
+          "portion_g": null,
+          "kcal": 863,
+          "protein_g": 36.2,
+          "fat_g": 33.6,
+          "carbohydrate_g": 108.7
         }
       ]
     }
