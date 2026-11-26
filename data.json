@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-26T15:04:19.775Z",
+  "updated_at": "2026-11-26T15:07:03.726Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -5473,15 +5473,40 @@
       "record_id": "daily-20261126",
       "date": "2026-11-26",
       "kind": "daily_summary",
-      "kcal": 1331,
-      "protein_g": 56.5,
-      "fat_g": 45.7,
-      "carbohydrate_g": 181.5,
+      "kcal": 1443.625,
+      "protein_g": 56.713,
+      "fat_g": 46.125,
+      "carbohydrate_g": 214.438,
       "status": "calculated_from_recorded_meals",
       "notes": "記録済みの食事だけを合計しています。未報告の食事の有無は未確認です。",
-      "updated_at": "2026-11-26T15:04:19.691Z",
+      "updated_at": "2026-11-26T15:07:03.661Z",
       "recorded_at": "2026-11-26T15:04:19.691Z",
       "day_coverage": "breakfast_lunch_dinner_recorded"
+    },
+    {
+      "record_id": "meal-0eecbea0-2f11-41bf-8769-d2815b5f175e",
+      "date": "2026-11-26",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "りんご1個（皮なし・可食部212.5gとして概算）",
+      "kcal": 112.625,
+      "protein_g": 0.213,
+      "fat_g": 0.425,
+      "carbohydrate_g": 32.938,
+      "status": "user_reported_with_assumed_portions",
+      "notes": "本人指定の11/26に追加。りんごは過去と同じ標準量・皮なしで概算。既存の日合計に同じ食事を1回だけ反映し、本日11/27の食事には追加しない。",
+      "updated_at": "2026-11-26T15:07:03.408Z",
+      "recorded_at": "2026-11-26T15:07:03.408Z",
+      "food_items": [
+        {
+          "food": "りんご1個（皮なし・可食部212.5gとして概算）",
+          "portion_g": 212.5,
+          "kcal": 112.625,
+          "protein_g": 0.213,
+          "fat_g": 0.425,
+          "carbohydrate_g": 32.938
+        }
+      ]
     }
   ],
   "settings": {
