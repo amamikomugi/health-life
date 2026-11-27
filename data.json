@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-27T08:20:14.154Z",
+  "updated_at": "2026-11-27T13:00:53.482Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -5605,6 +5605,31 @@
           "protein_g": 30.8,
           "fat_g": 31.9,
           "carbohydrate_g": 81.3
+        }
+      ]
+    },
+    {
+      "record_id": "meal-07150fee-0b9a-4d3c-b781-3cc2fedba0eb",
+      "date": "2026-11-27",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "Minifilm ミルフィーユバナーヌ1個（店舗・個数は推定、類似レシピで概算）",
+      "kcal": 348,
+      "protein_g": 7.5,
+      "fat_g": 18.7,
+      "carbohydrate_g": 37.7,
+      "status": "imported_estimate",
+      "notes": "つつじヶ丘駅の期間限定店との本人回答と、京王公式の11/23〜12/1出店告知からMinifilmと推定。商品名は同店のミルフィーユバナーヌと解釈。個数の明示回答はなく1個と仮定。商品の公式栄養表示・重量は未確認。類似するバナナ・チョコ・カスタード・パイの一般レシピ1人分を仮の1個相当として使用し倍率1。実商品の大きさ・ムースリーヌやバターの配合との差は補正できず、誤差のある概算。",
+      "updated_at": "2026-11-27T13:00:52.403Z",
+      "recorded_at": "2026-11-27T13:00:52.403Z",
+      "food_items": [
+        {
+          "food": "Minifilm ミルフィーユバナーヌ1個（店舗・個数は推定、類似レシピで概算）",
+          "portion_g": null,
+          "kcal": 348,
+          "protein_g": 7.5,
+          "fat_g": 18.7,
+          "carbohydrate_g": 37.7
         }
       ]
     }
