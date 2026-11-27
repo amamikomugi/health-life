@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-26T15:07:03.726Z",
+  "updated_at": "2026-11-27T00:56:52.062Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -5505,6 +5505,31 @@
           "protein_g": 0.213,
           "fat_g": 0.425,
           "carbohydrate_g": 32.938
+        }
+      ]
+    },
+    {
+      "record_id": "meal-d64933b5-1d9c-45a1-a428-7b9938bc9a9b",
+      "date": "2026-11-27",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "JAKSソイプロテイン チョコレート味25g（水割り）",
+      "kcal": 95,
+      "protein_g": 20,
+      "fat_g": 1,
+      "carbohydrate_g": 2,
+      "status": "user_reported_with_default_serving",
+      "notes": "本人指定のJAKS水割り。登録済みエイリアスに従いチョコレート味1杯（標準25g）を使用。水量は未指定。",
+      "updated_at": "2026-11-27T00:56:51.016Z",
+      "recorded_at": "2026-11-27T00:56:51.016Z",
+      "food_items": [
+        {
+          "food": "JAKSソイプロテイン チョコレート味25g（水割り）",
+          "portion_g": 25,
+          "kcal": 95,
+          "protein_g": 20,
+          "fat_g": 1,
+          "carbohydrate_g": 2
         }
       ]
     }
