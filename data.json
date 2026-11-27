@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-27T00:56:52.062Z",
+  "updated_at": "2026-11-27T05:30:29.401Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -5530,6 +5530,56 @@
           "protein_g": 20,
           "fat_g": 1,
           "carbohydrate_g": 2
+        }
+      ]
+    },
+    {
+      "record_id": "meal-8995f51b-4bc5-4209-b15e-1b467fadde78",
+      "date": "2026-11-27",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "プリマハム たんぱく質20g チキンバー スモークペッパー1袋（88g・脂質は概算）",
+      "kcal": 100,
+      "protein_g": 20.2,
+      "fat_g": 1.95,
+      "carbohydrate_g": 0,
+      "status": "imported_estimate",
+      "notes": "写真の1袋88gを1袋として計上。脂質は表示1.3〜2.6gの範囲で標準値の記載がなく、設定に従い中間値1.95gを概算採用。炭水化物0gは商品ラベルの表示値をそのまま使用。",
+      "updated_at": "2026-11-27T05:30:28.494Z",
+      "recorded_at": "2026-11-27T05:30:28.494Z",
+      "food_items": [
+        {
+          "food": "プリマハム たんぱく質20g チキンバー スモークペッパー1袋（88g・脂質は概算）",
+          "portion_g": 88,
+          "kcal": 100,
+          "protein_g": 20.2,
+          "fat_g": 1.95,
+          "carbohydrate_g": 0
+        }
+      ]
+    },
+    {
+      "record_id": "meal-0a6aebdd-f781-4069-991a-bd5ed4ee2957",
+      "date": "2026-11-27",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "BASE BREAD チョコレート1袋（1個入り・袋数は仮計上）",
+      "kcal": 266,
+      "protein_g": 13.6,
+      "fat_g": 9.1,
+      "carbohydrate_g": 35.4,
+      "status": "user_reported_with_assumed_portions",
+      "notes": "チョコレート味は本人指定。袋数は標準の1袋（1個入り）として仮計上。",
+      "updated_at": "2026-11-27T05:30:28.494Z",
+      "recorded_at": "2026-11-27T05:30:28.494Z",
+      "food_items": [
+        {
+          "food": "BASE BREAD チョコレート1袋（1個入り・袋数は仮計上）",
+          "portion_g": null,
+          "kcal": 266,
+          "protein_g": 13.6,
+          "fat_g": 9.1,
+          "carbohydrate_g": 35.4
         }
       ]
     }
