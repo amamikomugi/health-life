@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-27T05:30:29.401Z",
+  "updated_at": "2026-11-27T08:20:14.154Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -5580,6 +5580,31 @@
           "protein_g": 13.6,
           "fat_g": 9.1,
           "carbohydrate_g": 35.4
+        }
+      ]
+    },
+    {
+      "record_id": "meal-275ef389-1f3f-4aae-828d-2ef144ad5f21",
+      "date": "2026-11-27",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "CAFE BOX チキンケバブライス1包装",
+      "kcal": 730,
+      "protein_g": 30.8,
+      "fat_g": 31.9,
+      "carbohydrate_g": 81.3,
+      "status": "user_reported_with_label_nutrition",
+      "notes": "添付ラベルを使用。1包装730kcal/P30.8/F31.9/C81.3。販売店は断定しない。昼のパン1袋の仮計上とチキンバー脂質の範囲中間値による概算を維持。",
+      "updated_at": "2026-11-27T08:20:13.893Z",
+      "recorded_at": "2026-11-27T08:20:13.893Z",
+      "food_items": [
+        {
+          "food": "CAFE BOX チキンケバブライス1包装",
+          "portion_g": null,
+          "kcal": 730,
+          "protein_g": 30.8,
+          "fat_g": 31.9,
+          "carbohydrate_g": 81.3
         }
       ]
     }
