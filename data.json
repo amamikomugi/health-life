@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-27T15:01:09.853Z",
+  "updated_at": "2026-11-28T07:49:22.363Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -5672,6 +5672,64 @@
       "updated_at": "2026-11-27T15:01:09.709Z",
       "recorded_at": "2026-11-27T15:01:09.709Z",
       "day_coverage": "breakfast_lunch_dinner_recorded"
+    },
+    {
+      "record_id": "meal-93c4b41d-09c8-45b1-a806-1358e3fff1d7",
+      "date": "2026-11-28",
+      "kind": "meal",
+      "meal": "breakfast",
+      "description": "BASE BREAD ストロベリー1袋（仮計上）",
+      "kcal": 248,
+      "protein_g": 13.5,
+      "fat_g": 8.5,
+      "carbohydrate_g": 32.5,
+      "status": "user_reported_with_assumed_portions",
+      "notes": "袋数未指定のため1袋として仮計上。現行の公式ストロベリーの栄養表示を採用。",
+      "updated_at": "2026-11-28T07:49:08.300Z",
+      "recorded_at": "2026-11-28T07:49:08.300Z",
+      "food_items": [
+        {
+          "food": "BASE BREAD ストロベリー1袋（仮計上）",
+          "portion_g": null,
+          "kcal": 248,
+          "protein_g": 13.5,
+          "fat_g": 8.5,
+          "carbohydrate_g": 32.5
+        }
+      ]
+    },
+    {
+      "record_id": "meal-b4fb5bbc-6896-4d97-b765-aa20590d3a35",
+      "date": "2026-11-28",
+      "kind": "meal",
+      "meal": "lunch",
+      "description": "大戸屋 鶏と野菜の黒酢あん定食・五穀ご飯普通盛り、いろいろ茸となめこ汁に変更（ご飯・汁の商品名は仮定）",
+      "kcal": 965,
+      "protein_g": 31.7,
+      "fat_g": 35.8,
+      "carbohydrate_g": 133.7,
+      "status": "user_reported_with_assumed_portions",
+      "notes": "玄米を五穀ご飯普通盛り180g、きのこ汁をいろいろ茸となめこ汁と仮定。公式定食935−通常みそ汁21＋茸となめこ汁51＝965kcal。通常汁は二重に加算しない。Cは糖質＋食物繊維。回答未着のため仮計上、本人の訂正時は同じrecord_idを更新する。",
+      "updated_at": "2026-11-28T07:49:08.300Z",
+      "recorded_at": "2026-11-28T07:49:08.300Z",
+      "food_items": [
+        {
+          "food": "大戸屋 鶏と野菜の黒酢あん定食・五穀ご飯普通盛り（通常みそ汁を除く／仮計上）",
+          "portion_g": null,
+          "kcal": 914,
+          "protein_g": 27.3,
+          "fat_g": 34,
+          "carbohydrate_g": 127.6
+        },
+        {
+          "food": "大戸屋 いろいろ茸となめこ汁1杯（商品名は仮定）",
+          "portion_g": null,
+          "kcal": 51,
+          "protein_g": 4.4,
+          "fat_g": 1.8,
+          "carbohydrate_g": 6.1
+        }
+      ]
     }
   ],
   "settings": {
