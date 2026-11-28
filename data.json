@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-28T07:49:52.190Z",
+  "updated_at": "2026-11-28T10:02:23.485Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -5728,6 +5728,39 @@
           "protein_g": 4.4,
           "fat_g": 1.8,
           "carbohydrate_g": 6.1
+        }
+      ]
+    },
+    {
+      "record_id": "meal-4bfebaa4-a52f-42c9-9737-52f33a513e97",
+      "date": "2026-11-28",
+      "kind": "meal",
+      "meal": "snack",
+      "description": "ミスタードーナツ ポン・デ・エンゼル、ストロベリーカスタードフレンチ各1個（個数は仮定）",
+      "kcal": 448,
+      "protein_g": 3.7,
+      "fat_g": 29.9,
+      "carbohydrate_g": 40.8,
+      "status": "user_reported_with_assumed_portions",
+      "notes": "「ストロベリーカスターもフレンチ」を正式名ストロベリーカスタードフレンチと解釈。各1個として仮計上。旧検索表示251/199kcalではなく、現行公式PDF2026/11/25版の250/198kcalとPFCを採用。真鱈は相談のため実績未登録。",
+      "updated_at": "2026-11-28T10:02:23.228Z",
+      "recorded_at": "2026-11-28T10:02:23.228Z",
+      "food_items": [
+        {
+          "food": "ミスタードーナツ ポン・デ・エンゼル1個",
+          "portion_g": null,
+          "kcal": 250,
+          "protein_g": 1.7,
+          "fat_g": 16,
+          "carbohydrate_g": 24.8
+        },
+        {
+          "food": "ミスタードーナツ ストロベリーカスタードフレンチ1個",
+          "portion_g": null,
+          "kcal": 198,
+          "protein_g": 2,
+          "fat_g": 13.9,
+          "carbohydrate_g": 16
         }
       ]
     }
