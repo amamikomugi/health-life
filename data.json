@@ -1,6 +1,6 @@
 {
   "title": "あまみこむぎの健康生活",
-  "updated_at": "2026-11-28T10:02:23.485Z",
+  "updated_at": "2026-11-28T13:10:10.137Z",
   "timezone": "Asia/Tokyo",
   "records": [
     {
@@ -5761,6 +5761,39 @@
           "protein_g": 2,
           "fat_g": 13.9,
           "carbohydrate_g": 16
+        }
+      ]
+    },
+    {
+      "record_id": "meal-4c7a4ac3-3538-4165-9c70-e15b3ef65301",
+      "date": "2026-11-28",
+      "kind": "meal",
+      "meal": "dinner",
+      "description": "真鯛2切れのごま油焼き（真鯛200g・ごま油小さじ1として概算）",
+      "kcal": 355.6,
+      "protein_g": 41.8,
+      "fat_g": 22.8,
+      "carbohydrate_g": 0.2,
+      "status": "imported_estimate",
+      "notes": "直前の真鯛の切り身の保存相談を受けた夕食実績。真鱈ではなく真鯛。真鯛2切れを調理前可食部200g・養殖皮つき、ごま油少しを小さじ1(4g)として概算。調理前重量に生の成分値を適用、油は全量仮計上。ほかの食品や調味料は未報告のため追加していない。",
+      "updated_at": "2026-11-28T13:10:09.850Z",
+      "recorded_at": "2026-11-28T13:10:09.850Z",
+      "food_items": [
+        {
+          "food": "真鯛2切れ（養殖・皮つき・調理前可食部200gとして概算）",
+          "portion_g": 200,
+          "kcal": 320,
+          "protein_g": 41.8,
+          "fat_g": 18.8,
+          "carbohydrate_g": 0.2
+        },
+        {
+          "food": "ごま油少し（小さじ1・4gとして概算）",
+          "portion_g": 4,
+          "kcal": 35.6,
+          "protein_g": 0,
+          "fat_g": 4,
+          "carbohydrate_g": 0
         }
       ]
     }
